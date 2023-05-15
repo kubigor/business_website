@@ -1,17 +1,17 @@
 // This is Contact component, it will contain contact form.
 import React from "react";
 import styled from "styled-components";
-import Google from '../../MySite/googlemaps.png'
-import Yelp from '../../MySite/yelp.png'
+import Google from '../../Images/googlemaps.png'
+import Yelp from '../../Images/yelp.png'
 
 const ContactSection = styled.div`
-width: 100vw;
-padding: calc(2.5rem + 2.5vw) 0;
-background-color: grey;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  width: 100vw;
+  padding: calc(2.5rem + 2.5vw) 0;
+  background-color: var(--peach);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `
 const Frame = styled.div`
   display: flex;
@@ -25,15 +25,19 @@ const Frame = styled.div`
   border-radius: 16px;
   box-shadow: 15px 15px 15px black;
   margin-bottom: 4rem;
+
+  @media only Screen and (max-width: 48em){
+    width: 90%;
+  }
 `
 const Title = styled.h1`
-display: inline-block;
-font-size: calc(1rem + 2vw);
-margin-top: 1rem;
-margin-bottom: 3rem;
-position: relative;
-color: white;
-text-shadow: 0 0 5px black, 0 0 5px black;
+  display: inline-block;
+  font-size: calc(1rem + 2vw);
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  position: relative;
+  color: white;
+  text-shadow: 0 0 5px black, 0 0 5px black;
 
 @media only Screen and (max-width: 48em){
   font-size: 2.5rem;
@@ -75,6 +79,7 @@ flex-direction: column;
 padding:2rem
 margin-bottom:1rem
 background-color:blue;
+min-width: 65%;
 
 input{
   padding: 1 rem calc(0.5rem + 1vw)

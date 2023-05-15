@@ -6,15 +6,13 @@ ${''}
 
 :root{
      /* Colors */
-  --background: #eff7f9;
-  --black:#0a0b10;
-  --purple:#803bec;
-  --pink:#e5a1f8;
   --white:#fff;
   --nav:#35353f;
   --nav2:#3f3d56;
   --orange:#FE8800;
   --deep-blue:#000432;
+  --peach:#FFF9F6;
+  --light-grey:#DADADA;
 }
 
 ${''}
@@ -25,6 +23,13 @@ ${''}
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.map-container{
+    width: 1000px;
+    height: 300px;
+ 
+}
+
 html{
   scroll-behavior:smooth;
 }

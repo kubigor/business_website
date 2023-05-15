@@ -1,6 +1,6 @@
 // This is Header component /Navigation Component
 import React, { useState } from "react";
-import logo from "/home/kubigor/react/Agency-website/src/MySite/12/Final-logo-alpha.png"
+import logo from '/home/kubigor/react/business_website/src/Images/Final-logo-alpha.png'
 import styled from "styled-components";
 
 const Headers = styled.header`
@@ -19,7 +19,8 @@ max-height: 4.5rem;
 const Logo = styled.a`
 display: flex;
 aligh-items: center;
-max-width:40%;
+padding-left: 10%;
+width: 35%;
 hight:auto;
 cursor:pointer;
 
@@ -127,7 +128,8 @@ const MobileMenu = styled.div`
   background: #646464;
   border-radius: 15px;
   margin: 0.5rem;
-  overflow-x: hidden;
+  overflow: hidden;
+  z-index: 1;
 
   a{
     color: white;

@@ -14,7 +14,6 @@ function App() {
         <Header />
         <Home />
         <Footer />
-         Hi There!
         <ScrollToTop />
       </Suspense>
     </div>

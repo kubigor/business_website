@@ -1,8 +1,13 @@
 // This is Services component
 import React from "react";
+import styled from "styled-components";
+const Image = styled.div`
 
+`
 const Services = () => {
-  return <div>Services Component</div>;
+  return <Image>
+
+    </Image>;
 };
 
 export default Services;
