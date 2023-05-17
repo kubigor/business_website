@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5e8f4481.css",
-    "main.js": "/static/js/main.0810694f.js",
+    "main.js": "/static/js/main.fb2d28ad.js",
     "static/media/bosch-cocina.jpeg": "/static/media/bosch-cocina.e3a52ed6973a7538d220.jpeg",
     "static/media/GE-Logo.png": "/static/media/GE-Logo.38b2bfdebba47ec0d5ff.png",
     "static/media/tri-brand_4-color_badge_vertical_eps-1170x475.png": "/static/media/tri-brand_4-color_badge_vertical_eps-1170x475.a3c3a26e320ed2072972.png",
@@ -16,6 +16,7 @@
     "static/media/electrolux-5-logo-png-transparent.png": "/static/media/electrolux-5-logo-png-transparent.2fa465ce4645aa8b5b23.png",
     "static/media/479-4793258_kenmore-logo-kenmore-hd-png-download.png": "/static/media/479-4793258_kenmore-logo-kenmore-hd-png-download.8a89471b6b50f8408cf2.png",
     "static/media/samsung_logo_PNG14.png": "/static/media/samsung_logo_PNG14.7b4b1ee4288a3a81378a.png",
+    "static/media/fan.png": "/static/media/fan.d6fb5fd2d3fa367fa0bf.png",
     "static/media/bosch-logo-e1627871048189.png": "/static/media/bosch-logo-e1627871048189.788ad717a413c06b2664.png",
     "static/media/googlemaps.png": "/static/media/googlemaps.6756b684d3aec92c6204.png",
     "static/media/Image-4.png": "/static/media/Image-4.dd0b0896cb497fa93a17.png",
@@ -31,10 +32,10 @@
     "index.html": "/index.html",
     "static/media/envelope-01.svg": "/static/media/envelope-01.3aa9336f9fabcd73fc8af39c9b399433.svg",
     "main.5e8f4481.css.map": "/static/css/main.5e8f4481.css.map",
-    "main.0810694f.js.map": "/static/js/main.0810694f.js.map"
+    "main.fb2d28ad.js.map": "/static/js/main.fb2d28ad.js.map"
   },
   "entrypoints": [
     "static/css/main.5e8f4481.css",
-    "static/js/main.0810694f.js"
+    "static/js/main.fb2d28ad.js"
   ]
 }
