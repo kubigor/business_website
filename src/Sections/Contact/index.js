@@ -19,12 +19,11 @@ const Frame = styled.div`
   justify-content: center;
   align-items: center;
   width: calc(14rem + 25vw);
-  padding: 4rem;
+  padding: 3rem;
   background-color: #003889;
   border: 1px solid black;
   border-radius: 16px;
   box-shadow: 15px 15px 15px black;
-  margin-bottom: 4rem;
 
   @media only Screen and (max-width: 48em){
     width: 90%;
@@ -122,7 +121,12 @@ button{
   border-radius: 6px;
   border: 1px solid black;
   font-size: 1.2rem;
+  transition: all 0.2s;
 
+  &:hover{
+    transform: scale(0.95);
+  }
+  
   @media only Screen and (max-width: 48em){
     height: 50px;
   }
@@ -139,17 +143,18 @@ const Contact = () => {
   return <ContactSection>
     <Frame>
     <Title>Request Service</Title>
-    <Form>
+    <Form action="https://formsubmit.co/majorrepairing@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false"></input>
       <label for="name">Name</label><br></br>
-      <input type="text" name="name" id="name"/><br></br>    
+      <input type="text" name="name" id="name" required/><br></br>    
       <label for="phone">Phone number</label><br></br>
-      <input type="tel" name="phone" id="phone"/><br></br>
+      <input type="tel" name="phone" id="phone" required/><br></br>
       <label for="email">Email</label><br></br>
       <input type="email" name="email" id="email"/><br></br>
       <label for="address">Address</label><br></br>
-      <input type="text" name="address" id="address"/><br></br>
-      <label for="zip">Zip code</label><br></br>
-      <input type="text" name="zip" id="zip"/><br></br>
+      <input type="text" name="address" id="address" required/><br></br>
+      <label for="zip" >Zip code</label><br></br>
+      <input type="text" name="zip" id="zip" required/><br></br>
       <label for="brand">Brand and type of appliance</label><br></br>
       <input type="text" name="brand" id="brand" placeholder="LG refrigerator"/><br></br>
       <label for="problem">Problem and description</label><br></br>

@@ -29,7 +29,6 @@ flex-direction: column;
 max-width: 35vw;
 margin-left: 10%;
 align-content: flex-end;
-// justify-content: space-evenly
 `
 
 const Row = styled.div`

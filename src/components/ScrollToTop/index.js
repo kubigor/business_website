@@ -1,23 +1,23 @@
 // This is ScrollToTop component, To scroll from anywhere to top
 import React from "react";
 import styled from "styled-components";
-import arrows from "../../Images/arrow.png"
+import arrows from "../../Images/black-up-arrow-png-6.png"
 
 const Up = styled.div`
 position: fixed;
 right: 2.5rem;
-bottom: 2.5 rem;
+bottom: 2.5rem;
 border-radius: 0px;
-opacity: 0.6;
+opacity: 0.5;
 background-image: radial-gradient(circle, rgb(218, 218, 218, 1) 0%, rgb(218, 218, 218, 1) 60%, rgba(218, 218, 218,0) 70%);
 
 
 &:hover{
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 img{
-  padding: 7px;
+  padding: 16px;
   width:4rem;
   height:4rem; 
   cursor:pointer;

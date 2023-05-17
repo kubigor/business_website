@@ -1,5 +1,6 @@
 // This is Header component /Navigation Component
 import React, { useState } from "react";
+import { Link } from '../../../src/node_modules/react-router-dom';
 import logo from '/home/kubigor/react/business_website/src/Images/Final-logo-alpha.png'
 import styled from "styled-components";
 
@@ -9,10 +10,11 @@ justify-content: space-between;
 align-items: center;
 padding: 1rem 5rem;
 background-color: var(--deep-blue);
-color: var(--white)
+color: white;
 position: relative;
 z-index: 500;
-max-height: 4.5rem;
+width:100vw;
+
 
 
 `;
@@ -37,8 +39,7 @@ align-items: center;
 align-content: space-between;
 display: flex;
 flex-direction: row;
-column-gap: 1rem;
-
+column-gap: 2rem;
 @media only Screen and (max-width: 48em){
   display: none;
 }
@@ -120,13 +121,13 @@ const MobileMenu = styled.div`
   justify-content: center;
   padding: 2rem 0;
   position: absolute;
-  top: 10%;
+  top: 100%;
   left: 0;
   right: 0;
-  opacity: ${props => (props.clicked ? "0.95" : 0)};
+  opacity: ${props => (props.clicked ? "0.98" : 0)};
   visibility: ${props => (props.clicked ? "visible" : "hidden")};
   background: #646464;
-  border-radius: 15px;
+  border-radius: 35px;
   margin: 0.5rem;
   overflow: hidden;
   z-index: 1;
@@ -146,32 +147,32 @@ const Header = () => {
   const handleClick = () => setclick(!click);
 
   return (
-  <Headers>
+  <Headers id="home">
     <div>
       <Logo>
-        <img src={logo} alt="logo" />
+        <Link to ="/"><img src={logo} alt="logo" /></Link>
       </Logo>
-      </div>
-      <Nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact" onClick={() => {}}>
-          <Button>Request Service</Button>
-        </a>
-      </Nav>
-      <HamburgerBtn onClick={() => handleClick() } clicked={click}>
-        <span />
-      </HamburgerBtn>
-      <MobileMenu clicked={click}>
-        <a href="#home" onClick={() => handleClick() }>Home</a>
-        <a href="#about" onClick={() => handleClick() }>About</a>
-        <a href="#services" onClick={() => handleClick() }>Services</a>
-        <a href="#contact" onClick={() => handleClick() }>
-          <Button>Request Service</Button>
-        </a>
-      </MobileMenu>
-      </Headers>
+    </div>
+    <Nav>
+      <Link to ="/">Home</Link>
+      <Link to ="/about">About</Link>
+      <Link to ="/services">Services</Link>
+      <Link to ="/request">
+        <Button>Request Service</Button>
+      </Link>
+    </Nav>
+    <HamburgerBtn onClick={() => handleClick() } clicked={click}>
+      <span />
+    </HamburgerBtn>
+    <MobileMenu clicked={click}>
+      <Link to ="/" onClick={() => handleClick() }>Home</Link>
+      <Link to ="/about" onClick={() => handleClick() }>About</Link>
+      <Link to ="/services" onClick={() => handleClick() }>Services</Link>
+      <Link to ="/request" onClick={() => handleClick() }>
+        <Button>Request Service</Button>
+      </Link>
+    </MobileMenu>
+    </Headers>
   )
 };
 

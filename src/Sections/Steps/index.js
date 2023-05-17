@@ -39,7 +39,7 @@ img{
 }
 `
 
-const Step_box = styled.div`
+const StepBox = styled.div`
 display: flex;
 justify-conten: center;
 align-items: center;
@@ -77,7 +77,7 @@ const Steps = () => {
   return <Container>
     <h5>How we work</h5>
     <h1>Step-by-step repair proces</h1>
-  <Step_box>
+  <StepBox>
     <Step><h3>Breakdown analysis</h3>
     <span>STEP 1</span>
 <p>We will contact you within 30 minutes and listen to your problem.</p></Step>
@@ -90,7 +90,7 @@ const Steps = () => {
     <Step><h3>Issuing a guarantee</h3>
     <span>STEP 4</span>
 <p>After the repair is completed, you will receive a warranty.</p></Step>
-  </Step_box>
+  </StepBox>
   </Container>
 };
 

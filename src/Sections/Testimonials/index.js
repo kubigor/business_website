@@ -4,8 +4,8 @@ import styled from "styled-components";
 import Background from "../../Images/Image-3-1-1-1100x750.jpg"
 import Slider from "react-slick";
 import Card from "../../components/Card";
-import "../../../../node_modules/slick-carousel/slick/slick.css"
-import "../../../../node_modules/slick-carousel/slick/slick-theme.css"
+import "../../../node_modules/slick-carousel/slick/slick.css"
+import "../../../node_modules/slick-carousel/slick/slick-theme.css"
 
 const Box = styled.div`
 display:flex;
