@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -21,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/kubigor/business_website/issues"
   },
-  "homepage": "/",
+  "homepage": "http://kubigor.github.io/business_website",
   "dependencies": {
     "@react-google-maps/api": "^2.18.1",
     "@testing-library/jest-dom": "^5.12.0",
@@ -54,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
