@@ -2,4 +2,4 @@
 Website (JS, HTML, CSS, React)
 
 Website was created for existing business.
-It also deployed by Netlify and is reachable at majorappliancerepair.info.
+It's also deployed with Netlify and is reachable at majorappliancerepair.info.
