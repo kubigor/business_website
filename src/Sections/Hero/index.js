@@ -2,7 +2,6 @@
 import React from "react";
 import styled from "styled-components"
 import Kitchen from "../../Images/bosch-cocina.jpeg"
-import { gsap } from "gsap";
 
 
 const Background = styled.div`
