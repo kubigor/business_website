@@ -1,7 +1,7 @@
 // This is Header component /Navigation Component
 import React, { useState } from "react";
 import { Link } from '../../../src/node_modules/react-router-dom';
-import logo from '/home/kubigor/react/business_website/src/Images/Final-logo-alpha.png'
+import logo from '../../Images/Final-logo-alpha.png'
 import styled from "styled-components";
 
 const Headers = styled.header`
