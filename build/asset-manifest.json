@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e8f4481.css",
+    "main.js": "/static/js/main.fb2d28ad.js",
+    "static/media/bosch-cocina.jpeg": "/static/media/bosch-cocina.e3a52ed6973a7538d220.jpeg",
+    "static/media/GE-Logo.png": "/static/media/GE-Logo.38b2bfdebba47ec0d5ff.png",
+    "static/media/tri-brand_4-color_badge_vertical_eps-1170x475.png": "/static/media/tri-brand_4-color_badge_vertical_eps-1170x475.a3c3a26e320ed2072972.png",
+    "static/media/yelp.png": "/static/media/yelp.d8ba8d969ea308667057.png",
+    "static/media/Final-logo-alpha.png": "/static/media/Final-logo-alpha.ed8d22724cceada8706e.png",
+    "static/media/whirlpool-logo-png-transparent.png": "/static/media/whirlpool-logo-png-transparent.2aaed61517852f555a49.png",
+    "static/media/unnamed.png": "/static/media/unnamed.d350b1a2ea5f4368d3be.png",
+    "static/media/lg-logo.png": "/static/media/lg-logo.cb0be5e52a6646d8244a.png",
+    "static/media/Image-3-1-1-1100x750.jpg": "/static/media/Image-3-1-1-1100x750.fc50b3450169e43582c2.jpg",
+    "static/media/arrow.png": "/static/media/arrow.a908bd6d0f496471752f.png",
+    "static/media/Blank_US_Map_(states_only).svg": "/static/media/Blank_US_Map_(states_only).0f1144d185ff3d07544c8094df8e3a56.svg",
+    "static/media/electrolux-5-logo-png-transparent.png": "/static/media/electrolux-5-logo-png-transparent.2fa465ce4645aa8b5b23.png",
+    "static/media/479-4793258_kenmore-logo-kenmore-hd-png-download.png": "/static/media/479-4793258_kenmore-logo-kenmore-hd-png-download.8a89471b6b50f8408cf2.png",
+    "static/media/samsung_logo_PNG14.png": "/static/media/samsung_logo_PNG14.7b4b1ee4288a3a81378a.png",
+    "static/media/fan.png": "/static/media/fan.d6fb5fd2d3fa367fa0bf.png",
+    "static/media/bosch-logo-e1627871048189.png": "/static/media/bosch-logo-e1627871048189.788ad717a413c06b2664.png",
+    "static/media/googlemaps.png": "/static/media/googlemaps.6756b684d3aec92c6204.png",
+    "static/media/Image-4.png": "/static/media/Image-4.dd0b0896cb497fa93a17.png",
+    "static/media/Image-3.png": "/static/media/Image-3.a80c202c595e95e7e59d.png",
+    "static/media/1200px-Frigidaire.svg.png": "/static/media/1200px-Frigidaire.svg.88cf66868fb0bd626c88.png",
+    "static/media/Image-10-1170x475.jpg": "/static/media/Image-10-1170x475.886623d09aa5b9deefa0.jpg",
+    "static/media/call-2-1.svg": "/static/media/call-2-1.7720b2eeba0152a8488dea19c3627860.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/map.svg": "/static/media/map.36e152ef3d7c7bd8e11435a31446c826.svg",
+    "index.html": "/index.html",
+    "static/media/envelope-01.svg": "/static/media/envelope-01.3aa9336f9fabcd73fc8af39c9b399433.svg",
+    "main.5e8f4481.css.map": "/static/css/main.5e8f4481.css.map",
+    "main.fb2d28ad.js.map": "/static/js/main.fb2d28ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e8f4481.css",
+    "static/js/main.fb2d28ad.js"
+  ]
+}
