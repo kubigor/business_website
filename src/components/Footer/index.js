@@ -73,6 +73,7 @@ const SecondSection = styled.div`
 
   @media only Screen and (max-width: 48em){
     flex-direction: column;
+    row-gap: 2rem;
     align-items: center;
     
     div:last-child{

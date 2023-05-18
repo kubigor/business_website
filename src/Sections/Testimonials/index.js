@@ -28,17 +28,17 @@ margin: 1rem 0 1rem 0;
 const Section = styled.div`
 display:flex;
 flex-direction:column;
-justify-content:center;
+justify-content:space-evenly;
 align-items:center;
 background-color: #DADADA;
 width: 60%;
-height: 34vh;
+height: 38vh;
 opacity:0.9;
 border-radius: 10px;
 
 @media only Screen and (max-width: 48em){
   width: 100%;
-  height: 40vh;
+  height: 52vh;
 }
 `
 

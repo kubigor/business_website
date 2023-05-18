@@ -73,13 +73,14 @@ const Title = styled.div`
 
 const TopLayer = styled.div`
 display:flex;
-position:absolute;
-transform: skew(-30deg);
-height: 90%;
-width: 80%;
-right: -15%;
-background: linear-gradient(270deg, rgba(0,0,0,0.6) 90%, rgba(0,0,0,0)) ;
+position:relative;
+object-fit: none;
+// transform: skew(-30deg);
+height: 100%;
+width: 85%;
+background: linear-gradient(-60deg, rgba(0,0,0,0.6) 65%, rgba(0,0,0,0) 70%);
 backdrop-filter: blur(1px);
+overflow: hidden;
 align-items: center;
 padding: 3rem;
 
