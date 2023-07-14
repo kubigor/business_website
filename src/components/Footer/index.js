@@ -163,7 +163,7 @@ const Footer = () => {
       </div>
       <div>
         <p>THE OFFICE LOCATION</p>
-          <a href="https://goo.gl/maps/tuayz4qTqsSGJCNa9">128 127th St SE, Everett, WA</a>
+          <a href="https://goo.gl/maps/MGpdVKjdowyrmFB86">10961 NE 2nd Pl, Bellevue, WA</a>
       </div>
     </FirstSection>
     <SecondSection>
