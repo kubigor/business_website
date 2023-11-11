@@ -8,24 +8,31 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import ScrollToTop from "./components/ScrollToTop"
 import NotFound from './Pages/NotFound';
-import { GlobalStyle } from './globalStyles';
+import Portfolio from './Pages/Porfolio';
+import TermsOfService from "./Pages/TermsOfService"
+import './globalStyle.css';
 import { Route, Routes } from 'react-router-dom';
+import { AnalyticsTracking } from './globalVars';
+import ReactGA from 'react-ga4';
 
 const PageHolder = styled.div`
 background-color: var(--peach);
 `
 
+ReactGA.initialize(AnalyticsTracking)
+
 function App() {
+  ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search, title: "Custom Title" });
   return (
     <PageHolder>
-      <GlobalStyle />
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/request" element={<Request />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/business_website" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/terms-of-service" element={<TermsOfService />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

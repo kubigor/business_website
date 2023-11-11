@@ -1,0 +1,29 @@
+#terms-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60vw;
+}
+
+#header {
+  padding-top: 2rem;
+}
+
+.terms-header {
+  margin-top: 2rem;
+}
+
+.terms-subheader {
+  display: flex;
+  position: relative;
+  margin-top: 3rem;
+  right: 20%;
+}
+
+.terms-text {
+  align-self: center;
+  text-indent: 5%;
+  padding: 1rem 0;
+  font-size: large;
+}

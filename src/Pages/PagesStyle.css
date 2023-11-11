@@ -1,0 +1,56 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--peach);
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--peach);
+}
+
+#notFound {
+  display: flex;
+  background-color: var(--peach);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 13vh;
+  font-weight: 500;
+  padding: 3rem;
+}
+
+#request {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--peach);
+}
+
+#request iframe {
+    border: none;
+    width: 90vw;
+    height: 40vh;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--peach);
+}
+
+#terms-of-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

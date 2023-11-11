@@ -1,0 +1,20 @@
+#scroll {
+  position: fixed;
+  right: 2.5rem;
+  bottom: 2.5rem;
+  border-radius: 0px;
+  opacity: 0.5;
+  background-image: radial-gradient(circle, rgb(218, 218, 218, 1) 0%, rgb(218, 218, 218, 1) 60%, rgba(218, 218, 218,0) 70%);
+}
+
+#scroll:hover{
+  opacity: 0.8;
+}
+
+#scroll img{
+  padding: 16px;
+  width:4rem;
+  height:4rem; 
+  cursor:pointer;
+  user-select: none;
+}

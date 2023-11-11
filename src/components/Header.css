@@ -1,0 +1,119 @@
+#menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 0;
+  background-color: var(--deep-blue);
+  color: white;
+  width:100vw;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  width: 35%;
+  height:auto;
+  cursor:pointer;
+}
+
+.logo-link img {
+  max-height: 10vh;
+}
+
+#menu-buttons {
+  display: flex;
+  padding-right: 5%;
+  min-width: 15vw;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: row;
+  column-gap: 3vw;
+}
+
+#menu-buttons a{
+  font-weight: 600;
+  font-size: calc(1.5vh + 0.8rem);
+  color: var(--white);
+  line-height: 1.5;
+}
+  
+#menu-buttons a::after{
+  content:"";
+  display: block;
+  height: 3px;
+  width: 3px;
+  background: transparent;
+  transition: width 0.8s;
+}
+
+#menu-buttons a:not(:last-child):hover::after{
+  width:100%;
+  background:#41D0FF;
+}
+
+.btn-bright {
+  background-color: var(--orange);
+  padding: 0.5rem 1rem;
+  font-size: calc(1.5vh + 0.5rem);
+  border-radius: 20px;
+  border: 2px solid black;
+  color: white;
+  text-shadow: 0 0 2px black, 0 0 2px black;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-bright:hover{
+  transform: scale(0.95);
+  transition: all 0.2s;
+}
+
+#img-menu-opener {
+  position: relative;
+  background-color: transparent;
+  width:2rem;
+  height: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+#menu-mobile {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  padding: 2rem 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #646464;
+  border-radius: 35px;
+  margin: 0.5rem;
+  visibility:hidden;
+  overflow: hidden;
+  z-index: 1;
+} 
+#menu-mobile a{
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+@media only Screen and (max-width: 48em) {
+  .btn-bright {
+    transition: none;
+  }
+  
+  #menu-buttons {
+    display: none;
+  }
+
+  #img-menu-opener {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,49 @@
+#gallery-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 2rem;
+}
+
+#gallery-title {
+    align-self: center;
+}
+
+.gallery-row {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.gallery-image {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.gallery-image:hover {
+    scale: 1.05;
+}
+
+.filter {
+    background-color: black;
+    /* overflow: hidden; */
+    height: 20rem;
+    transition: all 0.4s;
+    
+}
+
+.card-text {
+    background-color: red;
+    color: blue;
+    height: 2rem;
+    transition: all 1s;
+    align-self: center;
+}
+
+.card-text:hover {
+    transition: all 1s;
+    transform: translate3d(0, -118%, 0);
+
+}

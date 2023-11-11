@@ -1,0 +1,33 @@
+#zipper-container {
+  background-image: url("../Images/stripes.avif");
+  margin: 3vh 0;
+  width: 100%;
+  mask-image: linear-gradient(0deg, rgba(0,0,0,0) 0%,  rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%,  rgba(0,0,0,0) 100%);  
+}
+
+#zipper-background {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(141, 141, 141, 0.35);
+}
+
+#zipper-elements {
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+  width: 65vw;
+  margin: 2.5rem 1rem;
+}
+
+#field {
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  border-radius: 8px;
+  width: 8.4rem;
+  font-family:Monospace;
+}
+
+#question, #answer {
+  font-size: 2rem;
+  font-weight: 700;
+}

@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/kubigor/business_website/issues"
   },
-  "homepage": "http://kubigor.github.io/business_website",
+  "homepage": ".",
   "dependencies": {
     "@react-google-maps/api": "^2.18.1",
     "@testing-library/jest-dom": "^5.12.0",
@@ -33,6 +33,7 @@
     "gsap": "^3.6.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.2",
+    "react-ga4": "^2.1.0",
     "react-router-dom": "^6.11.1",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.28.1",
