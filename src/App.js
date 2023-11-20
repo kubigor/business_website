@@ -8,7 +8,7 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import ScrollToTop from "./components/ScrollToTop"
 import NotFound from './Pages/NotFound';
-import Portfolio from './Pages/Porfolio';
+import HighEnds from './Pages/HighEnds';
 import TermsOfService from "./Pages/TermsOfService"
 import './globalStyle.css';
 import { Route, Routes } from 'react-router-dom';
@@ -31,7 +31,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/request" element={<Request />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/high-ends" element={<HighEnds />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

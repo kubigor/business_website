@@ -1,3 +1,6 @@
+#fee-cloud {
+  position: absolute;
+}
 
 #charges-container {
   display:flex;
@@ -31,5 +34,9 @@
 
   .charges-unit {
     width: 100%;
+  }
+
+  #fee-cloud {
+    transform: scale(0.85);
   }
 }

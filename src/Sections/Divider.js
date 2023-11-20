@@ -12,9 +12,6 @@ const Divider = () => {
   });
   return <div id="divider-container">
     <div id="divider">
-      <div id="fee-cloud">
-        <Fee></Fee>
-      </div>
       <p>CALL US FOR FREE ESTIMATE</p>
       <div>
         <img src={phone} alt="phone" />

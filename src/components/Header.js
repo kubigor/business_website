@@ -1,43 +1,51 @@
 // This is Header component /Navigation Component
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
+import HousecallProButton from './HouseCall'
 import logo from '../Images/Major-appliance-repair-logo.png'
 import menu from "../Images/menu-img.png"
 import "./Header.css"
 
 const Header = () => {
 
-  const [clicked, setclicked] = useState(false);
+  const [visible, setVisible] = useState(false);
+
   const handleClick = () => {
     let mobileMenu = document.getElementById("menu-mobile");
-    clicked ? mobileMenu.style.visibility = "hidden" : mobileMenu.style.visibility = "visible";
-    setclicked(!clicked);
-    }
+    visible ? mobileMenu.style.visibility = "hidden" : mobileMenu.style.visibility = "visible";
+    visible ? document.body.style.position = "relative" : document.body.style.position = "fixed"
+
+    setVisible(!visible);  
+  }
 
   return (
   <div id="menu">
-    <a class="logo-link">
-      <Link to ="/"><img src={logo} alt="logo" /></Link>
-    </a>
+    <Link to ="/"><img src={logo} alt="logo" class="logo-link" /></Link>
     <div id="menu-buttons">
       <Link to ="/">Home</Link>
       <Link to ="/about">About</Link>
       <Link to ="/services">Services</Link>
-      <Link to ="/portfolio">Portfolio</Link>
-      <Link to ="/request">
-        <button class="btn-bright">Request Service</button>
-      </Link>
+      <HousecallProButton />
+      <Link to ="/request" class="btn-bright">Request Service</Link>    
     </div>
     <img id="img-menu-opener" src={menu} onClick={() => handleClick()}/>
-    <div id="menu-mobile">
-      <Link to ="/" onClick={() => handleClick() }>Home</Link>
-      <Link to ="/about" onClick={() => handleClick() }>About</Link>
-      <Link to ="/services" onClick={() => handleClick() }>Services</Link>
-      <Link to ="/request" onClick={() => handleClick() }>
-        <button class="btn-bright">Request Service</button>
-      </Link>
+    <div id="menu-mobile" onClick={() => handleClick()}>
+      <div id="menu-mobile-buttons">
+        <Link to ="/">Home</Link>
+        <Link to ="/about">About</Link>
+        <Link to ="/services">Services</Link>
+        <a href="https://book.housecallpro.com/book/Major-Appliance-Repair/ef8a37880ad64305aaaee491dd1fc976?v2=true">Book Online</a>
+        <Link to ="/request">Request Service</Link>
+        <Link to ="/terms-of-service">Terms And Conditions</Link>
+        <br/>
+        <br/>
+
+        <a href="https://www.google.com/maps/place/Major+Appliance+Repair/@47.642346,-122.2022255,10z/data=!4m6!3m5!1s0x549007315f4d880f:0x3480d761c45eca0d!8m2!3d47.642346!4d-122.2022255!16s%2Fg%2F11q95dzh93?entry=ttu">Google profile!</a>
+        <a href="https://www.yelp.com/biz/major-appliance-repair-bellevue-4">Yelp profile!</a>
+
+      </div>
     </div>
-    </div>
+  </div>
   )
 };
 

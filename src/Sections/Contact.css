@@ -23,7 +23,6 @@
   display:flex;
   flex-direction: column;
   padding:2rem;
-  margin-bottom:1rem;
   font-size: 20px;
 }
 
@@ -33,6 +32,7 @@
   border:none;
   border-radius: 3px;
   font-size: 22px;
+  margin-bottom: 2rem;
 
 }
 
@@ -42,6 +42,7 @@
   border:none;
   border-radius: 3px;
   font-size: 22px;
+  margin-bottom: 2rem;
 }
 
 #request-form textarea:active, #request-form textarea:focus {
@@ -73,6 +74,7 @@
 .profiles {
   display: flex;
   column-gap: 2rem;
+  margin-top: 2rem;
   align-items: flex-end;
 }
 
@@ -100,8 +102,21 @@
     width:150px
   }
   
-  #request-form input{
-    height: 30px;
+  #request-form {
+    align-items: center;
+  }
+  
+  #request-form label{
+    font-size: x-large;
+    text-align: center;
+  }
+
+  #request-form input {
+    width: 100%;
+  }
+
+  #request-form textarea {
+    width: 70vw;
   }
   
   #request-form input:active, #request-form input:focus {
@@ -109,6 +124,10 @@
     background-color: #CACACA
   }
 
+  #request-form button {
+    width: 90%;
+  }
+  
   #request-form button:hover{
     transform: scale(1.05);
   }

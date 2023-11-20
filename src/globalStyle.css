@@ -15,10 +15,15 @@
 }
 html {
   scroll-behavior:smooth;
+  overflow-x: hidden;
   width: 100vw;
 }
 body {
     overflow-x: hidden;
+    
+}
+body::-webkit-scrollbar {
+    display: none;  
 }
 a {
     text-decoration: none;

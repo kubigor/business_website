@@ -6,7 +6,6 @@ import Brands from '../Sections/Brands'
 import Divider from '../Sections/Divider'
 import Charges from '../Sections/Charges'
 import Contact from '../Sections/Contact'
-import Test from '../Sections/Test'
 import React from 'react'
 import './PagesStyle.css'
 
@@ -14,12 +13,12 @@ import './PagesStyle.css'
 const Home = () => {
   return <div id="home" > 
       <HeroSection />
-      <Steps />
       <Zipper />
-      <Brands />
+      <Steps />
       <Divider />
       <Charges />
       <Contact />
+      <Brands />
     </div>
 ;
 };

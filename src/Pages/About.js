@@ -1,16 +1,15 @@
-//This is home page, It will contains all the sections require in this page.
-import Steps from '../Sections/Steps'
-import Testimonials from '../Sections/Testimonials'
 import React from 'react'
-import Charges from '../Sections/Charges'
+import Hours from '../Sections/Hours';
+import Reviews from '../Sections/Reviews';
+import AboutSection from '../Sections/AboutSection'
 import './PagesStyle.css'
 
 
 const About = () => {
   return <div id="about" > 
-      {/* <Testimonials /> */}
-      <Steps />
-      <Charges />
+    <AboutSection />
+    <Hours />
+    <Reviews />
     </div>;
 };
 

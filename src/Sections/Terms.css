@@ -27,3 +27,13 @@
   padding: 1rem 0;
   font-size: large;
 }
+
+@media only Screen and (max-width: 48em){
+  #terms-container {
+    width: 80vw;
+  }
+
+  .terms-subheader {
+    right: 0;
+  }
+}

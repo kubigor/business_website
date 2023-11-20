@@ -1,0 +1,15 @@
+#reviews-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    column-gap: 2rem;
+    width: 90vw;
+}
+
+@media only Screen and (max-width: 48em){
+    #reviews-container {
+        flex-direction: column;
+        row-gap: 4rem;
+        margin-bottom: 2rem;
+    }
+}

@@ -61,18 +61,16 @@ const Footer = () => {
     </div>
     <div id="footer-second-section">
       <div class="footer-column">
-        {/* <div id="first-column"> */}
-          <Link to ="/"><img id="company-logo" src={logo} alt="company logo" onClick={ScrollUp}/></Link>
-          <div id="icons">
-            <a href="https://www.yelp.com/biz/major-appliance-repair-bellevue-4"><img class="icon" src={yelp} alt="terms and condtions icon"/></a>
-            <a href="https://www.google.com/maps/place/Major+Appliance+Repair/@47.642346,-122.2022255,10z/data=!4m6!3m5!1s0x549007315f4d880f:0x3480d761c45eca0d!8m2!3d47.642346!4d-122.2022255!16s%2Fg%2F11q95dzh93?entry=ttu"><img class="icon" src={google} alt="terms and condtions icon"/></a>
-            <a href="https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604560224&LIC=MAJORAR785C2&SAW="><img class="icon" src={lni} alt="labor and industries logo"/></a>
-            <Link to ="/terms-of-service" onClick={ScrollUp}><img class="icon" src={tnc} alt="terms and condtions icon" /></Link> 
-          </div>
-        {/* </div> */}
+        <Link to ="/"><img id="company-logo" src={logo} alt="company logo" onClick={ScrollUp}/></Link>
+        <div id="icons">
+          <a href="https://www.yelp.com/biz/major-appliance-repair-bellevue-4"><img class="icon" src={yelp} alt="terms and condtions icon"/></a>
+          <a href="https://www.google.com/maps/place/Major+Appliance+Repair/@47.642346,-122.2022255,10z/data=!4m6!3m5!1s0x549007315f4d880f:0x3480d761c45eca0d!8m2!3d47.642346!4d-122.2022255!16s%2Fg%2F11q95dzh93?entry=ttu"><img class="icon" src={google} alt="terms and condtions icon"/></a>
+          <a href="https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604560224&LIC=MAJORAR785C2&SAW="><img class="icon" src={lni} alt="labor and industries logo"/></a>
+          <Link to ="/terms-of-service" onClick={ScrollUp}><img class="icon" src={tnc} alt="terms and condtions icon" /></Link> 
+        </div>
         {/* <Link to ="/request"><button class="btn-bright" onClick={ScrollUp}>Contact us</button></Link> */}
       </div>
-      <div class="footer-column">
+      <div class="footer-column" id="footer-services">
         <h2>Services</h2>
         <ul>
           <li>Refrigerator repair</li>
@@ -85,7 +83,7 @@ const Footer = () => {
         </ul>
       </div>
       <div class="footer-column">
-        <iframe title = "location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d282517.40931547293!2d-122.36461102497174!3d47.66482695510196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549007315f4d880f%3A0x3480d761c45eca0d!2sMajor%20Appliance%20Repair!5e0!3m2!1sen!2sus!4v1698993141190!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe title = "location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d282517.40931547293!2d-122.36461102497174!3d47.66482695510196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549007315f4d880f%3A0x3480d761c45eca0d!2sMajor%20Appliance%20Repair!5e0!3m2!1sen!2sus!4v1698993141190!5m2!1sen!2sus" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
     <div id="footer-bottom-line">

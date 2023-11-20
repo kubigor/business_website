@@ -1,7 +1,7 @@
 #cloud-container {
   position: absolute;
-  top: -15vh;
-  left: -42vw;
+  top: -8rem;
+  left: -2rem;
   transform: rotate(-30deg);
   color:white;
   user-select: none;
@@ -19,6 +19,7 @@
   position: absolute;
   font-size: 2.3vh;
   top: 8vh;
+  left: 1vh;
   width: 100%;
   text-shadow: -1px -1px black, 1px 1px black, -1px 1px black, 1px -1px black;
 }

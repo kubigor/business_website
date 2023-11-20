@@ -1,9 +1,13 @@
 import React from "react";
+import Fee from "../components/Fee";
 import "./Charges.css"
 
 const Charges = () => {
   return <div id="charges-container">
   <div class="charges-unit">
+    <div id="fee-cloud">
+        <Fee></Fee>
+    </div>
     <h3>Our Rates</h3>
     <p>Our initial appliance repair <b>service call</b> charge is $80. <br/>
     Once we’ve diagnosed what’s causing the problem, we’ll provide you with a full service quote. If you decide to accept it, your service call charge will be applied toward the cost of the repair.</p>
