@@ -1,0 +1,61 @@
+#card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffbef;
+    border: 3px solid var(--orange);
+    box-shadow: 2px 2px 12px rgb(110, 110, 110);
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 35%;
+}
+
+#card-link {
+    color:black;
+}
+
+#card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#source-logo {
+    position: relative;
+    margin: -4.5rem;
+    height: 4rem;
+    top: 4rem;
+    right: 45%;
+    width: auto;
+}
+
+#card-avatar {
+    width: 5rem;
+    border-radius: 2.4rem;
+    margin: 1rem;
+}
+
+#five-star {
+    position: relative;
+    width: 10vw;
+    margin: -6vh;
+    left: 32%;
+    bottom: 3rem;
+}
+
+#card-message {
+    font-size: large;
+    text-indent:30px;
+}
+
+@media only Screen and (max-width: 48em){
+    #card-container {
+        width: 90vw;
+        row-gap: .5rem;
+    }
+    
+    #five-star {
+        width: 30vw;
+        left: 0;
+        bottom: 2.3rem
+    }
+}

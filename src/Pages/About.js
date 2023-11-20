@@ -1,25 +1,16 @@
-//This is home page, It will contains all the sections require in this page.
-import Steps from '../Sections/Steps'
-import Testimonials from '../Sections/Testimonials'
-import styled from 'styled-components'
 import React from 'react'
-import Charges from '../Sections/Charges'
+import Hours from '../Sections/Hours';
+import Reviews from '../Sections/Reviews';
+import AboutSection from '../Sections/AboutSection'
+import './PagesStyle.css'
 
-
-const Container = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-aligh-items: center;
-background-color: var(--peach);
-`
 
 const About = () => {
-  return <Container > 
-      <Testimonials />
-      <Steps />
-      <Charges />
-    </Container>;
+  return <div id="about" > 
+    <AboutSection />
+    <Hours />
+    <Reviews />
+    </div>;
 };
 
 export default About;

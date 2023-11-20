@@ -1,0 +1,33 @@
+:root{
+    --orange:#FFC436;
+    --deep-blue:#0C356A;
+    --light-blue:#0174BE;
+    --green:#4A8271;
+    --peach:#fffefb;
+    --light-grey:#cecece;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior:smooth;
+  overflow-x: hidden;
+  width: 100vw;
+}
+body {
+    overflow-x: hidden;
+    
+}
+body::-webkit-scrollbar {
+    display: none;  
+}
+a {
+    text-decoration: none;
+}
+img {
+    width:100%;
+}

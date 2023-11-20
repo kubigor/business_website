@@ -1,0 +1,76 @@
+#steps-image {
+  background: url("../Images/fridge-repair-person.jpg");
+  background-position-y: center;
+  background-size: cover;
+  width: 100vw;
+}
+
+.steps-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 2rem 0 2rem 0;
+  position: relative;
+  background-color: rgba(12,53,106, 0.85);
+  backdrop-filter: blur(2px);
+  font-size: 24px;
+}
+
+
+.steps-section img{
+  opacity: 0.75;
+  position: absolute;
+  min-width: 100vw;
+  z-index: -19;
+  top: 0px;   
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  justify-content: center;
+}
+
+.step p{
+  font-size: 16px;
+  text-align: center;
+}
+
+.step span{
+  text-align: center;
+}
+
+.step h3{
+  font-size: 18px;
+  text-align: center;
+}
+
+@media only Screen and (max-width: 48em){
+  .step p {
+    display: none;
+  }
+  
+  .step h1{
+    font-size: 1.5rem;
+  }
+  .step h5{
+    font-size: 2rem;
+  }
+  .steps-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .step h3{
+    margin-top: 1.5rem;
+  }
+}

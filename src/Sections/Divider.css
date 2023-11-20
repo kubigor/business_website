@@ -1,0 +1,67 @@
+#divider-container {
+  background-image: url("../Images/stripes.avif");
+  margin: 2rem 0;
+  width: 100%;
+  mask-image: linear-gradient(0deg, rgba(0,0,0,0) 0%,  rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%,  rgba(0,0,0,0) 100%); 
+}
+
+#divider {
+  padding: 30px 70px 30px 70px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(141, 141, 141, 0) 0%, rgba(141, 141, 141, .2) 50%);
+}
+
+#divider img {
+  height: 65px;
+}
+
+#divider div {
+  display: flex;
+  flex-direction: column;
+  font-size:calc(0.8rem + 0.3vw);
+}
+
+#divider p {
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-right: 3rem;
+  color: white;
+  text-shadow: -1px -1px var(--deep-blue), 1px 1px var(--deep-blue), -1px 1px var(--deep-blue), 1px -1px var(--deep-blue);
+}
+
+#divider a {
+  color:var(--deep-blue);
+  font-weight: 500;
+  font-size:1.8rem;
+}
+
+#divider a:hover {
+  color:var(--light-blue);
+}
+
+@media only Screen and (max-width: 48em) {
+  #divider {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #divider p {
+    margin: 0;
+  }
+
+  #divider img {
+    height: 10vh;
+    margin: 2rem 0;
+  }
+
+  #divider a {
+    font-size: 2.2rem;
+  }
+}

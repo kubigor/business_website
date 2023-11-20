@@ -1,24 +1,12 @@
-import styled from 'styled-components'
 import React from 'react'
-
-const Container = styled.div`
-display: flex;
-background-color: var(--peach);
-flex-direction: column;
-justify-content: center;
-aligh-items: center;
-text-align: center;
-font-size: 13vh;
-font-weight: 500;
-padding: 3rem;
-`
+import './PagesStyle.css'
 
 
 const NotFound = () => {
-  return <Container >
+  return <div id="not-found" >
     <h1>404</h1>
     <p>Page Not Found</p>
-    </Container>
+    </div>
 };
 
 export default NotFound;

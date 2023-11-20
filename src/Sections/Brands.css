@@ -1,0 +1,28 @@
+
+#map-container {
+  background: url("../Images/map/US_map.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  width: 100vw;
+}
+
+#rows {
+  display: flex;
+  flex-direction: column;
+  max-width: 35vw;
+  margin-left: 10%;
+  align-content: flex-end;
+}
+
+.row {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  width: 80vw;
+}
+
+.row img{
+  min-width: 17vw;
+  margin-right: 5%;
+}
