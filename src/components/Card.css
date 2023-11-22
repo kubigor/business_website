@@ -56,6 +56,10 @@
     #five-star {
         width: 30vw;
         left: 0;
-        bottom: 2.3rem
+        bottom: 1.8rem
+    }
+
+    #card-message {
+        margin-top: 1rem;
     }
 }
