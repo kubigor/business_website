@@ -1,4 +1,3 @@
-// This is Header component /Navigation Component
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import HousecallProButton from './HouseCall'
@@ -12,10 +11,17 @@ const Header = () => {
 
   const handleClick = () => {
     let mobileMenu = document.getElementById("menu-mobile");
-    visible ? mobileMenu.style.visibility = "hidden" : mobileMenu.style.visibility = "visible";
-    visible ? document.body.style.position = "relative" : document.body.style.position = "fixed"
-
-    setVisible(!visible);  
+    let mobileMenuButtons = document.getElementById("menu-mobile-buttons");
+    if (visible) {
+      mobileMenu.style.visibility = "hidden";
+      document.body.style.position = "relative";
+      mobileMenuButtons.style.right = "80vw";
+    } else {
+      mobileMenu.style.visibility = "visible";
+      document.body.style.position = "fixed";
+      mobileMenuButtons.style.right = "0";
+    }
+    setVisible(!visible);
   }
 
   return (
@@ -39,10 +45,8 @@ const Header = () => {
         <Link to ="/terms-of-service">Terms And Conditions</Link>
         <br/>
         <br/>
-
         <a href="https://www.google.com/maps/place/Major+Appliance+Repair/@47.642346,-122.2022255,10z/data=!4m6!3m5!1s0x549007315f4d880f:0x3480d761c45eca0d!8m2!3d47.642346!4d-122.2022255!16s%2Fg%2F11q95dzh93?entry=ttu">Google profile!</a>
         <a href="https://www.yelp.com/biz/major-appliance-repair-bellevue-4">Yelp profile!</a>
-
       </div>
     </div>
   </div>

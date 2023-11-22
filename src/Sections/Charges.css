@@ -12,12 +12,14 @@
 .charges-unit {
   display:flex;
   background-color: white;
-  border: 2px solid navy;
+  border: 3px solid navy;
   border-radius: 15px;
   padding: 4vh;
   flex-direction: column;
   width: 35%;
   font-size: 1.2rem;
+  box-shadow: 2px 2px 12px rgb(110, 110, 110);
+
 }
 
 .charges-unit h3{

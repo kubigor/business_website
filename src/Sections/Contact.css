@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 42rem;
+  align-self: center;
   margin: 5vh;
   padding: 4rem;
   background-color: var(--deep-blue);
@@ -93,8 +95,10 @@
 }
 
 @media only Screen and (max-width: 48em) {
+
   #form-container {
-    width: 90%;
+    width: 83vw;
+    margin: 2rem;
   }
   
   #form-title {

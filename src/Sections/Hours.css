@@ -1,6 +1,7 @@
 #hours-container {
     display: flex;
     column-gap: 3rem;
+    margin-bottom: 2rem;
     
 }
 
