@@ -7,13 +7,15 @@
   background-color: var(--deep-blue);
   color: white;
   width:100vw;
+  z-index: 10;
 }
 
 .logo-link {
   display: flex;
   align-items: center;
-  padding-left: 8vw;
-  height:auto;
+  margin-left: 8vw;
+  width: auto;
+  object-fit: contain;
   cursor:pointer;
   max-height: 10vh;
 }
@@ -25,7 +27,7 @@
   align-items: center;
   align-content: space-between;
   flex-direction: row;
-  column-gap: 3vw;
+  column-gap: 2vw;
 }
 
 #menu-buttons a{
@@ -74,6 +76,7 @@
   height: 2rem;
   cursor: pointer;
   display: none;
+  transition: all 0.1s;
 }
 
 #menu-mobile {
@@ -81,10 +84,15 @@
 }
 
 @media only Screen and (max-width: 48em) {
+  .logo-link {
+    padding: .8rem;
+    margin-left: 0;
+  }
+
   #menu {
     height: 10vh;
-    justify-content: space-around;
-    padding: 1rem 3rem;
+    justify-content: center;
+    column-gap: 2rem;
   }
   
   #menu-buttons {

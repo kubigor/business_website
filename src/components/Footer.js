@@ -19,14 +19,11 @@ import {addressDirection} from "../globalVars";
 import "./Footer.css"
 
 const Footer = () => {
-  document.addEventListener("DOMContentLoaded", function() {
-    const numberLink = document.getElementById("number");
-    numberLink.setAttribute("href", "tel:" + phoneNumber);
-    const emailLink = document.getElementById("email-address");
-    emailLink.setAttribute("href", "mailto:" + email);
-    const addressLink = document.getElementById("address-direction");
-    addressLink.setAttribute("href", addressDirection);
-  });
+  
+  const numberLink = `tel:${phoneNumber}`
+  const emailLink = `mailto:${email}`
+  const addressLink = addressDirection
+  
   function ScrollUp() {
     const element = document.getElementById('menu');
     element.scrollIntoView({
@@ -41,21 +38,21 @@ const Footer = () => {
         <img src={phone} alt="phone" />
         <div class="section-text">
           <p>CALL US FOR FREE</p>
-          <a id="number">{phoneNumber}</a>
+          <a id="number" href={numberLink}>{phoneNumber}</a>
         </div>
       </div>
       <div class="section-card">
         <img src={mail} alt="mail" />
         <div class="section-text">
           <p>WRITE AT ANY TIME</p>
-          <a id="email-address">{email}</a>
+          <a id="email-address" href={emailLink}>{email}</a>
         </div>
       </div>
       <div class="section-card">
         <img src={mark} alt="mark" />
         <div class="section-text">
           <p>THE OFFICE LOCATION</p>
-          <a id="address-direction">{address}</a>
+          <a id="address-direction" href={addressLink}>{address}</a>
         </div>
       </div>
     </div>
@@ -71,16 +68,12 @@ const Footer = () => {
         {/* <Link to ="/request"><button class="btn-bright" onClick={ScrollUp}>Contact us</button></Link> */}
       </div>
       <div class="footer-column" id="footer-services">
-        <h2>Services</h2>
-        <ul>
-          <li>Refrigerator repair</li>
-          <li>Dryer repair</li>
-          <li>Washer repair</li>
-          <li>Range repair</li>
-          <li>Oven repair</li>
-          <li>Cooktop repair</li>
-          <li>Dishwasher Repair</li>
-        </ul>
+        <a href="/services/refrigerator">Refrigerator repair</a>
+        <a href="/services/range">Range/Oven repair</a>
+        <a href="/services/cooktop">Cooktop repair</a>
+        <a href="/services/washer">Washer repair</a>
+        <a href="/services/dryer">Dryer repair</a>
+        <a href="/services/dishwasher">Dishwasher Repair</a>
       </div>
       <div class="footer-column">
         <iframe title = "location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d282517.40931547293!2d-122.36461102497174!3d47.66482695510196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549007315f4d880f%3A0x3480d761c45eca0d!2sMajor%20Appliance%20Repair!5e0!3m2!1sen!2sus!4v1698993141190!5m2!1sen!2sus" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>

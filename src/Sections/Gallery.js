@@ -28,21 +28,21 @@ const Gallery = () => {
       container.addEventListener("click", displayDescription);
 
       container.addEventListener("click", (e) => {
-        if (e.target.nodeName == "IMG" || e.target.nodeName == "P") {
+        if (e.target.nodeName === "IMG" || e.target.nodeName === "P") {
           changeImage(Number(e.target.parentElement.getAttribute('value')));
           ScrollDown()
         }
       });
 
       container.addEventListener("mouseover", (e) => {
-        if ((e.target.nodeName == "IMG" || e.target.nodeName == "P") && window.innerWidth >= 768) {
+        if ((e.target.nodeName === "IMG" || e.target.nodeName === "P") && window.innerWidth >= 768) {
           const text = e.target.parentElement.querySelector('.card-text');
           text.style.transform = "translate3d(0, -100%, 0)";
         }
       });
 
       container.addEventListener("mouseout", (e) => {
-        if ((e.target.nodeName == "IMG" || e.target.nodeName == "P") && window.innerWidth >= 768) {
+        if ((e.target.nodeName === "IMG" || e.target.nodeName === "P") && window.innerWidth >= 768) {
           const text = e.target.parentElement.querySelector('.card-text');
           text.style.transform = "translate3d(0, 0, 0)";
         }
@@ -95,29 +95,29 @@ const Gallery = () => {
     <div id="gallery-container">
       <h1 id="gallery-title">Our services</h1>
       <div class="gallery-row">
-        <span class="filter" value="0"><img class="gallery-image" src={fridge}/><p class="card-text" >Fridge repair</p></span>
-        <span class="filter" value="1"><img class="gallery-image" src={washer}/><p class="card-text">Washer repair</p></span>
-        <span class="filter" value="2"><img class="gallery-image" src={dryer}/><p class="card-text">Dryer repair</p></span>
+        <span class="filter" value="0"><img class="gallery-image" src={fridge} alt="Refrigerator LG"/><p class="card-text" >Fridge repair</p></span>
+        <span class="filter" value="1"><img class="gallery-image" src={washer} alt="Washing Machine Bosch"/><p class="card-text">Washer repair</p></span>
+        <span class="filter" value="2"><img class="gallery-image" src={dryer} alt="Set of washer and dryer Samsung"/><p class="card-text">Dryer repair</p></span>
       </div>
       <div class="gallery-row">
-        <span class="filter" value="3"><img class="gallery-image" src={range}/><p class="card-text">Range repair</p></span>
-        <span class="filter" value="4"><img class="gallery-image" src={cooktop}/><p class="card-text">Cooktop repair</p></span>
-        <span class="filter" value="5"><img class="gallery-image" src={oven}/><p class="card-text">Built-in oven repair</p></span>
+        <span class="filter" value="3"><img class="gallery-image" src={range} alt="Range Bertazzoni"/><p class="card-text">Range repair</p></span>
+        <span class="filter" value="4"><img class="gallery-image" src={cooktop} alt="Gas cooktop Signature"/><p class="card-text">Cooktop repair</p></span>
+        <span class="filter" value="5"><img class="gallery-image" src={oven} alt="Built-in double oven Bosch"/><p class="card-text">Built-in oven repair</p></span>
       </div>
       <div class="gallery-row">
-        <span class="filter" value="6"><img class="gallery-image" src={dishwasher}/><p class="card-text">Dishwasher repair</p></span>
-        <span class="filter" value="7"><img class="gallery-image" src={center}/><p class="card-text">Laundry center repair</p></span>
-        <span class="filter" value="8" onLoad={runGallery}><img class="gallery-image" src={disposal}/><p class="card-text">Garbage disposal replacement</p></span>
+        <span class="filter" value="6"><img class="gallery-image" src={dishwasher} alt="Dishwasher Bosch"/><p class="card-text">Dishwasher repair</p></span>
+        <span class="filter" value="7"><img class="gallery-image" src={center} alt="Laundry center GE"/><p class="card-text">Laundry center repair</p></span>
+        <span class="filter" value="8" onLoad={runGallery}><img class="gallery-image" src={disposal} alt="Garbage disposal under the sink"/><p class="card-text">Garbage disposal replacement</p></span>
       </div>
     </div>
     <div id="gallery-description" >
       <div id="image-section">
-        <img class="description-image" id="image-one"/>
-        <img class="description-image" id="image-two"/>
+        <img class="description-image" id="image-one" alt="Appliance issue number one"/>
+        <img class="description-image" id="image-two" alt="Appliance issue number two"/>
       </div>
       <div id="description-text-field">
-        <h3 id="description-header"></h3>
-        <p id="description-text"></p>
+        <h3 id="description-header">Type Placeholder</h3>
+        <p id="description-text">Text Placeholder</p>
       </div>
     </div>
   </div>;

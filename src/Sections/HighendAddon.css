@@ -1,0 +1,56 @@
+#addon-one {
+    background-image: url("../Images/appliances/black-squares.jpg");
+    background-size: cover;
+    position: relative;
+    /* top: 15rem; */
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20vh; */
+    height: 130vh;
+    width: 100vw;
+
+}
+
+#part-one {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#part-one-background {
+    background-image: url("../Images/appliances/range-wolf.jpeg");
+    background-size:cover;
+    margin-top: 10rem;
+    transition: all 1.5s ease;
+    /* box-shadow: inset 0 0 1rem 1rem rgb(255, 255, 255); */
+    width: 50vw;
+    height: 50vh;
+    opacity: 0.9;
+}
+
+#addon-two {
+    background-image: url("../Images/appliances/black-squares-upside.jpg");
+    background-size: cover;
+    margin-top: -1px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+    width: 100vw;
+    margin-bottom: -5rem;
+}
+
+#part-two {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#part-two-background {
+    background-image: url("../Images/appliances/range-wolf.jpeg");
+    background-size:cover;
+    margin-top: 10rem;
+    transition: all 1.5s ease;
+    /* box-shadow: inset 0 0 1rem 1rem rgb(255, 255, 255); */
+    width: 50vw;
+    height: 50vh;
+    opacity: 0.9;
+}

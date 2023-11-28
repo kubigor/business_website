@@ -8,12 +8,6 @@ import {googleProfile} from "../globalVars";
 import "./Contact.css"
 
 const Contact = () => {
-    document.addEventListener("DOMContentLoaded", function() {
-    var yelpLink = document.getElementById("yelp-profile");
-    yelpLink.setAttribute("href", yelpProfile);
-    var googleLink = document.getElementById("google-profile");
-    googleLink.setAttribute("href", googleProfile);
-  });
   return <div id="form-container">
     <h1 id="form-title">Request Service</h1>
     <form id="request-form" action="https://formsubmit.co/majorrepairing@gmail.com" method="POST">
@@ -36,10 +30,10 @@ const Contact = () => {
     </form>
       <HousecallProButton />
     <div class="profiles">
-      <a id="yelp-profile">
+      <a id="yelp-profile"  href={yelpProfile}>
         <img src={Yelp} alt="Yelp logo" />
       </a>
-      <a id="google-profile">
+      <a id="google-profile" href={googleProfile} >
         <img src={Google} alt="Google logo" />
       </a>
     </div>

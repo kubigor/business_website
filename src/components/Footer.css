@@ -7,6 +7,8 @@
   justify-content: center;
   margin-top: 5rem;
   white-space: nowrap;
+  position: relative;
+  z-index: 9;
 }
 
 #footer-first-section {
@@ -60,19 +62,14 @@
   flex-direction: row;
   color: white;
   margin: 3rem;
-  width: 70%;
   height: auto;
   justify-content: space-between;
   font-size: 2vh;
+  column-gap: 8rem;
 }
   
 #company-logo {
   width: 16em;
-}
-
-#footer-second-section a{
-  color: rgb(97, 82, 0);
-  text-decoration: underline;
 }
 
 #footer-second-section p{
@@ -103,15 +100,23 @@
   align-items: center;
   justify-content: center;
   row-gap: 1.2rem;
-  width: 33%;
+  width: auto;
 }
 
-.footer-column ul{ 
-  list-style-type: none;
-}
-
-.footer-column li{ 
+#footer-services { 
   font-size: 1.2vw;
+  row-gap: 0.6rem;
+  align-items: start;
+}
+
+#footer-services a{ 
+  color: white;
+  font-weight: 600;
+}
+
+#footer-services a:hover{ 
+  color:var(--orange);
+  font-weight: 600;
 }
 
 #icons {
@@ -169,6 +174,8 @@
   }
 
   #footer-services {
-    display: none;
+    font-size: 1.7rem;
+    align-items: center;
+    row-gap: 1.3rem;
   }
 }

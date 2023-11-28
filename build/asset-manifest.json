@@ -1,9 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.18af2922.css",
-    "main.js": "./static/js/main.ca5f571f.js",
+    "main.css": "./static/css/main.8f0feaa5.css",
+    "main.js": "./static/js/main.cc8f481f.js",
+    "static/media/sub-zero-kitchen.jpg": "./static/media/sub-zero-kitchen.dc2f9f26ff31603e2461.jpg",
+    "static/media/liebherr-fridge.jpg": "./static/media/liebherr-fridge.eb6588db4b178edfcf9a.jpg",
     "static/media/washer-filter-cleaning.jpeg": "./static/media/washer-filter-cleaning.2542263cde1764c1ec48.jpeg",
     "static/media/garbage-disposal-replacement.webp": "./static/media/garbage-disposal-replacement.600237b28063e84ceb93.webp",
+    "static/media/monogram-fridge.jpeg": "./static/media/monogram-fridge.897fc77b325d6e218469.jpeg",
+    "static/media/subzero-fridge.webp": "./static/media/subzero-fridge.bbb9a6480b43d9a87b62.webp",
+    "static/media/black-squares-upside.jpg": "./static/media/black-squares-upside.aa2079f719778907aa32.jpg",
+    "static/media/black-squares.jpg": "./static/media/black-squares.4a6f54ac83350b893bd5.jpg",
     "static/media/gas-cooktop.jpg": "./static/media/gas-cooktop.caa082488ab30be50beb.jpg",
     "static/media/bosch-kitchen-appliances.jpeg": "./static/media/bosch-kitchen-appliances.e3a52ed6973a7538d220.jpeg",
     "static/media/ge-logo.png": "./static/media/ge-logo.38b2bfdebba47ec0d5ff.png",
@@ -12,12 +18,14 @@
     "static/media/dryer-cleaning.png": "./static/media/dryer-cleaning.ab8a7684ae13362df345.png",
     "static/media/yelp-logo.png": "./static/media/yelp-logo.d8ba8d969ea308667057.png",
     "static/media/samsung-washer-and-dryer.jpg": "./static/media/samsung-washer-and-dryer.e86793d331c552cdee5d.jpg",
+    "static/media/range-wolf.jpeg": "./static/media/range-wolf.da7db8d8ffd61368db64.jpeg",
     "static/media/Major-appliance-repair-logo.png": "./static/media/Major-appliance-repair-logo.ed8d22724cceada8706e.png",
     "static/media/whirlpool-logo.png": "./static/media/whirlpool-logo.2aaed61517852f555a49.png",
     "static/media/cooktop-repair2.jpg": "./static/media/cooktop-repair2.787031e4e105e7e3a1b2.jpg",
     "static/media/dishwasher-repair2.jpg": "./static/media/dishwasher-repair2.d1d9921c4657067a0b1e.jpg",
     "static/media/dishwasher-repair.jpg": "./static/media/dishwasher-repair.26bd06e95c491c4b686f.jpg",
     "static/media/garbage-disposal.jpg": "./static/media/garbage-disposal.b48634180b1ea5068083.jpg",
+    "static/media/viking-fridge.jpeg": "./static/media/viking-fridge.e2f7fa3323addd199278.jpeg",
     "static/media/washer-gasket-cleaning.jpg": "./static/media/washer-gasket-cleaning.9fbf00e9ab5e8c5c813a.jpg",
     "static/media/high-end-range.jpg": "./static/media/high-end-range.785b25ca212fb9a207cd.jpg",
     "static/media/maytag-logo.png": "./static/media/maytag-logo.d350b1a2ea5f4368d3be.png",
@@ -53,11 +61,11 @@
     "static/media/map-pointer.svg": "./static/media/map-pointer.36e152ef3d7c7bd8e11435a31446c826.svg",
     "index.html": "./index.html",
     "static/media/envelope-icon.svg": "./static/media/envelope-icon.3aa9336f9fabcd73fc8af39c9b399433.svg",
-    "main.18af2922.css.map": "./static/css/main.18af2922.css.map",
-    "main.ca5f571f.js.map": "./static/js/main.ca5f571f.js.map"
+    "main.8f0feaa5.css.map": "./static/css/main.8f0feaa5.css.map",
+    "main.cc8f481f.js.map": "./static/js/main.cc8f481f.js.map"
   },
   "entrypoints": [
-    "static/css/main.18af2922.css",
-    "static/js/main.ca5f571f.js"
+    "static/css/main.8f0feaa5.css",
+    "static/js/main.cc8f481f.js"
   ]
 }

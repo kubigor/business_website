@@ -6,10 +6,9 @@ import Fee from "../components/Fee.js"
 import "./Divider.css"
 
 const Divider = () => {
-  document.addEventListener("DOMContentLoaded", function() {
-    const numberLink = document.getElementById("phone-number");
-    numberLink.setAttribute("href", "tel:" + phoneNumber);
-  });
+
+  const numberLink = `tel:${phoneNumber}`
+ 
   return <div id="divider-container">
     <div id="divider">
       <p>CALL US FOR FREE ESTIMATE</p>
@@ -17,7 +16,7 @@ const Divider = () => {
         <img src={phone} alt="phone" />
       </div>
       <div>
-        <a id="phone-number">{phoneNumber}</a>
+        <a id="phone-number" href={numberLink}>{phoneNumber}</a>
       </div>
     </div>
   </div>;
