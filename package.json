@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/kubigor/business_website/issues"
   },
-  "homepage": ".",
+  "homepage": "http://majorappliancerepair.info/",
   "dependencies": {
     "@react-google-maps/api": "^2.18.1",
     "@testing-library/jest-dom": "^5.12.0",
