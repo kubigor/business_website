@@ -49,6 +49,10 @@ const RefrigeratorRepair = () => {
           <p>Consult the User Manual</p>
         </div>
       </div>
+      <div class="photos-container-mobile">
+        <img src={fridge1} alt="Free standing refrigerator in the kitchen"/>
+        <img src={fridge2} alt="Built-in refrigerator in the kitchen"/>
+      </div>
     </div>
     <Charges />
   </div>

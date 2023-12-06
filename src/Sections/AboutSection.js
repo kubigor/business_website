@@ -61,7 +61,6 @@ const AboutSection = () => {
             </ul>
         </div>
         <Link id="last-item" to ="/high-ends">We service high ends as well!</Link>
-        {/* <h2 id="last-item">We service high ends as well!</h2> */}
     </div>
 };
 

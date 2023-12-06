@@ -48,7 +48,7 @@ function App() {
   return (
      <PageHolder>
         <Header />
-        <Routes>
+        <Routes >
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/request" element={<Request />} />
@@ -66,27 +66,6 @@ function App() {
         <Footer />
         <ScrollToTop />
       </PageHolder>
-
-    // <PageHolder>
-    //   <Header />
-    //   <Routes>
-    //     <Route exact path="/" element={<Home />} />
-    //     <Route path="/about" element={<About />} />
-    //     <Route path="/request" element={<Request />} />
-    //     <Route path="/services" element={<Services />} />
-    //     <Route path="/services/refrigerator" element={<RefrigeratorRepair />} />
-    //     <Route path="/services/range" element={<RangeRepair />} />
-    //     <Route path="/services/cooktop" element={<CooktopRepair />} />
-    //     <Route path="/services/washer" element={<WasherRepair />} />
-    //     <Route path="/services/dryer" element={<DryerRepair />} />
-    //     <Route path="/services/dishwasher" element={<DishwasherRepair />} />
-    //     <Route path="/high-ends" element={<HighEnds />} />
-    //     <Route path="/terms-of-service" element={<TermsOfService />} />
-    //     <Route path="*" element={<NotFound />} />
-    //   </Routes>
-    //   <Footer />
-    //   <ScrollToTop />
-    // </PageHolder>
   );
 }
 

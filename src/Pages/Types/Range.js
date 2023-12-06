@@ -49,6 +49,10 @@ const RangeRepair = () => {
       <p></p>
     </div>
   </div>
+  <div class="photos-container-mobile">
+    <img src={range1} alt="Free standing range in the kitchen"/>
+    <img src={range2} alt="Free standing range in the kitchen"/>
+  </div>
 </div>
 <Charges />
 </div>

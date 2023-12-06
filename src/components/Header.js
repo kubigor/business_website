@@ -35,7 +35,7 @@ const Header = () => {
       <Link to ="/">Home</Link>
       <Link to ="/about">About</Link>
       <Link to ="/services">Services</Link>
-      {/* <Link to ="/high-ends">High-ends</Link>     */}
+      <Link to ="/high-ends">High-ends</Link>    
       <HousecallProButton />
       <Link to ="/request" class="btn-bright">Request Service</Link>    
     </div>
@@ -45,7 +45,7 @@ const Header = () => {
         <Link to ="/">Home</Link>
         <Link to ="/about">About</Link>
         <Link to ="/services">Services</Link>
-        {/* <Link to ="/high-ends">High-ends</Link>     */}
+        <Link to ="/high-ends">High-ends</Link>    
         <a href="https://book.housecallpro.com/book/Major-Appliance-Repair/ef8a37880ad64305aaaee491dd1fc976?v2=true">Book Online</a>
         <Link to ="/request">Request Service</Link>
         <Link to ="/terms-of-service">Terms And Conditions</Link>

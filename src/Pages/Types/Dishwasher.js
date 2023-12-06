@@ -50,6 +50,10 @@ const DishwasherRepair = () => {
         <p></p>
       </div>
     </div>
+    <div class="photos-container-mobile">
+      <img src={dishwasher1} alt="Dishwasher in the kitchen"/>
+      <img src={dishwasher2} alt="Dishwasher range in the kitchen"/>
+    </div>
   </div>
   <Charges />
   </div>

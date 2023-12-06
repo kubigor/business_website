@@ -4,9 +4,9 @@ import HighendAddon from '../../Sections/HighendAddon';
 import './HighEnds.css'
 
 const HighEnds = () => {
-  useEffect(() => {
+  // useEffect(() => {
 
-  }, []);
+  // }, []);
 
   return <div id="highend-container" >
       <HighendGallery id="first-section"/>

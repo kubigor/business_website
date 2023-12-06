@@ -1,6 +1,6 @@
 import React from 'react'
-import dishwasher1 from '../../Images/appliances/lg-laundry-center.jpeg'
-import dishwasher2 from '../../Images/appliances/whirlpool-washer.jpg'
+import washer1 from '../../Images/appliances/lg-laundry-center.jpeg'
+import washer2 from '../../Images/appliances/whirlpool-washer.jpg'
 import Charges from '../../Sections/Charges';
 import './Appliance.css'
 
@@ -9,8 +9,8 @@ const WasherRepair = () => {
   return <div class="page-container">
   <div class="appliance-container" >
   <div class="photos-container">
-    <img src={dishwasher1} alt="Dishwasher in the kitchen"/>
-    <img src={dishwasher2} alt="Dishwasher range in the kitchen"/>
+    <img src={washer1} alt="Dishwasher in the kitchen"/>
+    <img src={washer2} alt="Dishwasher range in the kitchen"/>
   </div>
   <div class="text-container">
     <h1>Washer and Laundry Center repair</h1>
@@ -49,6 +49,10 @@ const WasherRepair = () => {
       <p>Consult the User Manual</p>
       <p></p>
     </div>
+  </div>
+  <div class="photos-container-mobile">
+    <img src={washer1} alt="Dishwasher in the kitchen"/>
+    <img src={washer2} alt="Dishwasher range in the kitchen"/>
   </div>
 </div>
 <Charges />

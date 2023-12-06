@@ -47,6 +47,10 @@ const CooktopRepair = () => {
       <p></p>
     </div>
   </div>
+  <div class="photos-container-mobile">
+    <img src={cooktop1} alt="Gas cooktop"/>
+    <img src={cooktop2} alt="Electrcic cooktop with ceramic glass"/>
+  </div>
 </div>
 <Charges />
 </div>

@@ -49,6 +49,10 @@ const DryerRepair = () => {
       <p></p>
     </div>
   </div>
+  <div class="photos-container-mobile">
+    <img src={dryer1} alt="Dryer stacked in the laundry room"/>
+    <img src={dryer2} alt="Two dryers in the laundry room"/>
+  </div>
 </div>
 <Charges />
 </div>
