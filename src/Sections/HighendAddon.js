@@ -42,10 +42,13 @@ const HighendAddon = () => {
         </div>
       </div>
       <div class="second-half">
+        <div className={visibleItems['item-2']  ? 'highend-addon-info animate-right desktop-hidden' : 'highend-addon-info in-right desktop-hidden'}> 
+          <h1>Most repairs come with a one-year warranty, satisfaction guearanteed</h1>
+        </div>
         <div id="item-2" ref={el => elementsRef.current[2] = el} className={visibleItems['item-2'] ? 'animate-left' : 'in-left'}>
         <div class="image-frame"><img class="highend-addon-image" src={cooktop} alt='Stainless steel Jenn-Air cooktop'/></div>
         </div>
-        <div className={visibleItems['item-2']  ? 'highend-addon-info animate-right' : 'highend-addon-info in-right'}> 
+        <div className={visibleItems['item-2']  ? 'highend-addon-info animate-right mobile-hidden' : 'highend-addon-info in-right mobile-hidden'}> 
           <h1>Most repairs come with a one-year warranty, satisfaction guearanteed</h1>
         </div>
       </div>
@@ -60,10 +63,13 @@ const HighendAddon = () => {
         </div>
       </div>
       <div class="second-half">
+        <div className={visibleItems['item-4'] ? 'highend-addon-info animate-right desktop-hidden' : 'highend-addon-info in-right desktop-hidden'}>  
+          <h1>As well as of the refrigerator, wine cooler, or freezer</h1>
+        </div>
         <div id="item-4" ref={el => elementsRef.current[4] = el} className={visibleItems['item-4'] ? 'animate-left' : 'in-left'}>
         <div class="image-frame"><img class="highend-addon-image" src={refrigerator} alt='Fridge, freezer, wine cooler set up from True residential'/></div>
         </div>
-        <div className={visibleItems['item-4'] ? 'highend-addon-info animate-right' : 'highend-addon-info in-right'}>  
+        <div className={visibleItems['item-4'] ? 'highend-addon-info animate-right mobile-hidden' : 'highend-addon-info in-right mobile-hidden'}>  
           <h1>As well as of the refrigerator, wine cooler, or freezer</h1>
         </div>
       </div>
