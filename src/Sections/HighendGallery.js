@@ -53,7 +53,7 @@ const HighendGallery = () => {
         }
       text.style.transition= ".7s";
       text.style.backgroundColor= "rgba(0, 0, 0, 0.6)"
-      text.style.boxShadow= "0 0 20px 2rem rgba(0, 0, 0, 0.6)"
+      text.style.boxShadow= "0 0 12px 1.4rem rgba(0, 0, 0, 0.6)"
       text.style.opacity = "0"
       shade.style.opacity= "1";
       shade.style.transition= ".7s";

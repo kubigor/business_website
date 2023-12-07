@@ -1,4 +1,3 @@
-//This is home page, It will contains all the sections require in this page.
 import HeroSection from '../Sections/Hero'
 import Zipper from "../Sections/Zipper"
 import Steps from '../Sections/Steps'

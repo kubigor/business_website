@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.7acc59ac.css",
-    "main.js": "/static/js/main.52b8b3e9.js",
+    "main.css": "/static/css/main.6627fc2b.css",
+    "main.js": "/static/js/main.3cb0bfa6.js",
     "static/media/sub-zero-kitchen.jpg": "/static/media/sub-zero-kitchen.dc2f9f26ff31603e2461.jpg",
     "static/media/liebherr-fridge.jpg": "/static/media/liebherr-fridge.eb6588db4b178edfcf9a.jpg",
     "static/media/washer-filter-cleaning.jpeg": "/static/media/washer-filter-cleaning.2542263cde1764c1ec48.jpeg",
     "static/media/garbage-disposal-replacement.webp": "/static/media/garbage-disposal-replacement.600237b28063e84ceb93.webp",
     "static/media/monogram-fridge.jpeg": "/static/media/monogram-fridge.897fc77b325d6e218469.jpeg",
+    "static/media/jennair-cooktop.png": "/static/media/jennair-cooktop.d669ab57e20759c36a9f.png",
     "static/media/subzero-fridge.webp": "/static/media/subzero-fridge.bbb9a6480b43d9a87b62.webp",
     "static/media/whirlpool-cooktop.png": "/static/media/whirlpool-cooktop.650509768532860a7eb3.png",
     "static/media/black-squares-upside.jpg": "/static/media/black-squares-upside.aa2079f719778907aa32.jpg",
     "static/media/black-squares.jpg": "/static/media/black-squares.4a6f54ac83350b893bd5.jpg",
+    "static/media/true-refrigerator.jpg": "/static/media/true-refrigerator.beb9af5e9e45dafc4f5d.jpg",
     "static/media/gas-cooktop.jpg": "/static/media/gas-cooktop.caa082488ab30be50beb.jpg",
     "static/media/thor-cooktop.jpg": "/static/media/thor-cooktop.cd1299565e05a42c12d7.jpg",
     "static/media/bosch-kitchen-appliances.jpeg": "/static/media/bosch-kitchen-appliances.e3a52ed6973a7538d220.jpeg",
     "static/media/thor-range.jpg": "/static/media/thor-range.7fd0df44ffebb7b59065.jpg",
     "static/media/thor-dishwasher.jpg": "/static/media/thor-dishwasher.dbd2706801d02aff6491.jpg",
     "static/media/ge-logo.png": "/static/media/ge-logo.38b2bfdebba47ec0d5ff.png",
+    "static/media/thermador-range.webp": "/static/media/thermador-range.7787d0420ece5926e52d.webp",
     "static/media/laundry-center-repair.jpeg": "/static/media/laundry-center-repair.1f30a9734db81c2df5fc.jpeg",
     "static/media/oven-repair2.jpg": "/static/media/oven-repair2.0d495826fc375b0070ea.jpg",
     "static/media/dryer-cleaning.png": "/static/media/dryer-cleaning.ab8a7684ae13362df345.png",
     "static/media/yelp-logo.png": "/static/media/yelp-logo.d8ba8d969ea308667057.png",
     "static/media/samsung-washer-and-dryer.jpg": "/static/media/samsung-washer-and-dryer.e86793d331c552cdee5d.jpg",
-    "static/media/range-wolf.jpeg": "/static/media/range-wolf.da7db8d8ffd61368db64.jpeg",
     "static/media/Major-appliance-repair-logo.png": "/static/media/Major-appliance-repair-logo.ed8d22724cceada8706e.png",
     "static/media/whirlpool-logo.png": "/static/media/whirlpool-logo.2aaed61517852f555a49.png",
     "static/media/cooktop-repair2.jpg": "/static/media/cooktop-repair2.787031e4e105e7e3a1b2.jpg",
@@ -33,6 +35,7 @@
     "static/media/viking-fridge.jpeg": "/static/media/viking-fridge.e2f7fa3323addd199278.jpeg",
     "static/media/washer-gasket-cleaning.jpg": "/static/media/washer-gasket-cleaning.9fbf00e9ab5e8c5c813a.jpg",
     "static/media/whirlpool-refrigerator.png": "/static/media/whirlpool-refrigerator.3c77753c7827ce9bb477.png",
+    "static/media/viking-range.jpg": "/static/media/viking-range.2ae3247917cf82c12637.jpg",
     "static/media/high-end-range.jpg": "/static/media/high-end-range.785b25ca212fb9a207cd.jpg",
     "static/media/whirlpool-washer.jpg": "/static/media/whirlpool-washer.391563893eb3baf083ef.jpg",
     "static/media/maytag-logo.png": "/static/media/maytag-logo.d350b1a2ea5f4368d3be.png",
@@ -73,11 +76,11 @@
     "static/media/map-pointer.svg": "/static/media/map-pointer.36e152ef3d7c7bd8e11435a31446c826.svg",
     "index.html": "/index.html",
     "static/media/envelope-icon.svg": "/static/media/envelope-icon.3aa9336f9fabcd73fc8af39c9b399433.svg",
-    "main.7acc59ac.css.map": "/static/css/main.7acc59ac.css.map",
-    "main.52b8b3e9.js.map": "/static/js/main.52b8b3e9.js.map"
+    "main.6627fc2b.css.map": "/static/css/main.6627fc2b.css.map",
+    "main.3cb0bfa6.js.map": "/static/js/main.3cb0bfa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acc59ac.css",
-    "static/js/main.52b8b3e9.js"
+    "static/css/main.6627fc2b.css",
+    "static/js/main.3cb0bfa6.js"
   ]
 }
