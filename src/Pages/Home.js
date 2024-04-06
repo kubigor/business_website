@@ -1,7 +1,7 @@
 import HeroSection from '../Sections/Hero'
 import Zipper from "../Sections/Zipper"
 import Steps from '../Sections/Steps'
-import Brands from '../Sections/Brands'
+// import Brands from '../Sections/Brands'
 import Divider from '../Sections/Divider'
 import Charges from '../Sections/Charges'
 import Contact from '../Sections/Contact'
@@ -17,7 +17,7 @@ const Home = () => {
       <Divider />
       <Charges />
       <Contact />
-      <Brands />
+      {/* <Brands /> */}
     </div>
 ;
 };
