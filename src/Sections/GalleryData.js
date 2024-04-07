@@ -1,4 +1,3 @@
-import wolf from "../Images/appliances/high-end-range.jpg"
 import fridge1 from "../Images/appliances/condenser-coil-cleaning.jpg"
 import fridge2 from "../Images/appliances/condenser-coil-cleaning2.jpg"
 import washer1 from "../Images/appliances/washer-filter-cleaning.jpeg"
