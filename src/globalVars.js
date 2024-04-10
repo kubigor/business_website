@@ -1,4 +1,4 @@
-export const phoneNumber = "+1 425 600 6021";
+export const phoneNumber = "+1 425 364 6644";
 export const email = "major.repairing@gmail.com";
 export const address = "10961 NE 2nd Pl, Bellevue, WA";
 export const addressDirection = "https://goo.gl/maps/MGpdVKjdowyrmFB86";

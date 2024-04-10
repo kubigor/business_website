@@ -2,7 +2,6 @@
 import React from "react";
 import phone from '../Images/phone-icon.svg'
 import {phoneNumber} from '../globalVars.js'
-import Fee from "../components/Fee.js"
 import "./Divider.css"
 
 const Divider = () => {

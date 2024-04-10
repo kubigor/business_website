@@ -14,5 +14,7 @@
     "scope": "/",
     "theme_color": "#0174BE",
     "description": "Same day Appliance Repair Services in Seattle-Bellevue area. We service refrigerators, washers, dryers, dishwashers, ovens, ranges, and cooktops.",
-    "orientation": "portrait-primary"
+    "orientation": "portrait-primary",
+    "lang": "en",
+    "dir": "ltr"
   }

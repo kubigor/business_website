@@ -1,7 +1,7 @@
 import HeroSection from '../Sections/Hero'
 import Zipper from "../Sections/Zipper"
 import Steps from '../Sections/Steps'
-// import Brands from '../Sections/Brands'
+import Description from '../Sections/Description'
 import Divider from '../Sections/Divider'
 import Charges from '../Sections/Charges'
 import Contact from '../Sections/Contact'
@@ -15,9 +15,9 @@ const Home = () => {
       <Zipper />
       <Steps />
       <Divider />
+      {/* <Description /> */}
       <Charges />
       <Contact />
-      {/* <Brands /> */}
     </div>
 ;
 };
