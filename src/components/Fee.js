@@ -7,8 +7,8 @@ const Fee = () => {
   </div>
   <div id="cloud-inner">
   </div>
-  <h1>$80</h1>
-  <h4>Service fee*</h4>
+  <p id="price"><b>$80</b></p>
+  <p id="service-fee"><b>Service fee*</b></p>
 </div>
 };
 

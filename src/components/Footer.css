@@ -112,7 +112,6 @@
 #footer-services a{ 
   color: white;
   font-weight: 600;
-  /* text-decoration: underline; */
 }
 
 #footer-services a::after{
@@ -124,7 +123,7 @@
   transition: width 0.8s;
 }
 
-#footer-services a:not(:last-child):hover::after{
+#footer-services a:hover::after{
   width:100%;
   background: var(--orange);
 }

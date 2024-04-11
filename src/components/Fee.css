@@ -7,7 +7,7 @@
   user-select: none;
 }
 
-#cloud-container h1 {
+#price {
   position: absolute;
   font-size: 5vh;
   top: 2vh;
@@ -15,7 +15,7 @@
   text-shadow: -1px -1px black, 1px 1px black, -1px 1px black, 1px -1px black;
 }
 
-#cloud-container h4{
+#service-fee {
   position: absolute;
   font-size: 2.3vh;
   top: 8vh;

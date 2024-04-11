@@ -50,7 +50,7 @@
   text-align: center;
 }
 
-.step h3{
+.step h2{
   font-size: 18px;
   text-align: center;
 }
@@ -63,14 +63,10 @@
   .step h1{
     font-size: 1.5rem;
   }
-  .step h5{
-    font-size: 2rem;
-  }
+  
   .steps-container {
     display: flex;
     flex-direction: column;
   }
-  .step h3{
-    margin-top: 1.5rem;
-  }
+
 }

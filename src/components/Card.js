@@ -16,10 +16,10 @@ const Card = ({ index }) => {
 
   return <div id="card-container">
       <a id="card-link" href={data[index].link} target="_blank"><div id="card-header">
-        <img id="source-logo" src={logoSource}/>
-        <img id="card-avatar" src={data[index].avatar}/>
+        <img loading="lazy" id="source-logo" src={logoSource}/>
+        <img loading="lazy" id="card-avatar" src={data[index].avatar}/>
         <h2 id="card-name">{data[index].name}</h2>
-        <img id="five-star" src={stars}/>
+        <img loading="lazy" id="five-star" src={stars}/>
       </div>
       </a>
       <p id="card-message">{data[index].message}</p>

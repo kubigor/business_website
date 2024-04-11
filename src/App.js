@@ -18,30 +18,36 @@ import DishwasherRepair from "./Pages/Types/Dishwasher"
 import CooktopRepair from "./Pages/Types/Cooktop"
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnalyticsTracking } from './globalVars';
-import ReactGA from 'react-ga4';
-import './globalStyle.css';
 import Loader from './components/Loader';
+import './globalStyle.css';
 
 const PageHolder = styled.div`
 background-color: var(--peach);
 `
 
-ReactGA.initialize(AnalyticsTracking)
-
 function App() {
-  ReactGA.initialize(AnalyticsTracking);
-  ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search, title: "Changed page" });
+  function loadGTM() {
+    const script = document.createElement('script');
+    script.src = 'https://www.googletagmanager.com/gtm.js?id=G-F692C7MG6R';
+    script.async = true;
+    document.head.appendChild(script);
+  }
 
   const [isLoading, setIsLoading] = useState(true);
+  
   const location = useLocation();
   useEffect(() => {  
     setIsLoading(true);
-  
+    
     setTimeout(() => {
       setIsLoading(false);
     })
   }, [location]);
 
+  useEffect(() => {
+    loadGTM();
+  }, []);
+  
   if (isLoading) {
     return <Loader />;
   }

@@ -5,7 +5,7 @@ const Loader = () => {
 
     return (
         <div id="loader-container">
-            <img id="logo-animated" src="/fan.png"/>
+            <img loading="lazy" alt="company logo - blue fan blades" id="logo-animated" src="/fan.png"/>
         </div>
         )
     };

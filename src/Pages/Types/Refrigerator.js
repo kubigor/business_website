@@ -9,8 +9,8 @@ const RefrigeratorRepair = () => {
   return <div class="page-container">
       <div class="appliance-container" >
       <div class="photos-container">
-        <img src={fridge1} alt="Free standing refrigerator in the kitchen"/>
-        <img src={fridge2} alt="Built-in refrigerator in the kitchen"/>
+        <img loading="lazy" src={fridge1} alt="Free standing refrigerator in the kitchen"/>
+        <img loading="lazy" src={fridge2} alt="Built-in refrigerator in the kitchen"/>
       </div>
       <div class="text-container">
         <h1>Refrigerator and Freezer repair</h1>
@@ -50,8 +50,8 @@ const RefrigeratorRepair = () => {
         </div>
       </div>
       <div class="photos-container-mobile">
-        <img src={fridge1} alt="Free standing refrigerator in the kitchen"/>
-        <img src={fridge2} alt="Built-in refrigerator in the kitchen"/>
+        <img loading="lazy" src={fridge1} alt="Free standing refrigerator in the kitchen"/>
+        <img loading="lazy" src={fridge2} alt="Built-in refrigerator in the kitchen"/>
       </div>
     </div>
     <Charges />

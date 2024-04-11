@@ -38,7 +38,7 @@ const HighendAddon = () => {
           <h1>We repair all brands and types of large gas and electric cooking appliances</h1>
         </div>
         <div className={visibleItems['item-1'] ? 'animate-right' : 'in-right'}>
-          <div class="image-frame"><img class="highend-addon-image" src={range1} alt='Stainless steel Thermador range'/></div>
+          <div class="image-frame"><img loading="lazy" class="highend-addon-image" src={range1} alt='Stainless steel Thermador range'/></div>
         </div>
       </div>
       <div class="second-half">
@@ -46,7 +46,7 @@ const HighendAddon = () => {
           <h1>Most repairs come with a one-year warranty, satisfaction guearanteed</h1>
         </div>
         <div id="item-2" ref={el => elementsRef.current[2] = el} className={visibleItems['item-2'] ? 'animate-left' : 'in-left'}>
-        <div class="image-frame"><img class="highend-addon-image" src={cooktop} alt='Stainless steel Jenn-Air cooktop'/></div>
+        <div class="image-frame"><img loading="lazy" class="highend-addon-image" src={cooktop} alt='Stainless steel Jenn-Air cooktop'/></div>
         </div>
         <div className={visibleItems['item-2']  ? 'highend-addon-info animate-right mobile-hidden' : 'highend-addon-info in-right mobile-hidden'}> 
           <h1>Most repairs come with a one-year warranty, satisfaction guearanteed</h1>
@@ -59,7 +59,7 @@ const HighendAddon = () => {
           <h1>We will take care of your stove, cooktop, and oven</h1>
         </div>
         <div className={visibleItems['item-3'] ? 'animate-right' : 'in-right'} id="addon-image-one">
-        <div class="image-frame"><img class="highend-addon-image" src={range2} alt='Stainless steel Viking range'/></div>
+        <div class="image-frame"><img loading="lazy" class="highend-addon-image" src={range2} alt='Stainless steel Viking range'/></div>
         </div>
       </div>
       <div class="second-half">
@@ -67,7 +67,7 @@ const HighendAddon = () => {
           <h1>As well as of the refrigerator, wine cooler, or freezer</h1>
         </div>
         <div id="item-4" ref={el => elementsRef.current[4] = el} className={visibleItems['item-4'] ? 'animate-left' : 'in-left'}>
-        <div class="image-frame"><img class="highend-addon-image" src={refrigerator} alt='Fridge, freezer, wine cooler set up from True residential'/></div>
+        <div class="image-frame"><img loading="lazy" class="highend-addon-image" src={refrigerator} alt='Fridge, freezer, wine cooler set up from True residential'/></div>
         </div>
         <div className={visibleItems['item-4'] ? 'highend-addon-info animate-right mobile-hidden' : 'highend-addon-info in-right mobile-hidden'}>  
           <h1>As well as of the refrigerator, wine cooler, or freezer</h1>

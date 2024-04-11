@@ -21,6 +21,10 @@
   padding: 3rem;
 }
 
+.text-main {
+  font-size: 5vw;
+}
+
 #text {
   position:absolute;
   font-weight: 600;

@@ -17,22 +17,22 @@ const Brands = () => {
   return <div id="map-container">
     <div id="rows">
     <div class="row">
-      <img src={Whirlpool} alt="whirlpool logo" />
-      <img src={LG} alt="LG logo" />
-      <img src={SubZero} alt="SubZero logo" />
-      <img src={Samsung} alt="Samsung logo" />
+      <img loading="lazy" src={Whirlpool} alt="whirlpool logo" />
+      <img loading="lazy" src={LG} alt="LG logo" />
+      <img loading="lazy" src={SubZero} alt="SubZero logo" />
+      <img loading="lazy" src={Samsung} alt="Samsung logo" />
     </div>
     <div class="row">
-      <img src={Viking} alt="Viking logo" />  
-      <img src={Maytag} alt="Maytag logo" />
-      <img src={Bosch} alt="Bosch logo" />
-      <img src={GE} alt="GE logo" />
+      <img loading="lazy" src={Viking} alt="Viking logo" />  
+      <img loading="lazy" src={Maytag} alt="Maytag logo" />
+      <img loading="lazy" src={Bosch} alt="Bosch logo" />
+      <img loading="lazy" src={GE} alt="GE logo" />
     </div>
     <div class="row">
-      <img src={Frigidaire} alt="Frigidaire logo" />
-      <img src={Electrolux} alt="Electrolux logo" />
-      <img src={Dacor} alt="Dacor logo" />
-      <img src={Kenmore} alt="Kenmore logo" />
+      <img loading="lazy" src={Frigidaire} alt="Frigidaire logo" />
+      <img loading="lazy" src={Electrolux} alt="Electrolux logo" />
+      <img loading="lazy" src={Dacor} alt="Dacor logo" />
+      <img loading="lazy" src={Kenmore} alt="Kenmore logo" />
     </div>
     </div>
   </div>;

@@ -6,9 +6,9 @@ const HeroSection = () => {
   return <div id="back-image">
       <div id="shade">
         <div id="text">
-          <div><p class="text1">Fast in-home</p></div>
-          <div><p class="text2">appliance repairs</p></div>
-          <div><p class="text3">by certified experts</p></div>
+          <div><h1 class="text-main">Fast in-home</h1></div>
+          <div><h1 class="text-main">appliance repair</h1></div>
+          <div><h1 class="text-main">by certified experts</h1></div>
         </div>
       </div>
     </div>;

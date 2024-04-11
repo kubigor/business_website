@@ -10,9 +10,9 @@ const Divider = () => {
  
   return <div id="divider-container">
     <div id="divider">
-      <p>CALL US FOR FREE ESTIMATE</p>
+      <h1>CALL US FOR FREE ESTIMATE</h1>
       <div>
-        <img src={phone} alt="phone" />
+        <img loading="lazy" src={phone} alt="phone" />
       </div>
       <div>
         <a id="phone-number" href={numberLink}>{phoneNumber}</a>

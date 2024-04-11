@@ -9,8 +9,8 @@ const DryerRepair = () => {
   return <div class="page-container">
   <div class="appliance-container" >
   <div class="photos-container">
-    <img src={dryer1} alt="Dryer stacked in the laundry room"/>
-    <img src={dryer2} alt="Two dryers in the laundry room"/>
+    <img loading="lazy" src={dryer1} alt="Dryer stacked in the laundry room"/>
+    <img loading="lazy" src={dryer2} alt="Two dryers in the laundry room"/>
   </div>
   <div class="text-container">
     <h1>Dryer repair</h1>
@@ -50,8 +50,8 @@ const DryerRepair = () => {
     </div>
   </div>
   <div class="photos-container-mobile">
-    <img src={dryer1} alt="Dryer stacked in the laundry room"/>
-    <img src={dryer2} alt="Two dryers in the laundry room"/>
+    <img loading="lazy" src={dryer1} alt="Dryer stacked in the laundry room"/>
+    <img loading="lazy" src={dryer2} alt="Two dryers in the laundry room"/>
   </div>
 </div>
 <Charges />

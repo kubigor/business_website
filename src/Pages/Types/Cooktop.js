@@ -9,8 +9,8 @@ const CooktopRepair = () => {
   return <div class="page-container">
   <div class="appliance-container" >
   <div class="photos-container">
-    <img src={cooktop1} alt="Gas cooktop"/>
-    <img src={cooktop2} alt="Electrcic cooktop with ceramic glass"/>
+    <img loading="lazy" src={cooktop1} alt="Gas cooktop"/>
+    <img loading="lazy" src={cooktop2} alt="Electrcic cooktop with ceramic glass"/>
   </div>
   <div class="text-container">
     <h1>Cooktop repair</h1>
@@ -48,8 +48,8 @@ const CooktopRepair = () => {
     </div>
   </div>
   <div class="photos-container-mobile">
-    <img src={cooktop1} alt="Gas cooktop"/>
-    <img src={cooktop2} alt="Electrcic cooktop with ceramic glass"/>
+    <img loading="lazy" src={cooktop1} alt="Gas cooktop"/>
+    <img loading="lazy" src={cooktop2} alt="Electrcic cooktop with ceramic glass"/>
   </div>
 </div>
 <Charges />

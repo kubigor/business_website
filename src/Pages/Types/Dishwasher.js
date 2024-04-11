@@ -9,8 +9,8 @@ const DishwasherRepair = () => {
   return <div class="page-container">
     <div class="appliance-container" >
     <div class="photos-container">
-      <img src={dishwasher1} alt="Dishwasher in the kitchen"/>
-      <img src={dishwasher2} alt="Dishwasher range in the kitchen"/>
+      <img loading="lazy" src={dishwasher1} alt="Dishwasher in the kitchen"/>
+      <img loading="lazy" src={dishwasher2} alt="Dishwasher range in the kitchen"/>
     </div>
     <div class="text-container">
       <h1>Dishwasher repair</h1>
@@ -51,8 +51,8 @@ const DishwasherRepair = () => {
       </div>
     </div>
     <div class="photos-container-mobile">
-      <img src={dishwasher1} alt="Dishwasher in the kitchen"/>
-      <img src={dishwasher2} alt="Dishwasher range in the kitchen"/>
+      <img loading="lazy" src={dishwasher1} alt="Dishwasher in the kitchen"/>
+      <img loading="lazy" src={dishwasher2} alt="Dishwasher range in the kitchen"/>
     </div>
   </div>
   <Charges />

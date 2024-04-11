@@ -9,8 +9,8 @@ const RangeRepair = () => {
   return <div class="page-container">
   <div class="appliance-container" >
   <div class="photos-container">
-    <img src={range1} alt="Free standing range in the kitchen"/>
-    <img src={range2} alt="Free standing range in the kitchen"/>
+    <img loading="lazy" src={range1} alt="Free standing range in the kitchen"/>
+    <img loading="lazy" src={range2} alt="Free standing range in the kitchen"/>
   </div>
   <div class="text-container">
     <h1>Range and Oven repair</h1>
@@ -50,8 +50,8 @@ const RangeRepair = () => {
     </div>
   </div>
   <div class="photos-container-mobile">
-    <img src={range1} alt="Free standing range in the kitchen"/>
-    <img src={range2} alt="Free standing range in the kitchen"/>
+    <img loading="lazy" src={range1} alt="Free standing range in the kitchen"/>
+    <img loading="lazy" src={range2} alt="Free standing range in the kitchen"/>
   </div>
 </div>
 <Charges />

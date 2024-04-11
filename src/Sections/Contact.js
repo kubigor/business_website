@@ -31,10 +31,10 @@ const Contact = () => {
       <HousecallProButton />
     <div class="profiles">
       <a id="yelp-profile"  href={yelpProfile}>
-        <img src={Yelp} alt="Yelp logo" />
+        <img loading="lazy" src={Yelp} alt="Yelp logo" />
       </a>
       <a id="google-profile" href={googleProfile} >
-        <img src={Google} alt="Google logo" />
+        <img loading="lazy" src={Google} alt="Google logo" />
       </a>
     </div>
     </div>

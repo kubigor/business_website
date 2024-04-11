@@ -14,7 +14,7 @@ const ScrollToTop = () => {
   }
 
   return <div id="scroll" onClick={ScrollUp}>
-    <img src={arrows} alt="go to top" draggable="false"/>
+    <img loading="lazy" src={arrows} alt="go to top" draggable="false"/>
   </div>;
 };
 
