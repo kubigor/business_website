@@ -21,7 +21,7 @@ const Steps = () => {
   return <div id="zipper-container">
     <div id="zipper-background">
       <div id="zipper-elements">
-        <p id="question">Do we service your area?</p>
+        <h2 id="question">Do we service your area?</h2>
         <input id="field" type="field" placeholder=" Zip " maxLength={5} onChange={handleChange}/>
         <p id="answer"></p>
       </div>

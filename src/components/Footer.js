@@ -58,7 +58,7 @@ const Footer = () => {
     </div>
     <div id="footer-second-section">
       <div class="footer-column">
-        <Link to ="/"><img loading="lazy" id="company-logo" src={logo} alt="company logo" onClick={ScrollUp}/></Link>
+        <Link to ="/"><img loading="lazy" id="company-logo" src={logo} style={{width:"16em"}} alt="company logo" onClick={ScrollUp}/></Link>
         <div id="icons">
           <a href="https://www.yelp.com/biz/major-appliance-repair-bellevue-4"><img loading="lazy" class="icon" src={yelp} alt="terms and condtions icon"/></a>
           <a href="https://www.google.com/maps/place/Major+Appliance+Repair/@47.642346,-122.2022255,10z/data=!4m6!3m5!1s0x549007315f4d880f:0x3480d761c45eca0d!8m2!3d47.642346!4d-122.2022255!16s%2Fg%2F11q95dzh93?entry=ttu"><img loading="lazy" class="icon" src={google} alt="terms and condtions icon"/></a>

@@ -22,7 +22,7 @@
 }
 
 .text-main {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 #text {
@@ -31,9 +31,7 @@
   color: white;
   text-align: right;
   width: 60%;
-  font-size: 5vw;
-  right: 5%;
-  bottom: 25%;
+  right: 8%;
   transform: scale(0.94);
   animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
@@ -43,20 +41,20 @@
     }
   }
   
-#text div {
+#text span {
   opacity: 0;
   filter: blur(4px);
 }
   
-#text div:nth-child(1) {
+#text span:nth-child(1) {
   animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-#text div:nth-child(2) {
+#text span:nth-child(3) {
   animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-#text div:nth-child(3) {
+#text span:nth-child(5) {
   animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 

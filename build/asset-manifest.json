@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a05a5c91.css",
-    "main.js": "/static/js/main.857541d0.js",
+    "main.css": "/static/css/main.6b7e9ee8.css",
+    "main.js": "/static/js/main.586a4a1c.js",
     "static/media/sub-zero-kitchen.jpg": "/static/media/sub-zero-kitchen.c323597ac94b31e70f8c.jpg",
     "static/media/garbage-disposal-replacement.webp": "/static/media/garbage-disposal-replacement.600237b28063e84ceb93.webp",
     "static/media/subzero-fridge.webp": "/static/media/subzero-fridge.bbb9a6480b43d9a87b62.webp",
@@ -73,11 +73,11 @@
     "index.html": "/index.html",
     "static/media/map-pointer.svg": "/static/media/map-pointer.36e152ef3d7c7bd8e11435a31446c826.svg",
     "static/media/envelope-icon.svg": "/static/media/envelope-icon.3aa9336f9fabcd73fc8af39c9b399433.svg",
-    "main.a05a5c91.css.map": "/static/css/main.a05a5c91.css.map",
-    "main.857541d0.js.map": "/static/js/main.857541d0.js.map"
+    "main.6b7e9ee8.css.map": "/static/css/main.6b7e9ee8.css.map",
+    "main.586a4a1c.js.map": "/static/js/main.586a4a1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a05a5c91.css",
-    "static/js/main.857541d0.js"
+    "static/css/main.6b7e9ee8.css",
+    "static/js/main.586a4a1c.js"
   ]
 }
