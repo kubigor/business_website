@@ -7,7 +7,7 @@
 }
 
 #addon-one {
-    background-image: url("../Images/appliances/black-squares.jpg");
+    background-image: url("../Images/appliances/black-squares.webp");
     background-size: cover;
     position: relative;
     display: flex;
@@ -64,7 +64,7 @@
 }
 
 #addon-two {
-    background-image: url("../Images/appliances/black-squares-upside.jpg");
+    background-image: url("../Images/appliances/black-squares-upside.webp");
     background-size: cover;
     margin-top: -1px;
     position: relative;

@@ -1,8 +1,9 @@
 import React from 'react'
-import washer1 from '../../Images/appliances/lg-laundry-center.jpeg'
-import washer2 from '../../Images/appliances/whirlpool-washer.jpg'
+import washer1 from '../../Images/appliances/lg-laundry-center.webp'
+import washer2 from '../../Images/appliances/whirlpool-washer.webp'
 import Charges from '../../Sections/Charges';
 import './Appliance.css'
+import ServiceArea from '../../Sections/ServiceArea';
 
 const WasherRepair = () => {
   
@@ -17,10 +18,10 @@ const WasherRepair = () => {
     <p>
     The average lifespan of a washing machine is typically around 10 to 13 years. This duration can vary depending on factors such as the brand, model, usage frequency, and maintenance practices. Regular maintenance, like cleaning filters and checking hoses, can help extend a washing machine's life. High-end models might last longer due to better build quality, while heavy usage and neglect can shorten the lifespan of any washing machine.    </p>
     <p>
-    At Major Appliance Repair, we're not just fixing machines; we're restoring a crucial part of your daily life. Trust us to bring your washer back to optimal performance with professionalism and care.
+    At Major Appliance Repair, we're not just fixing machines; we're restoring a crucial part of your daily life. Trust us to bring your washer back to optimal performance with professionalism and care. Call Major Appliance Repair for the washer repair and laundry center repair.
     </p>
     <div class="repairs">
-      <h3>We will help you with:</h3>
+      <h2>We will help you with:</h2>
       <p>Drum and Agitator Repairs</p>
       <p>Motor Repairs or Replacement</p>
       <p>Transmission and Drive Belt Repairs</p>
@@ -35,7 +36,7 @@ const WasherRepair = () => {
     </div>
   </div>
   <div class="advice-container">
-    <h3>What you can do before calling for service</h3>
+    <h2>What you can do before calling for service</h2>
     <div class="advices">
       <p>Check Power Supply</p>
       <p>Inspect the Control Panel</p>
@@ -56,6 +57,7 @@ const WasherRepair = () => {
   </div>
 </div>
 <Charges />
+<ServiceArea />
 </div>
 };
 

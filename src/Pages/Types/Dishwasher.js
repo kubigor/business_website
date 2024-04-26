@@ -1,8 +1,9 @@
 import React from 'react'
-import dishwasher1 from '../../Images/appliances/thor-dishwasher.jpg'
+import dishwasher1 from '../../Images/appliances/thor-dishwasher.webp'
 import dishwasher2 from '../../Images/appliances/bosch-dishwasher.webp'
 import Charges from '../../Sections/Charges';
 import './Appliance.css'
+import ServiceArea from '../../Sections/ServiceArea';
 
 const DishwasherRepair = () => {
 
@@ -18,10 +19,10 @@ const DishwasherRepair = () => {
       The average lifespan of a dishwasher is typically around 9 to 12 years, depending on the brand, model, and how well it is maintained. Regular cleaning and maintenance, such as cleaning filters and ensuring proper loading, can help extend its life. Factors such as the frequency of use, the hardness of water, and the quality of detergent used can also impact the longevity of a dishwasher. High-end models might last longer due to better build quality and features that reduce wear and tear.
       </p>
       <p>
-      At Major Appliance Repair, we're committed to restoring the convenience and efficiency your dishwasher provides. Let us take care of your appliance with our expertise and dedication.
+      At Major Appliance Repair, we're committed to restoring the convenience and efficiency your dishwasher provides. Let us take care of your appliance with our expertise and dedication. Call Major Appliance Repair for the dishwasher repair.
       </p>
       <div class="repairs">
-        <h3>We will help you with:</h3>
+        <h2>We will help you with:</h2>
         <p>Pump and Motor Repairs</p>
         <p>Water Inlet Valve Replacement</p>
         <p>Spray Arm Repairs</p>
@@ -36,7 +37,7 @@ const DishwasherRepair = () => {
       </div>
     </div>
     <div class="advice-container">
-      <h3>What you can do before calling for service</h3>
+      <h2>What you can do before calling for service</h2>
       <div class="advices">
         <p>Check Power Supply</p>
         <p>Inspect the Control Panel</p>
@@ -56,6 +57,7 @@ const DishwasherRepair = () => {
     </div>
   </div>
   <Charges />
+  <ServiceArea />
   </div>
 }
 export default DishwasherRepair;

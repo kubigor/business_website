@@ -1,7 +1,7 @@
 // This is Contact component, it will contain contact form.
 import React from "react";
-import Google from '../Images/googlemaps-icon.png'
-import Yelp from '../Images/yelp-logo.png'
+import Google from '../Images/googlemaps-icon.webp'
+import Yelp from '../Images/yelp-logo.webp'
 import HousecallProButton from '../components/HouseCall'
 import {yelpProfile} from "../globalVars";
 import {googleProfile} from "../globalVars";

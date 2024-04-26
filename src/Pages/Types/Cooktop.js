@@ -1,8 +1,9 @@
 import React from 'react'
-import cooktop1 from '../../Images/appliances/thor-cooktop.jpg'
-import cooktop2 from '../../Images/appliances/whirlpool-cooktop.png'
+import cooktop1 from '../../Images/appliances/thor-cooktop.webp'
+import cooktop2 from '../../Images/appliances/whirlpool-cooktop.webp'
 import Charges from '../../Sections/Charges';
 import './Appliance.css'
+import ServiceArea from '../../Sections/ServiceArea';
 
 const CooktopRepair = () => {
   
@@ -17,9 +18,9 @@ const CooktopRepair = () => {
     <p>
     The average lifespan of cooktops varies by type: electric cooktops typically last 13 to 15 years, gas cooktops about 15 years. Lifespan can be extended with regular maintenance and depends on factors like usage frequency, installation quality, and build quality.    </p>
     <p>
-    At Major Appliance Repair, we're not just fixing appliances; we're restoring an essential part of your daily kitchen experience. Trust us to bring your cooktop back to its best with professionalism and care.    </p>
+    At Major Appliance Repair, we're not just fixing appliances; we're restoring an essential part of your daily kitchen experience. Trust us to bring your cooktop back to its best with professionalism and care. Call Major Appliance Repair for the cooktop repair.    </p>
     <div class="repairs">
-      <h3>We will help you with:</h3>
+      <h2>We will help you with:</h2>
       <p>Burner Repair or Replacement</p>
       <p>Ignition Problems</p>
       <p>Element Replacement</p>
@@ -33,7 +34,7 @@ const CooktopRepair = () => {
     </div>
   </div>
   <div class="advice-container">
-    <h3>What you can do before calling for service</h3>
+    <h2>What you can do before calling for service</h2>
     <div class="advices">
       <p>Check Power Supply</p>
       <p>Inspect Heating Elements</p>
@@ -53,6 +54,7 @@ const CooktopRepair = () => {
   </div>
 </div>
 <Charges />
+<ServiceArea />
 </div>
 };
 

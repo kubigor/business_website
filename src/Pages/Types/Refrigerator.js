@@ -1,8 +1,9 @@
 import React from 'react'
-import fridge1 from '../../Images/appliances/whirlpool-refrigerator.png'
-import fridge2 from '../../Images/appliances/sub-zero-refrigerator.jpg'
+import fridge1 from '../../Images/appliances/whirlpool-refrigerator.webp'
+import fridge2 from '../../Images/appliances/sub-zero-refrigerator.webp'
 import Charges from '../../Sections/Charges';
 import './Appliance.css'
+import ServiceArea from '../../Sections/ServiceArea';
 
 const RefrigeratorRepair = () => {
   
@@ -18,10 +19,10 @@ const RefrigeratorRepair = () => {
         The average lifespan of a refrigerator is typically between 10 to 15 years, with high-end models potentially lasting up to 20 years with proper care. Factors such as maintenance, usage patterns, and the type of refrigerator play significant roles in determining its longevity. Regular upkeep, like cleaning condenser coils and maintaining door seals, can help extend its lifespan.
         </p>
         <p>
-          Whether it's routine maintenance or emergency repairs, Major Appliance Repair is here to restore your refrigerator's functionality with expertise and care. Experience the peace of mind that comes with knowing your appliance is in capable hands.
+          Whether it's routine maintenance or emergency repairs, Major Appliance Repair is here to restore your refrigerator's functionality with expertise and care. Experience the peace of mind that comes with knowing your appliance is in capable hands. Call Major Appliance Repair for the refrigerator repair.
         </p>
         <div class="repairs">
-          <h3>We will help you with:</h3>
+          <h2>We will help you with:</h2>
           <p>Compressor Repairs</p>
           <p>Thermostat Replacement</p>
           <p>Leak Repairs</p>
@@ -35,7 +36,7 @@ const RefrigeratorRepair = () => {
         </div>
       </div>
       <div class="advice-container">
-        <h3>What you can do before calling for service</h3>
+        <h2>What you can do before calling for service</h2>
         <div class="advices">
           <p>Check Power Supply</p>
           <p>Inspect the Thermostat</p>
@@ -55,6 +56,7 @@ const RefrigeratorRepair = () => {
       </div>
     </div>
     <Charges />
+    <ServiceArea />
   </div>
 };
 

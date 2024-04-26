@@ -1,8 +1,9 @@
 #steps-image {
-  background: url("../Images/fridge-repair-person.jpg");
+  background: url("../Images/fridge-repair-person.webp");
   background-position-y: center;
   background-size: cover;
   width: 100vw;
+  margin-top: 2rem;
 }
 
 .steps-section {

@@ -1,13 +1,13 @@
 // This is About component, It will contain about us info.
 import React from "react";
 import "./Zipper.css"
-import {serviceArea} from "../globalVars"
+import {zipCodes} from "../globalVars"
 
 const Steps = () => {
   function handleChange(e) {
     const answer = document.getElementById("answer");
     if (e.target.value.length === 5) {
-      if (serviceArea.has(Number(e.target.value))) {
+      if (zipCodes.has(Number(e.target.value))) {
         answer.innerText = "Yes, we can help you!"
         answer.style.color = "green"
       } else {

@@ -13,16 +13,13 @@
   background-color: var(--peach);
 }
 
-#notFound {
+#not-found {
   display: flex;
-  background-color: var(--peach);
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 13vh;
-  font-weight: 500;
-  padding: 3rem;
+}
+
+#image-not-found {
+  width: 50vw;
 }
 
 #request {

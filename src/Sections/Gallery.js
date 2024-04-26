@@ -1,14 +1,14 @@
 // This is Contact component, it will contain contact form.
-import fridge from "../Images/appliances/lg-refrigerator.jpg"
-import washer from "../Images/appliances/washer.jpg"
-import dryer from "../Images/appliances/samsung-washer-and-dryer.jpg"
-import range from "../Images/appliances/bertazzoni-range.jpg"
-import cooktop from "../Images/appliances/gas-cooktop.jpg"
-import oven from "../Images/appliances/bosch-oven.jpg"
-import disposal from "../Images/appliances/garbage-disposal.jpg"
-import center from "../Images/appliances/laundry-center.jpg"
-import dishwasher from "../Images/appliances/bosch-dishwasher.jpg"
-import {headerOptions, imageOptions, textOptions} from "./GalleryData"
+import fridge from "../Images/appliances/lg-refrigerator.webp"
+import washer from "../Images/appliances/washer.webp"
+import dryer from "../Images/appliances/samsung-washer-and-dryer.webp"
+import range from "../Images/appliances/bertazzoni-range.webp"
+import cooktop from "../Images/appliances/gas-cooktop.webp"
+import oven from "../Images/appliances/bosch-oven.webp"
+import disposal from "../Images/appliances/garbage-disposal.webp"
+import center from "../Images/appliances/laundry-center.webp"
+import dishwasher from "../Images/appliances/bosch-dishwasher.webp"
+import {headerOptions, imageOptions, linkOptions, textOptions} from "./GalleryData"
 
 
 
@@ -84,11 +84,13 @@ const Gallery = () => {
       const descriptionImageTwo = document.getElementById("image-two");
       const descriptionText = document.getElementById("description-text");
       const descriptionHeader = document.getElementById("description-header");
+      const descriptionMore = document.getElementById("more");
       element.style.opacity = 1;
       descriptionImageOne.src = imageOptions[pos][0];
       descriptionImageTwo.src = imageOptions[pos][1];
       descriptionText.textContent = textOptions[pos];
       descriptionHeader.textContent = headerOptions[pos];
+      descriptionMore.href = linkOptions[pos];
     };
     
   return <div id="gallery" >
@@ -118,6 +120,7 @@ const Gallery = () => {
       <div id="description-text-field">
         <h3 id="description-header">Type Placeholder</h3>
         <p id="description-text">Text Placeholder</p>
+        <a id="more" src="">See more...</a>
       </div>
     </div>
   </div>;

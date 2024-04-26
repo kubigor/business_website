@@ -1,8 +1,8 @@
 import React from "react";
 import data from "../Sections/ReviewsData"
-import stars from "../Images/five-stars-rating.png"
-import Yelp from "../Images/yelp-logo.png"
-import Google from "../Images/googlemaps-icon.png"
+import stars from "../Images/five-stars-rating.webp"
+import Yelp from "../Images/yelp-logo.webp"
+import Google from "../Images/googlemaps-icon.webp"
 import "./Card.css"
 
 const Card = ({ index }) => {

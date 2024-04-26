@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './HighendAddon.css'
 import range1 from '../Images/appliances/thermador-range.webp'
-import cooktop from '../Images/appliances/jennair-cooktop.png'
-import range2 from '../Images/appliances/viking-range.jpg'
-import refrigerator from '../Images/appliances/true-refrigerator.jpg'
+import cooktop from '../Images/appliances/jennair-cooktop.webp'
+import range2 from '../Images/appliances/viking-range.webp'
+import refrigerator from '../Images/appliances/true-refrigerator.webp'
 
 const HighendAddon = () => {
   const [visibleItems, setVisibleItems] = useState({});

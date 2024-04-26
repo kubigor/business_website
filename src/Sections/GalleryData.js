@@ -1,21 +1,21 @@
-import fridge1 from "../Images/appliances/condenser-coil-cleaning.jpg"
-import fridge2 from "../Images/appliances/condenser-coil-cleaning2.jpg"
-import washer1 from "../Images/appliances/washer-filter-cleaning.jpeg"
-import washer2 from "../Images/appliances/washer-gasket-cleaning.jpg"
-import dryer1 from "../Images/appliances/dryer-vent-cleaning.jpg"
-import dryer2 from "../Images/appliances/dryer-cleaning.png"
-import range1 from "../Images/appliances/range-repair2.jpg"
+import fridge1 from "../Images/appliances/condenser-coil-cleaning.webp"
+import fridge2 from "../Images/appliances/condenser-coil-cleaning2.webp"
+import washer1 from "../Images/appliances/washer-filter-cleaning.webp"
+import washer2 from "../Images/appliances/washer-gasket-cleaning.webp"
+import dryer1 from "../Images/appliances/dryer-vent-cleaning.webp"
+import dryer2 from "../Images/appliances/dryer-cleaning.webp"
+import range1 from "../Images/appliances/range-repair2.webp"
 import range2 from "../Images/appliances/range-repair.webp"
-import cooktop1 from "../Images/appliances/cooktop-repair.jpg"
-import cooktop2 from "../Images/appliances/cooktop-repair2.jpg"
-import oven1 from "../Images/appliances/oven-repair.jpg" 
-import oven2 from "../Images/appliances/oven-repair2.jpg"
-import dishwasher1 from "../Images/appliances/dishwasher-repair.jpg"
-import dishwasher2 from "../Images/appliances/dishwasher-repair2.jpg"
-import center1 from "../Images/appliances/laundry-center-repair.jpeg"
-import center2 from "../Images/appliances/laundry-center-repair.webp"
-import garbage1 from "../Images/appliances/garbage-disposal-replacement.jpg"
-import garbage2 from "../Images/appliances/garbage-disposal-replacement.webp"
+import cooktop1 from "../Images/appliances/cooktop-repair.webp"
+import cooktop2 from "../Images/appliances/cooktop-repair2.webp"
+import oven1 from "../Images/appliances/oven-repair.webp" 
+import oven2 from "../Images/appliances/oven-repair2.webp"
+import dishwasher1 from "../Images/appliances/dishwasher-repair.webp"
+import dishwasher2 from "../Images/appliances/dishwasher-repair2.webp"
+import center1 from "../Images/appliances/laundry-center-repair.webp"
+import center2 from "../Images/appliances/laundry-center-repair2.webp"
+import garbage1 from "../Images/appliances/garbage-disposal-replacement.webp"
+import garbage2 from "../Images/appliances/garbage-disposal-replacement2.webp"
 
 
 
@@ -57,3 +57,16 @@ export const headerOptions = [
     "Laundry center services",
     "Garbage disposal services"
 ]
+
+export const linkOptions = [
+ "https://majorappliancerepair.info/services/refrigerator",
+ "https://majorappliancerepair.info/services/washer",
+ "https://majorappliancerepair.info/services/dryer",
+ "https://majorappliancerepair.info/services/range",
+ "https://majorappliancerepair.info/services/cooktop",
+ "https://majorappliancerepair.info/services/range",
+ "https://majorappliancerepair.info/services/dishwasher",
+ "https://majorappliancerepair.info/services/washer",
+ "https://majorappliancerepair.info/request"
+]
+

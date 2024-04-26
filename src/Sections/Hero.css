@@ -1,7 +1,7 @@
 
 #back-image {
   display:flex;
-  background-image: url("../Images/bosch-kitchen-appliances.jpeg");
+  background-image: url("../../public/bosch-kitchen-appliances.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -67,7 +67,8 @@
 
 @media only Screen and (max-width: 48em) { 
   #back-image {
-    background-position-x: -130px;
+    height: 50vh;
+    background-position-x: -80px;
   }
 
   #shade {
@@ -79,8 +80,13 @@
 
   #text {
     text-align: center;
-    font-size: 3rem;
-    right: 0;
     width: 100%;
+    left: 0;
+    font-size: 1.8rem;
+    top: 20%;
+  }
+
+  #text span {
+    font-size: 2rem;
   }
 }

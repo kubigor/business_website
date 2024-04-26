@@ -1,11 +1,11 @@
 import React from 'react'
+import error from '../Images/error404.webp'
 import './PagesStyle.css'
 
 
 const NotFound = () => {
   return <div id="not-found" >
-    <h1>404</h1>
-    <p>Page Not Found</p>
+      <img loading="lazy" id="image-not-found" src={error} alt="error404" />
     </div>
 };
 

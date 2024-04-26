@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import HousecallProButton from './HouseCall'
-import logo from '../Images/Major-appliance-repair-logo.png'
-import menu from "../Images/menu-img.png"
+import logo from '../Images/Major-appliance-repair-logo.webp'
+import menu from "../Images/menu-img.webp"
 import "./Header.css"
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
   <div id="menu">
-    <Link to ="/"><img loading="lazy" src={logo} style={{width:"20vw"}} alt="logo" class="logo-link" /></Link>
+    <Link to ="/" id="link-logo"><img loading="lazy" src={logo} alt="logo" class="logo-link" /></Link>
     <div id="menu-buttons">
       <Link to ="/">Home</Link>
       <Link to ="/about">About</Link>

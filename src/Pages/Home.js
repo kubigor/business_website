@@ -12,10 +12,10 @@ import './PagesStyle.css'
 const Home = () => {
   return <div id="home" > 
       <HeroSection />
-      <Zipper />
       <Steps />
+      <Zipper />
+      <Description />
       <Divider />
-      {/* <Description /> */}
       <Charges />
       <Contact />
     </div>

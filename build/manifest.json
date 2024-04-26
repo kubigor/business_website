@@ -3,7 +3,7 @@
     "name": "Major Appliance Repair",
     "icons": [
       {
-        "src": "/fan.png",
+        "src": "/fan.webp",
         "sizes": "192x192",
         "type": "image/png"
       }

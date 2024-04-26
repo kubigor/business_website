@@ -2,7 +2,7 @@
     background-color: black;
 }
 #first-section-background {
-    background-image: url("../Images/appliances/sub-zero-kitchen.jpg");
+    background-image: url("../../public/sub-zero-kitchen.webp");
     background-size:cover;
     background-repeat: no-repeat;
     background-position:0;
@@ -14,11 +14,11 @@
 }
 
 #first-section-text {
-    position: relative;
+    position: absolute;
     width:fit-content;
-    bottom: 85%;
+    bottom: 65%;
     left: 20%;
-    font-size: 3rem;
+    font-size: 5vh;
     font-weight: 600;
     color: white;
     opacity: 0;
@@ -82,15 +82,15 @@
 }
 
 #btn2 {
-    background-image: url("../Images/appliances/viking-fridge.jpeg");
+    background-image: url("../Images/appliances/viking-fridge.webp");
 }
 
 #btn3 {
-    background-image: url("../Images/appliances/monogram-fridge.jpeg");
+    background-image: url("../Images/appliances/monogram-fridge.webp");
 }
 
 #btn4 {
-    background-image: url("../Images/appliances/liebherr-fridge.jpg");
+    background-image: url("../Images/appliances/liebherr-fridge.webp");
 }
 
 @media only Screen and (max-width: 48em){

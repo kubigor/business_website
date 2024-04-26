@@ -1,7 +1,9 @@
 import React from 'react'
-import dryer1 from '../../Images/appliances/lg-dryer.jpg'
-import dryer2 from '../../Images/appliances/whirlpool-dryer.jpg'
+import dryer1 from '../../Images/appliances/lg-dryer.webp'
+import dryer2 from '../../Images/appliances/whirlpool-dryer.webp'
 import Charges from '../../Sections/Charges';
+import ServiceArea from '../../Sections/ServiceArea';
+
 import './Appliance.css'
 
 const DryerRepair = () => {
@@ -17,10 +19,10 @@ const DryerRepair = () => {
     <p>
     The average lifespan of a clothes dryer is typically about 10 to 13 years. This duration can vary based on factors like the brand, model, usage habits, and maintenance. Regular cleaning of the lint filter and venting system, as well as prompt repairs of any issues, can help extend a dryer's life. Overloading and frequent use can contribute to a shorter lifespan. Generally, gas dryers may have a slightly longer lifespan compared to electric ones due to their different heating mechanisms.    </p>
     <p>
-    At Major Appliance Repair, we do more than just fix appliances; we ensure your daily laundry routine is seamless and efficient. Entrust us with your dryer, and experience the Premier difference in quality and care.
+    At Major Appliance Repair, we do more than just fix appliances; we ensure your daily laundry routine is seamless and efficient. Entrust us with your dryer, and experience the Premier difference in quality and care. Call Major Appliance Repair for the dryer repair.
     </p>
     <div class="repairs">
-      <h3>We will help you with:</h3>
+      <h2>We will help you with:</h2>
       <p>Heating Element Repair or Replacement</p>
       <p>Gas Burner Repair and Ignition System Service</p>
       <p>Thermal Fuse Replacement</p>
@@ -35,7 +37,7 @@ const DryerRepair = () => {
     </div>
   </div>
   <div class="advice-container">
-    <h3>What you can do before calling for service</h3>
+    <h2>What you can do before calling for service</h2>
     <div class="advices">
       <p>Check Power Supply</p>
       <p>Inspect the Door Switch</p>
@@ -55,6 +57,7 @@ const DryerRepair = () => {
   </div>
 </div>
 <Charges />
+<ServiceArea />
 </div>
 };
 

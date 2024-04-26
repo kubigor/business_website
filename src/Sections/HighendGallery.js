@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react'
 import subzero from "../Images/appliances/subzero-fridge.webp";
-import viking from "../Images/appliances/viking-fridge.jpeg";
-import monogram from "../Images/appliances/monogram-fridge.jpeg";
-import liebherr from "../Images/appliances/liebherr-fridge.jpg";
+import viking from "../Images/appliances/viking-fridge.webp";
+import monogram from "../Images/appliances/monogram-fridge.webp";
+import liebherr from "../Images/appliances/liebherr-fridge.webp";
 import './HighendGallery.css'
 
 const HighendGallery = () => {
@@ -21,7 +21,7 @@ const HighendGallery = () => {
     types.style.bottom = "0";
     text.style.opacity= "1";
     types.addEventListener('click', (e) => {
-      let newBackground = "../../Images/appliances/sub-zero-kitchen.jpg";
+      let newBackground = "../../Images/appliances/sub-zero-kitchen.webp";
       let newText = "Expert Care for Your High-End Appliances"
       let newXPos = '';
       let newYPos ='';
@@ -53,7 +53,7 @@ const HighendGallery = () => {
         }
       text.style.transition= ".7s";
       text.style.backgroundColor= "rgba(0, 0, 0, 0.6)"
-      text.style.boxShadow= "0 0 12px 1.4rem rgba(0, 0, 0, 0.6)"
+      text.style.boxShadow= "0 0 4px 1.4rem rgba(0, 0, 0, 0.6)"
       text.style.opacity = "0"
       shade.style.opacity= "1";
       shade.style.transition= ".7s";
@@ -78,6 +78,7 @@ const HighendGallery = () => {
   return <div id="highend-gallery-container">
       <div id="first-section-background">
           <div id="first-section-shade"/>
+          <p id="first-section-text">Expert Repairs for Your Premium Home Equipment</p>
           <div id="types-container">
             <div id="types">
               <span class="image-btn" id="btn1"><div class="image-btn-shade">Sub Zero </div></span>
@@ -86,7 +87,6 @@ const HighendGallery = () => {
               <span class="image-btn" id="btn4" ><div class="image-btn-shade">Viking</div></span>
             </div>
           </div>
-          <p id="first-section-text">Expert Repairs for Your Premium Home Equipment</p>
         </div>
       </div>
 };

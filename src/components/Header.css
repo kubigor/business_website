@@ -8,13 +8,17 @@
   color: white;
   width:100vw;
   z-index: 10;
+  max-height: 12vh;
+}
+
+#link-logo {
+  margin-left: 10vw;
 }
 
 .logo-link {
   display: flex;
   align-items: center;
-  margin-left: 8vw;
-  width: auto;
+  padding: 0.4rem;
   object-fit: contain;
   cursor:pointer;
   max-height: 10vh;
@@ -84,15 +88,20 @@
 }
 
 @media only Screen and (max-width: 48em) {
+  #link-logo {
+    margin-left: 0;
+  }
+  
   .logo-link {
-    padding: .8rem;
+    width: auto;
+    padding: 0.8rem;
     margin-left: 0;
   }
 
   #menu {
     height: 10vh;
     justify-content: center;
-    column-gap: 2rem;
+    column-gap: 3rem;
   }
   
   #menu-buttons {
