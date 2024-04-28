@@ -1,4 +1,5 @@
 import React from 'react'
+import { rangeLD } from '../JSON-LD';
 import range1 from '../../Images/appliances/thor-range.webp'
 import range2 from '../../Images/appliances/bosch-range.webp'
 import Charges from '../../Sections/Charges';
@@ -6,8 +7,23 @@ import './Appliance.css'
 import ServiceArea from '../../Sections/ServiceArea';
 
 const RangeRepair = () => {
-  
+  const updateJsonLdScript = () => {
+    const scriptTag = document.getElementById('json-ld-script');
+    const jsonLdString = JSON.stringify(rangeLD);
+    if (scriptTag) {
+      scriptTag.textContent = jsonLdString;
+      console.log(scriptTag)
+    }
+  };
+
+  React.useEffect(() => {
+    updateJsonLdScript();
+  }, []);
+
   return <div class="page-container">
+      <script type="application/ld+json" id="json-ld-script"> 
+      {JSON.stringify(rangeLD)}
+      </script>
   <div class="appliance-container" >
   <div class="photos-container">
     <img loading="lazy" src={range1} alt="Free standing range in the kitchen"/>

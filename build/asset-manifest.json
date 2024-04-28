@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e350805e.css",
-    "main.js": "/static/js/main.37605175.js",
+    "main.css": "/static/css/main.ef82d2fd.css",
+    "main.js": "/static/js/main.1434c225.js",
     "static/media/sub-zero-kitchen.webp": "/static/media/sub-zero-kitchen.2a52ccf1b9afd08cc76f.webp",
-    "static/media/bellevue.webp": "/static/media/bellevue.e6143eaf37a4d429d0af.webp",
+    "static/media/Appliance-repair-work-van-cropped-2.webp": "/static/media/Appliance-repair-work-van-cropped-2.1776c80c3568a2b719c1.webp",
+    "static/media/Appliance-repair-work-van-cropped.webp": "/static/media/Appliance-repair-work-van-cropped.04108009164f017a114b.webp",
     "static/media/subzero-fridge.webp": "/static/media/subzero-fridge.bbb9a6480b43d9a87b62.webp",
-    "static/media/Appliance Repair work car.webp": "/static/media/Appliance Repair work car.3b661c32d47293ca13cd.webp",
-    "static/media/Major Car Sunny Day  cropped.jpg": "/static/media/Major Car Sunny Day  cropped.38e5364a349ca87aadec.jpg",
+    "static/media/Appliance-repair-work-car.webp": "/static/media/Appliance-repair-work-car.3b661c32d47293ca13cd.webp",
+    "static/media/Appliance-repair-work-car-cropped.webp": "/static/media/Appliance-repair-work-car-cropped.7878f6e4d0ad7891586e.webp",
     "static/media/error404.webp": "/static/media/error404.d0c56f13ee9eda006159.webp",
     "static/media/thermador-range.webp": "/static/media/thermador-range.7787d0420ece5926e52d.webp",
     "static/media/liebherr-fridge.webp": "/static/media/liebherr-fridge.16e810116a7446bcb3f6.webp",
@@ -15,11 +16,11 @@
     "static/media/garbage-disposal-replacement2.webp": "/static/media/garbage-disposal-replacement2.0965315caaaf1cace2f5.webp",
     "static/media/black-squares-upside.webp": "/static/media/black-squares-upside.dee495133e8617395088.webp",
     "static/media/true-refrigerator.webp": "/static/media/true-refrigerator.688c7546e82c30e81720.webp",
+    "static/media/bosch-kitchen-appliances.webp": "/static/media/bosch-kitchen-appliances.3cb8cbd3b52fb6c14358.webp",
     "static/media/laundry-center-repair2.webp": "/static/media/laundry-center-repair2.5280e402234a8408d726.webp",
     "static/media/thor-cooktop.webp": "/static/media/thor-cooktop.c6d4f0870bc937e47c44.webp",
     "static/media/gas-cooktop.webp": "/static/media/gas-cooktop.16ecc5146ee2714438ef.webp",
     "static/media/thor-range.webp": "/static/media/thor-range.47f0777d3eb2b8649dc4.webp",
-    "static/media/bosch-kitchen-appliances.webp": "/static/media/bosch-kitchen-appliances.efccf23dffcb896d5784.webp",
     "static/media/range-repair.webp": "/static/media/range-repair.965ec54d85cfc3b8b55c.webp",
     "static/media/garbage-disposal.webp": "/static/media/garbage-disposal.29cde4aa98d7507f409b.webp",
     "static/media/viking-range.webp": "/static/media/viking-range.d0612753aa09f850324a.webp",
@@ -83,11 +84,11 @@
     "static/media/black-up-arrow.webp": "/static/media/black-up-arrow.4b172024820defe8910c.webp",
     "static/media/map-pointer.svg": "/static/media/map-pointer.36e152ef3d7c7bd8e11435a31446c826.svg",
     "static/media/envelope-icon.svg": "/static/media/envelope-icon.3aa9336f9fabcd73fc8af39c9b399433.svg",
-    "main.e350805e.css.map": "/static/css/main.e350805e.css.map",
-    "main.37605175.js.map": "/static/js/main.37605175.js.map"
+    "main.ef82d2fd.css.map": "/static/css/main.ef82d2fd.css.map",
+    "main.1434c225.js.map": "/static/js/main.1434c225.js.map"
   },
   "entrypoints": [
-    "static/css/main.e350805e.css",
-    "static/js/main.37605175.js"
+    "static/css/main.ef82d2fd.css",
+    "static/js/main.1434c225.js"
   ]
 }

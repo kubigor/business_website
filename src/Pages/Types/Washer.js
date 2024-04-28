@@ -1,4 +1,5 @@
 import React from 'react'
+import { washerLD } from '../JSON-LD';
 import washer1 from '../../Images/appliances/lg-laundry-center.webp'
 import washer2 from '../../Images/appliances/whirlpool-washer.webp'
 import Charges from '../../Sections/Charges';
@@ -6,8 +7,23 @@ import './Appliance.css'
 import ServiceArea from '../../Sections/ServiceArea';
 
 const WasherRepair = () => {
-  
+  const updateJsonLdScript = () => {
+    const scriptTag = document.getElementById('json-ld-script');
+    const jsonLdString = JSON.stringify(washerLD);
+    if (scriptTag) {
+      scriptTag.textContent = jsonLdString;
+      console.log(scriptTag)
+    }
+  };
+
+  React.useEffect(() => {
+    updateJsonLdScript();
+  }, []);
+
   return <div class="page-container">
+      <script type="application/ld+json" id="json-ld-script"> 
+      {JSON.stringify(washerLD)}
+      </script>
   <div class="appliance-container" >
   <div class="photos-container">
     <img loading="lazy" src={washer1} alt="Dishwasher in the kitchen"/>

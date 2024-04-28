@@ -1,4 +1,6 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
+import { cooktopLD } from '../JSON-LD';
 import cooktop1 from '../../Images/appliances/thor-cooktop.webp'
 import cooktop2 from '../../Images/appliances/whirlpool-cooktop.webp'
 import Charges from '../../Sections/Charges';
@@ -6,8 +8,25 @@ import './Appliance.css'
 import ServiceArea from '../../Sections/ServiceArea';
 
 const CooktopRepair = () => {
-  
+  const updateJsonLdScript = () => {
+    const scriptTag = document.getElementById('json-ld-script');
+    const jsonLdString = JSON.stringify(cooktopLD);
+    if (scriptTag) {
+      scriptTag.textContent = jsonLdString;
+      console.log(scriptTag)
+    }
+  };
+
+  React.useEffect(() => {
+    updateJsonLdScript();
+  }, []);
+
   return <div class="page-container">
+    <Helmet>
+      <script type="application/ld+json" id="json-ld-script"> 
+      {JSON.stringify(cooktopLD)}
+      </script>
+    </Helmet>
   <div class="appliance-container" >
   <div class="photos-container">
     <img loading="lazy" src={cooktop1} alt="Gas cooktop"/>

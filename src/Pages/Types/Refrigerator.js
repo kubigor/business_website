@@ -1,4 +1,5 @@
 import React from 'react'
+import { refrigeratorLD } from '../JSON-LD';
 import fridge1 from '../../Images/appliances/whirlpool-refrigerator.webp'
 import fridge2 from '../../Images/appliances/sub-zero-refrigerator.webp'
 import Charges from '../../Sections/Charges';
@@ -6,8 +7,23 @@ import './Appliance.css'
 import ServiceArea from '../../Sections/ServiceArea';
 
 const RefrigeratorRepair = () => {
-  
+  const updateJsonLdScript = () => {
+    const scriptTag = document.getElementById('json-ld-script');
+    const jsonLdString = JSON.stringify(refrigeratorLD);
+    if (scriptTag) {
+      scriptTag.textContent = jsonLdString;
+      console.log(scriptTag)
+    }
+  };
+
+  React.useEffect(() => {
+    updateJsonLdScript();
+  }, []);
+
   return <div class="page-container">
+      <script type="application/ld+json" id="json-ld-script"> 
+      {JSON.stringify(refrigeratorLD)}
+      </script>
       <div class="appliance-container" >
       <div class="photos-container">
         <img loading="lazy" src={fridge1} alt="Free standing refrigerator in the kitchen"/>

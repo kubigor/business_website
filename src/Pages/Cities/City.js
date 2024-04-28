@@ -1,22 +1,43 @@
 import React from 'react'
+import { cityLD } from '../JSON-LD';
+import { useParams } from 'react-router';
 import NotFound from '../NotFound';
-import city_data from './CityData';
 import ServiceArea from '../../Sections/ServiceArea';
 import car from "../../Images/Appliance-repair-work-van-cropped.webp"
 import car2 from "../../Images/Appliance-repair-work-van-cropped-2.webp"
+
+import city_data from './CityData';
 import './City.css'
-import { useParams } from 'react-router';
 
 
 const CityPage = () => {
+
+  const updateJsonLdScript = () => {
+    const scriptTag = document.getElementById('json-ld-script');
+    const jsonLdString = JSON.stringify(cityLD);
+    if (scriptTag) {
+      scriptTag.textContent = jsonLdString;
+    }
+  };
+
+  React.useEffect(() => {
+    updateJsonLdScript();
+  }, []);
+
   let { cityName } = useParams();
-  console.log(city_data[cityName]);
-  if (city_data[cityName] === undefined) {
+  if (cityName === undefined) {
+    cityName = "bellevue"
+  }
+  else if (city_data[cityName] === undefined) {
     return <NotFound />
   }
   const name = city_data[cityName]['name'];
   const name_upper = name.toUpperCase();
+
   return <div class="city-page-container">
+      <script type="application/ld+json" id="json-ld-script"> 
+      {JSON.stringify(cityLD)}
+      </script>
     <div class="city-photo-container">
       <img loading="lazy" class="city-photo" src={city_data[cityName].photo} alt="City skyline"/>
       <div className="overlay"><h1 class="city-header">APPLIANCE REPAIR IN {name_upper}</h1></div>

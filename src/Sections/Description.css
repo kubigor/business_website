@@ -29,6 +29,10 @@
     #desc-container {
         width: 100%;
         align-self: normal;
+        flex-direction: column;
+        row-gap: 1rem;
+        width: 100%;
+        margin: 0;
     }
 
     #desc-header {
@@ -36,6 +40,11 @@
     }
 
     #desc-text {
-        margin-left: 5%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    #desc-photo {
+        width: 100%;
     }
 }

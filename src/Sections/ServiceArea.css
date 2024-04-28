@@ -61,9 +61,23 @@
 
 
 @media only Screen and (max-width: 48em){
+    .cities-image {
+        margin-bottom: -5rem;
+        background-position-x: 40%;
+    }
 
     .cities-box {
-        width: 90vw;
-        padding: 2rem 1rem;
+        width: 100vw;
+        padding: 3rem 0rem;
     }
+
+    .cities-table {
+        flex-direction: column;
+    }
+    
+    .cities-column {
+        align-items: center;
+        color: aqua;
+    }
+    
 }

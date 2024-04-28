@@ -1,4 +1,5 @@
 import React from 'react'
+import { dryerLD } from '../JSON-LD';
 import dryer1 from '../../Images/appliances/lg-dryer.webp'
 import dryer2 from '../../Images/appliances/whirlpool-dryer.webp'
 import Charges from '../../Sections/Charges';
@@ -7,8 +8,23 @@ import ServiceArea from '../../Sections/ServiceArea';
 import './Appliance.css'
 
 const DryerRepair = () => {
-  
+  const updateJsonLdScript = () => {
+    const scriptTag = document.getElementById('json-ld-script');
+    const jsonLdString = JSON.stringify(dryerLD);
+    if (scriptTag) {
+      scriptTag.textContent = jsonLdString;
+      console.log(scriptTag)
+    }
+  };
+
+  React.useEffect(() => {
+    updateJsonLdScript();
+  }, []);
+
   return <div class="page-container">
+      <script type="application/ld+json" id="json-ld-script"> 
+      {JSON.stringify(dryerLD)}
+      </script>
   <div class="appliance-container" >
   <div class="photos-container">
     <img loading="lazy" src={dryer1} alt="Dryer stacked in the laundry room"/>

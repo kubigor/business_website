@@ -52,5 +52,7 @@
 }
 
 @media only Screen and (max-width: 48em){
-
+  #image-not-found {
+    width: 100%;
+  }
 }

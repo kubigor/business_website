@@ -54,6 +54,7 @@ function App() {
         <Route path="/high-ends" element={<HighEnds />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
         <Route path="/service-area/:cityName" element={<City />} />
+        <Route path="/service-area" element={<City />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

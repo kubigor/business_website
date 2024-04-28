@@ -1,4 +1,5 @@
 import React from 'react'
+import { dishwasherLD } from '../JSON-LD';
 import dishwasher1 from '../../Images/appliances/thor-dishwasher.webp'
 import dishwasher2 from '../../Images/appliances/bosch-dishwasher.webp'
 import Charges from '../../Sections/Charges';
@@ -6,8 +7,23 @@ import './Appliance.css'
 import ServiceArea from '../../Sections/ServiceArea';
 
 const DishwasherRepair = () => {
+  const updateJsonLdScript = () => {
+    const scriptTag = document.getElementById('json-ld-script');
+    const jsonLdString = JSON.stringify(dishwasherLD);
+    if (scriptTag) {
+      scriptTag.textContent = jsonLdString;
+      console.log(scriptTag)
+    }
+  };
+
+  React.useEffect(() => {
+    updateJsonLdScript();
+  }, []);
 
   return <div class="page-container">
+      <script type="application/ld+json" id="json-ld-script"> 
+      {JSON.stringify(dishwasherLD)}
+      </script>
     <div class="appliance-container" >
     <div class="photos-container">
       <img loading="lazy" src={dishwasher1} alt="Dishwasher in the kitchen"/>
