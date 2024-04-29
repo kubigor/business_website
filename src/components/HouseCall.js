@@ -25,7 +25,7 @@ const HousecallProButton = () => {
       data-orgname="Major-Appliance-Repair"
       className="hcp-button"
       onClick={openModal}
-      class="btn-bright"
+      className="btn-bright"
       style={{backgroundColor: "var(--light-blue)"}}
     >
       Book online

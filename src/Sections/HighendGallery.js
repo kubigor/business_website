@@ -82,10 +82,10 @@ const HighendGallery = () => {
           <p id="first-section-text">Expert Repairs for Your Premium Home Equipment</p>
           <div id="types-container">
             <div id="types">
-              <span class="image-btn" id="btn1"><div class="image-btn-shade">Sub Zero </div></span>
-              <span class="image-btn" id="btn2"><div class="image-btn-shade">Monogram</div></span>
-              <span class="image-btn" id="btn3"><div class="image-btn-shade">Liebherr</div></span>
-              <span class="image-btn" id="btn4" ><div class="image-btn-shade">Viking</div></span>
+              <span className="image-btn" id="btn1"><div className="image-btn-shade">Sub Zero </div></span>
+              <span className="image-btn" id="btn2"><div className="image-btn-shade">Monogram</div></span>
+              <span className="image-btn" id="btn3"><div className="image-btn-shade">Liebherr</div></span>
+              <span className="image-btn" id="btn4" ><div className="image-btn-shade">Viking</div></span>
             </div>
           </div>
         </div>

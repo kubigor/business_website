@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet';
 import { cooktopLD } from '../JSON-LD';
 import cooktop1 from '../../Images/appliances/thor-cooktop.webp'
 import cooktop2 from '../../Images/appliances/whirlpool-cooktop.webp'
@@ -21,24 +20,19 @@ const CooktopRepair = () => {
     updateJsonLdScript();
   }, []);
 
-  return <div class="page-container">
-    <Helmet>
-      <script type="application/ld+json" id="json-ld-script"> 
-      {JSON.stringify(cooktopLD)}
-      </script>
-    </Helmet>
-  <div class="appliance-container" >
-  <div class="photos-container">
+  return <div className="page-container">
+  <div className="appliance-container" >
+  <div className="photos-container">
     <img loading="lazy" src={cooktop1} alt="Gas cooktop"/>
     <img loading="lazy" src={cooktop2} alt="Electrcic cooktop with ceramic glass"/>
   </div>
-  <div class="text-container">
+  <div className="text-container">
     <h1>Cooktop repair</h1>
     <p>
     The average lifespan of cooktops varies by type: electric cooktops typically last 13 to 15 years, gas cooktops about 15 years. Lifespan can be extended with regular maintenance and depends on factors like usage frequency, installation quality, and build quality.    </p>
     <p>
     At Major Appliance Repair, we're not just fixing appliances; we're restoring an essential part of your daily kitchen experience. Trust us to bring your cooktop back to its best with professionalism and care. Call Major Appliance Repair for the cooktop repair.    </p>
-    <div class="repairs">
+    <div className="repairs">
       <h2>We will help you with:</h2>
       <p>Burner Repair or Replacement</p>
       <p>Ignition Problems</p>
@@ -52,9 +46,9 @@ const CooktopRepair = () => {
       <p>And anything else!</p>
     </div>
   </div>
-  <div class="advice-container">
+  <div className="advice-container">
     <h2>What you can do before calling for service</h2>
-    <div class="advices">
+    <div className="advices">
       <p>Check Power Supply</p>
       <p>Inspect Heating Elements</p>
       <p>Burner Inspection</p>
@@ -67,7 +61,7 @@ const CooktopRepair = () => {
       <p></p>
     </div>
   </div>
-  <div class="photos-container-mobile">
+  <div className="photos-container-mobile">
     <img loading="lazy" src={cooktop1} alt="Gas cooktop"/>
     <img loading="lazy" src={cooktop2} alt="Electrcic cooktop with ceramic glass"/>
   </div>

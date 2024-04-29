@@ -7,8 +7,8 @@ const AboutSection = () => {
         <h1 id="about-title">About us</h1>
         <p id="about-text">We are a local, Bellevue-based company providing repair services in the Greater Seattle Area for a wide range of appliance brands and types. Our technicians, each with 5-10 years of experience, are certified by major American appliance brands. Also, we are a licensed, bonded, and insured. All services are performed on-site using exclusively original parts. Our contractor license number is <a id="license-number" target="_blank" href="https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604560224&LIC=MAJORAR785C2&SAW=">MAJORAR785C2</a>. Below, you will find a list of our services along with other relevant details. Please feel free to give us a call with any questions, particularly if the service you require is not listed. We are always happy to assist you!</p>
         <div id="lists">
-            <ul class="about-list">
-                <li class="list-header">Brands</li>
+            <ul className="about-list">
+                <li className="list-header">Brands</li>
                 <li>Whirlpool repair</li>
                 <li>Samsung repair</li>
                 <li>LG repair</li>
@@ -31,8 +31,8 @@ const AboutSection = () => {
                 <li>Sub Zero repair</li>
                 <li>And other!</li>
             </ul>
-            <ul class="about-list">
-                <li class="list-header">Services</li>
+            <ul className="about-list">
+                <li className="list-header">Services</li>
                 <li>Refrigerator repair</li>
                 <li>Freezer repair</li>
                 <li>Washer repair</li>

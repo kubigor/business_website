@@ -20,16 +20,16 @@ const DishwasherRepair = () => {
     updateJsonLdScript();
   }, []);
 
-  return <div class="page-container">
+  return <div className="page-container">
       <script type="application/ld+json" id="json-ld-script"> 
       {JSON.stringify(dishwasherLD)}
       </script>
-    <div class="appliance-container" >
-    <div class="photos-container">
+    <div className="appliance-container" >
+    <div className="photos-container">
       <img loading="lazy" src={dishwasher1} alt="Dishwasher in the kitchen"/>
       <img loading="lazy" src={dishwasher2} alt="Dishwasher range in the kitchen"/>
     </div>
-    <div class="text-container">
+    <div className="text-container">
       <h1>Dishwasher repair</h1>
       <p>
       The average lifespan of a dishwasher is typically around 9 to 12 years, depending on the brand, model, and how well it is maintained. Regular cleaning and maintenance, such as cleaning filters and ensuring proper loading, can help extend its life. Factors such as the frequency of use, the hardness of water, and the quality of detergent used can also impact the longevity of a dishwasher. High-end models might last longer due to better build quality and features that reduce wear and tear.
@@ -37,7 +37,7 @@ const DishwasherRepair = () => {
       <p>
       At Major Appliance Repair, we're committed to restoring the convenience and efficiency your dishwasher provides. Let us take care of your appliance with our expertise and dedication. Call Major Appliance Repair for the dishwasher repair.
       </p>
-      <div class="repairs">
+      <div className="repairs">
         <h2>We will help you with:</h2>
         <p>Pump and Motor Repairs</p>
         <p>Water Inlet Valve Replacement</p>
@@ -52,9 +52,9 @@ const DishwasherRepair = () => {
         <p>And anything else!</p>
       </div>
     </div>
-    <div class="advice-container">
+    <div className="advice-container">
       <h2>What you can do before calling for service</h2>
-      <div class="advices">
+      <div className="advices">
         <p>Check Power Supply</p>
         <p>Inspect the Control Panel</p>
         <p>Inspect Door Latch</p>
@@ -67,7 +67,7 @@ const DishwasherRepair = () => {
         <p></p>
       </div>
     </div>
-    <div class="photos-container-mobile">
+    <div className="photos-container-mobile">
       <img loading="lazy" src={dishwasher1} alt="Dishwasher in the kitchen"/>
       <img loading="lazy" src={dishwasher2} alt="Dishwasher range in the kitchen"/>
     </div>

@@ -96,26 +96,26 @@ const Gallery = () => {
   return <div id="gallery" >
     <div id="gallery-container">
       <h1 id="gallery-title">Our services</h1>
-      <div class="gallery-row">
-        <span class="filter" value="0"><img loading="lazy" class="gallery-image" src={fridge} alt="Refrigerator LG"/><p class="card-text" >Fridge repair</p></span>
-        <span class="filter" value="1"><img loading="lazy" class="gallery-image" src={washer} alt="Washing Machine Bosch"/><p class="card-text">Washer repair</p></span>
-        <span class="filter" value="2"><img loading="lazy" class="gallery-image" src={dryer} alt="Set of washer and dryer Samsung"/><p class="card-text">Dryer repair</p></span>
+      <div className="gallery-row">
+        <span className="filter" value="0"><img loading="lazy" className="gallery-image" src={fridge} alt="Refrigerator LG"/><p className="card-text" >Fridge repair</p></span>
+        <span className="filter" value="1"><img loading="lazy" className="gallery-image" src={washer} alt="Washing Machine Bosch"/><p className="card-text">Washer repair</p></span>
+        <span className="filter" value="2"><img loading="lazy" className="gallery-image" src={dryer} alt="Set of washer and dryer Samsung"/><p className="card-text">Dryer repair</p></span>
       </div>
-      <div class="gallery-row">
-        <span class="filter" value="3"><img loading="lazy" class="gallery-image" src={range} alt="Range Bertazzoni"/><p class="card-text">Range repair</p></span>
-        <span class="filter" value="4"><img loading="lazy" class="gallery-image" src={cooktop} alt="Gas cooktop Signature"/><p class="card-text">Cooktop repair</p></span>
-        <span class="filter" value="5"><img loading="lazy" class="gallery-image" src={oven} alt="Built-in double oven Bosch"/><p class="card-text">Built-in oven repair</p></span>
+      <div className="gallery-row">
+        <span className="filter" value="3"><img loading="lazy" className="gallery-image" src={range} alt="Range Bertazzoni"/><p className="card-text">Range repair</p></span>
+        <span className="filter" value="4"><img loading="lazy" className="gallery-image" src={cooktop} alt="Gas cooktop Signature"/><p className="card-text">Cooktop repair</p></span>
+        <span className="filter" value="5"><img loading="lazy" className="gallery-image" src={oven} alt="Built-in double oven Bosch"/><p className="card-text">Built-in oven repair</p></span>
       </div>
-      <div class="gallery-row">
-        <span class="filter" value="6"><img loading="lazy" class="gallery-image" src={dishwasher} alt="Dishwasher Bosch"/><p class="card-text">Dishwasher repair</p></span>
-        <span class="filter" value="7"><img loading="lazy" class="gallery-image" src={center} alt="Laundry center GE"/><p class="card-text">Laundry center repair</p></span>
-        <span class="filter" value="8" onLoad={runGallery}><img loading="lazy" class="gallery-image" src={disposal} alt="Garbage disposal under the sink"/><p class="card-text">Garbage disposal replacement</p></span>
+      <div className="gallery-row">
+        <span className="filter" value="6"><img loading="lazy" className="gallery-image" src={dishwasher} alt="Dishwasher Bosch"/><p className="card-text">Dishwasher repair</p></span>
+        <span className="filter" value="7"><img loading="lazy" className="gallery-image" src={center} alt="Laundry center GE"/><p className="card-text">Laundry center repair</p></span>
+        <span className="filter" value="8" onLoad={runGallery}><img loading="lazy" className="gallery-image" src={disposal} alt="Garbage disposal under the sink"/><p className="card-text">Garbage disposal replacement</p></span>
       </div>
     </div>
     <div id="gallery-description" >
       <div id="image-section">
-        <img loading="lazy" class="description-image" id="image-one" alt="Appliance issue number one"/>
-        <img loading="lazy" class="description-image" id="image-two" alt="Appliance issue number two"/>
+        <img loading="lazy" className="description-image" id="image-one" alt="Appliance issue number one"/>
+        <img loading="lazy" className="description-image" id="image-two" alt="Appliance issue number two"/>
       </div>
       <div id="description-text-field">
         <h3 id="description-header">Type Placeholder</h3>

@@ -3,11 +3,11 @@ import React from "react";
 import "./ServiceArea.css"
 
 const ServiceArea = () => {
-  return <div class="cities-image">
-    <div class="cities-box">
-      <h2 class="city-table-header">We serve Bellevue and nearby cities</h2>
-      <div class="cities-table">
-        <div class="cities-column">
+  return <div className="cities-image">
+    <div className="cities-box">
+      <h2 className="city-table-header">We serve Bellevue and nearby cities</h2>
+      <div className="cities-table">
+        <div className="cities-column">
             <a href="https://majorappliancerepair.info/service-area/seattle">Seattle</a>
             <a href="https://majorappliancerepair.info/service-area/mercer_island">Mercer Island</a>
             <a href="https://majorappliancerepair.info/service-area/shoreline">Shoreline</a>
@@ -16,7 +16,7 @@ const ServiceArea = () => {
             <a href="https://majorappliancerepair.info/service-area/mountlake_terrace">Mountlake Terrace</a>
             <a href="https://majorappliancerepair.info/service-area/maltby">Maltby</a>
         </div>
-        <div class="cities-column">
+        <div className="cities-column">
             <a href="https://majorappliancerepair.info/service-area/redmond">Redmond</a>
             <a href="https://majorappliancerepair.info/service-area/kirkland">Kirkland</a>
             <a href="https://majorappliancerepair.info/service-area/woodinville">Woodinville</a>
@@ -25,7 +25,7 @@ const ServiceArea = () => {
             <a href="https://majorappliancerepair.info/service-area/renton">Renton</a>
             <a href="https://majorappliancerepair.info/service-area/newcastle">Newcastle</a>
         </div>
-        <div class="cities-column">
+        <div className="cities-column">
             <a href="https://majorappliancerepair.info/service-area/everett">Everett</a>
             <a href="https://majorappliancerepair.info/service-area/bothell">Bothell</a>
             <a href="https://majorappliancerepair.info/service-area/mukilteo">Mukilteo</a>

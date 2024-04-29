@@ -34,15 +34,15 @@ const CityPage = () => {
   const name = city_data[cityName]['name'];
   const name_upper = name.toUpperCase();
 
-  return <div class="city-page-container">
+  return <div className="city-page-container">
       <script type="application/ld+json" id="json-ld-script"> 
       {JSON.stringify(cityLD)}
       </script>
-    <div class="city-photo-container">
-      <img loading="lazy" class="city-photo" src={city_data[cityName].photo} alt="City skyline"/>
-      <div className="overlay"><h1 class="city-header">APPLIANCE REPAIR IN {name_upper}</h1></div>
+    <div className="city-photo-container">
+      <img loading="lazy" className="city-photo" src={city_data[cityName].photo} alt="City skyline"/>
+      <div className="overlay"><h1 className="city-header">APPLIANCE REPAIR IN {name_upper}</h1></div>
     </div>
-    <div class="city-text">
+    <div className="city-text">
       <h2>Trusted Appliance Repair for Your Home in {name}</h2>
       <p>Choose Major Appliance Repair for your appliance repair in {name}. Contact us to discuss refrigerator repair, oven repair, dishwasher , washer repair, dryer repair, and more. Whatever issues you’re having with your appliance, we’re confident that our technicians have the knowledge, skill, and training to get it working like new again. Schedule your appliance repair visit today!
       </p>
@@ -51,7 +51,7 @@ const CityPage = () => {
       <p>Washer and Dryer Repair: Don't let laundry pile up due to a faulty washer or dryer. Our technicians can diagnose and repair issues such as drum problems, faulty motors, and electrical issues efficiently.</p>
       <p>Oven and Stove Repair: Get back to cooking your favorite meals without hassle. We specialize in repairing ovens and stoves, addressing issues like temperature inconsistencies, faulty igniters, and broken heating elements.</p>
       <p>Dishwasher Repair: Say goodbye to hand-washing dishes. Our dishwasher repair services cover common problems like draining issues, leaks, and malfunctioning controls.</p>
-      <div class="van-photos">
+      <div className="van-photos">
         <img loading="lazy" src={car} alt="Appliance repair work van"></img>
         <img loading="lazy" src={car2} alt="Appliance repair work van"></img>
       </div>

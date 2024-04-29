@@ -21,23 +21,23 @@ const DryerRepair = () => {
     updateJsonLdScript();
   }, []);
 
-  return <div class="page-container">
+  return <div className="page-container">
       <script type="application/ld+json" id="json-ld-script"> 
       {JSON.stringify(dryerLD)}
       </script>
-  <div class="appliance-container" >
-  <div class="photos-container">
+  <div className="appliance-container" >
+  <div className="photos-container">
     <img loading="lazy" src={dryer1} alt="Dryer stacked in the laundry room"/>
     <img loading="lazy" src={dryer2} alt="Two dryers in the laundry room"/>
   </div>
-  <div class="text-container">
+  <div className="text-container">
     <h1>Dryer repair</h1>
     <p>
     The average lifespan of a clothes dryer is typically about 10 to 13 years. This duration can vary based on factors like the brand, model, usage habits, and maintenance. Regular cleaning of the lint filter and venting system, as well as prompt repairs of any issues, can help extend a dryer's life. Overloading and frequent use can contribute to a shorter lifespan. Generally, gas dryers may have a slightly longer lifespan compared to electric ones due to their different heating mechanisms.    </p>
     <p>
     At Major Appliance Repair, we do more than just fix appliances; we ensure your daily laundry routine is seamless and efficient. Entrust us with your dryer, and experience the Premier difference in quality and care. Call Major Appliance Repair for the dryer repair.
     </p>
-    <div class="repairs">
+    <div className="repairs">
       <h2>We will help you with:</h2>
       <p>Heating Element Repair or Replacement</p>
       <p>Gas Burner Repair and Ignition System Service</p>
@@ -52,9 +52,9 @@ const DryerRepair = () => {
       <p>And anything else!</p>
     </div>
   </div>
-  <div class="advice-container">
+  <div className="advice-container">
     <h2>What you can do before calling for service</h2>
-    <div class="advices">
+    <div className="advices">
       <p>Check Power Supply</p>
       <p>Inspect the Door Switch</p>
       <p>Examine the Start Switch</p>
@@ -67,7 +67,7 @@ const DryerRepair = () => {
       <p></p>
     </div>
   </div>
-  <div class="photos-container-mobile">
+  <div className="photos-container-mobile">
     <img loading="lazy" src={dryer1} alt="Dryer stacked in the laundry room"/>
     <img loading="lazy" src={dryer2} alt="Two dryers in the laundry room"/>
   </div>
