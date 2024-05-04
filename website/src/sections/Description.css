@@ -1,0 +1,50 @@
+#desc-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    column-gap: 3rem;
+    width: 70%;
+    margin: 3rem;
+}
+
+#desc-photo {
+    width: 50%;
+    height: 60%;
+}
+
+#desc-header {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#desc-text {
+    text-indent: 2rem;
+    font-size: 1.3rem;
+
+}
+
+@media only Screen and (max-width: 48em){
+    #desc-container {
+        width: 100%;
+        align-self: normal;
+        flex-direction: column;
+        row-gap: 1rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    #desc-header {
+        font-size: 2rem;
+    }
+
+    #desc-text {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    #desc-photo {
+        width: 100%;
+    }
+}

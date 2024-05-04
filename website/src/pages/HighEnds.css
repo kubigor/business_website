@@ -1,0 +1,19 @@
+#highend-container {
+    /* position: relative; */
+    z-index: 0;
+}   
+
+#first-section {
+    position: relative;
+    background-color: black;
+}
+
+#second-section {
+    position: relative;
+    background-color: black;
+    bottom: 5rem;    
+}
+
+@media only Screen and (max-width: 48em){
+    
+}

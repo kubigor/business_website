@@ -1,0 +1,44 @@
+#fee-cloud {
+  position: absolute;
+}
+
+#charges-container {
+  display:flex;
+  justify-content: center;
+  margin: 3rem;
+  column-gap: 3rem;
+}
+
+.charges-unit {
+  display:flex;
+  background-color: white;
+  border: 3px solid navy;
+  border-radius: 15px;
+  padding: 4vh;
+  flex-direction: column;
+  width: 35%;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 12px rgb(110, 110, 110);
+
+}
+
+.charges-unit h2{
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3vh;
+}
+
+@media only Screen and (max-width: 48em){
+  #charges-container {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+
+  .charges-unit {
+    width: 100%;
+  }
+
+  #fee-cloud {
+    transform: scale(0.85);
+  }
+}

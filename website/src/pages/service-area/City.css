@@ -1,0 +1,121 @@
+
+.city-page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.city-photo-container {
+  position: relative;
+  overflow: hidden;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin-top: 3vh;
+}
+
+.city-photo {
+  position: absolute;
+  display: block;
+  width: 90%; 
+}
+
+.overlay {
+  content: "";
+  text-align: center;
+  padding-top: 15vh;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  color: var(--deep-blue);
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 37%, rgb(255, 255, 255, 0.8) 37%, rgba(255, 255, 255, 0.8) 57%, rgba(255, 255, 255, 0.1) 57%);
+}
+
+.city-header {
+  font-size: 5vh;
+  font-weight: 700;
+}
+
+.city-text {
+  align-self: center;
+  width: 50%;
+  font-size: 1.3rem;
+  text-indent: 2rem;
+}
+
+.city-text p {
+  margin-bottom: 1rem;
+}
+
+.city-text h2 {
+  margin-top: 3rem;
+}
+
+.van-photos {
+  display: flex;
+  column-gap: 5%;
+}
+
+.van-photos img{
+  width: 45%;
+  border-radius: 1rem;
+}
+
+@media only Screen and (max-width: 48em) {
+  .city-page-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .city-photo-container {
+    margin-top: 0vh;
+    width: 100%;
+    height: 30vh;
+  }
+
+  .city-photo {
+    position: absolute;
+    top: 2rem;
+    width: 100%; 
+  }
+
+  .city-header {
+    position: absolute;
+    text-align: center;
+    top: 2rem;
+    font-size: 3vh;
+    padding: 0 2rem 0 2rem;
+    width: 100%;
+  }
+
+  .overlay {
+    top: 2rem;
+    width: 100%;
+    height: 50%;
+    padding-top: 0vh;
+    color: var(--deep-blue);
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 10%, rgb(255, 255, 255, 0.8) 10%, rgba(255, 255, 255, 0.8) 90%, rgba(255, 255, 255, 0.1) 90%);
+  }
+
+  .city-text {
+    align-self: center;
+    width: 80%;
+    font-size: 1.3rem;
+  }
+
+  .city-text h2 {
+    margin-top: 2rem;
+    text-indent: 0;
+  }
+  
+  .van-photos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  
+  .van-photos img{
+    width: 100%;
+    border-radius: 1rem;
+  }
+}

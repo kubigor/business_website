@@ -1,0 +1,78 @@
+#cloud-container {
+  position: absolute;
+  top: -8rem;
+  left: -2rem;
+  transform: rotate(-30deg);
+  color:white;
+  user-select: none;
+}
+
+#price {
+  position: absolute;
+  font-size: 5vh;
+  top: 2vh;
+  right: 3vh;
+  text-shadow: -1px -1px black, 1px 1px black, -1px 1px black, 1px -1px black;
+}
+
+#service-fee {
+  position: absolute;
+  font-size: 2.3vh;
+  top: 8vh;
+  left: 1vh;
+  width: 100%;
+  text-shadow: -1px -1px black, 1px 1px black, -1px 1px black, 1px -1px black;
+}
+
+#cloud-outer {
+position: absolute;
+background: rgb(110, 0, 0);
+width: 15vh;
+height: 15vh;
+position: relative;
+text-align: center;
+}
+#cloud-outer:before,
+#cloud-outer:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15vh;
+  width: 15vh;
+  background: rgb(110, 0, 0);
+}
+#cloud-outer:before {
+  transform: rotate(30deg);
+}
+#cloud-outer:after {
+  transform: rotate(60deg);
+}
+
+#cloud-inner {
+  position: absolute;
+  background: var(--orange);
+  bottom: 14vh;
+  left: 1vh;
+
+  width: 13vh;
+  height: 13vh;
+  position: relative;
+  text-align: center;
+}
+#cloud-inner:before,
+#cloud-inner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 13vh;
+  width: 13vh;
+  background: var(--orange);
+}
+#cloud-inner:before {
+  transform: rotate(30deg);
+}
+#cloud-inner:after {
+  transform: rotate(60deg);
+}
