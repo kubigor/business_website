@@ -4,22 +4,33 @@ import city_data from './CityData';
 import ServiceArea from '../../Sections/ServiceArea';
 import car from "../../Images/Appliance-repair-work-van-cropped.webp"
 import car2 from "../../Images/Appliance-repair-work-van-cropped-2.webp"
-import './City.css'
+import { Helmet } from 'react-helmet';
 import { useParams } from 'react-router';
+import { cityLD } from '../JSON-LD';
+import './City.css'
 
 
 const CityPage = () => {
+
   let { cityName } = useParams();
-  console.log(city_data[cityName]);
   if (city_data[cityName] === undefined) {
     return <NotFound />
   }
   const name = city_data[cityName]['name'];
   const name_upper = name.toUpperCase();
   return <div className="city-page-container">
+      <Helmet>
+        <script type="application/ld+json">{`${cityLD}`}</script>
+        <title>Appliance Repair in {name} </title>
+        <meta name="description" content={`Professional appliance repair services in ${name} for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more.`} />
+        <link rel="canonical" href={`https://majorappliancerepair.info/service-area/${cityName}`}></link>
+        <link rel="preload" href={`/places/${cityName}.webp`} as="image" />
+        <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped.04108009164f017a114b.webp" as="image" />
+        <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped-2.1776c80c3568a2b719c1.webp" as="image" />
+      </Helmet>
     <div className="city-photo-container">
       <img loading="lazy" className="city-photo" src={city_data[cityName].photo} alt="City skyline"/>
-      <div classNameName="overlay"><h1 className="city-header">APPLIANCE REPAIR IN {name_upper}</h1></div>
+      <div className="overlay"><h1 className="city-header">APPLIANCE REPAIR IN {name_upper}</h1></div>
     </div>
     <div className="city-text">
       <h2>Trusted Appliance Repair for Your Home in {name}</h2>

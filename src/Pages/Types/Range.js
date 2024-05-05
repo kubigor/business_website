@@ -2,12 +2,22 @@ import React from 'react'
 import range1 from '../../Images/appliances/thor-range.webp'
 import range2 from '../../Images/appliances/bosch-range.webp'
 import Charges from '../../Sections/Charges';
-import './Appliance.css'
 import ServiceArea from '../../Sections/ServiceArea';
+import { Helmet } from 'react-helmet';
+import { rangeLD } from '../JSON-LD';
+import './Appliance.css'
 
 const RangeRepair = () => {
   
   return <div className="page-container">
+    <Helmet>
+        <script type="application/ld+json">{`${rangeLD}`}</script>
+        <title>Range Repair and Oven Repair</title>
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <link rel="canonical" href="https://majorappliancerepair.info/services/range/"></link>
+        <link rel="preload" href={range1} as="image" />
+        <link rel="preload" href={range2} as="image" />    
+    </Helmet>
   <div className="appliance-container" >
   <div className="photos-container">
     <img loading="lazy" src={range1} alt="Free standing range in the kitchen"/>

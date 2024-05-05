@@ -23,9 +23,8 @@ const HousecallProButton = () => {
     <button
       data-token="ef8a37880ad64305aaaee491dd1fc976"
       data-orgname="Major-Appliance-Repair"
-      classNameName="hcp-button"
-      onClick={openModal}
       className="btn-bright"
+      onClick={openModal}
       style={{backgroundColor: "var(--light-blue)"}}
     >
       Book online

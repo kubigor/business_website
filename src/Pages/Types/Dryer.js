@@ -3,12 +3,22 @@ import dryer1 from '../../Images/appliances/lg-dryer.webp'
 import dryer2 from '../../Images/appliances/whirlpool-dryer.webp'
 import Charges from '../../Sections/Charges';
 import ServiceArea from '../../Sections/ServiceArea';
+import { Helmet } from 'react-helmet';
+import { dryerLD } from '../JSON-LD';
 
 import './Appliance.css'
 
 const DryerRepair = () => {
   
   return <div className="page-container">
+    <Helmet>
+        <script type="application/ld+json">{`${dryerLD}`}</script>
+        <title>Dryer Repair</title>
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <link rel="canonical" href="https://majorappliancerepair.info/services/dryer/"></link>
+        <link rel="preload" href={dryer1} as="image" />
+        <link rel="preload" href={dryer2} as="image" />
+    </Helmet>
   <div className="appliance-container" >
   <div className="photos-container">
     <img loading="lazy" src={dryer1} alt="Dryer stacked in the laundry room"/>

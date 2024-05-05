@@ -9,6 +9,7 @@ import disposal from "../Images/appliances/garbage-disposal.webp"
 import center from "../Images/appliances/laundry-center.webp"
 import dishwasher from "../Images/appliances/bosch-dishwasher.webp"
 import {headerOptions, imageOptions, linkOptions, textOptions} from "./GalleryData"
+import { Helmet } from "react-helmet"
 
 
 
@@ -48,7 +49,7 @@ const Gallery = () => {
         }
       });
 
-      const images = document.getElementsByclassNameName("gallery-image");
+      const images = document.getElementsByClassName("gallery-image");
       for (let image of images) {
         image.addEventListener("mouseover", (e) => {
           for (let image of images) {
@@ -94,22 +95,33 @@ const Gallery = () => {
     };
     
   return <div id="gallery" >
+    <Helmet>
+    <link rel="preload" href={fridge} as="image" />
+    <link rel="preload" href={washer} as="image" />
+    <link rel="preload" href={dryer} as="image" />
+    <link rel="preload" href={range} as="image" />
+    <link rel="preload" href={cooktop} as="image" />
+    <link rel="preload" href={oven} as="image" />
+    <link rel="preload" href={dishwasher} as="image" />
+    <link rel="preload" href={center} as="image" />
+    <link rel="preload" href={disposal} as="image" />
+    </Helmet>
     <div id="gallery-container">
       <h1 id="gallery-title">Our services</h1>
       <div className="gallery-row">
-        <span className="filter" value="0"><img loading="lazy" className="gallery-image" src={fridge} alt="Refrigerator LG"/><p className="card-text" >Fridge repair</p></span>
-        <span className="filter" value="1"><img loading="lazy" className="gallery-image" src={washer} alt="Washing Machine Bosch"/><p className="card-text">Washer repair</p></span>
-        <span className="filter" value="2"><img loading="lazy" className="gallery-image" src={dryer} alt="Set of washer and dryer Samsung"/><p className="card-text">Dryer repair</p></span>
+        <span className="filter" value="0"><img  className="gallery-image" src={fridge} alt="Refrigerator LG"/><p className="card-text" >Fridge repair</p></span>
+        <span className="filter" value="1"><img  className="gallery-image" src={washer} alt="Washing Machine Bosch"/><p className="card-text">Washer repair</p></span>
+        <span className="filter" value="2"><img  className="gallery-image" src={dryer} alt="Set of washer and dryer Samsung"/><p className="card-text">Dryer repair</p></span>
       </div>
       <div className="gallery-row">
-        <span className="filter" value="3"><img loading="lazy" className="gallery-image" src={range} alt="Range Bertazzoni"/><p className="card-text">Range repair</p></span>
-        <span className="filter" value="4"><img loading="lazy" className="gallery-image" src={cooktop} alt="Gas cooktop Signature"/><p className="card-text">Cooktop repair</p></span>
-        <span className="filter" value="5"><img loading="lazy" className="gallery-image" src={oven} alt="Built-in double oven Bosch"/><p className="card-text">Built-in oven repair</p></span>
+        <span className="filter" value="3"><img className="gallery-image" src={range} alt="Range Bertazzoni"/><p className="card-text">Range repair</p></span>
+        <span className="filter" value="4"><img className="gallery-image" src={cooktop} alt="Gas cooktop Signature"/><p className="card-text">Cooktop repair</p></span>
+        <span className="filter" value="5"><img className="gallery-image" src={oven} alt="Built-in double oven Bosch"/><p className="card-text">Built-in oven repair</p></span>
       </div>
       <div className="gallery-row">
-        <span className="filter" value="6"><img loading="lazy" className="gallery-image" src={dishwasher} alt="Dishwasher Bosch"/><p className="card-text">Dishwasher repair</p></span>
-        <span className="filter" value="7"><img loading="lazy" className="gallery-image" src={center} alt="Laundry center GE"/><p className="card-text">Laundry center repair</p></span>
-        <span className="filter" value="8" onLoad={runGallery}><img loading="lazy" className="gallery-image" src={disposal} alt="Garbage disposal under the sink"/><p className="card-text">Garbage disposal replacement</p></span>
+        <span className="filter" value="6"><img className="gallery-image" src={dishwasher} alt="Dishwasher Bosch"/><p className="card-text">Dishwasher repair</p></span>
+        <span className="filter" value="7"><img className="gallery-image" src={center} alt="Laundry center GE"/><p className="card-text">Laundry center repair</p></span>
+        <span className="filter" value="8" onLoad={runGallery}><img className="gallery-image" src={disposal} alt="Garbage disposal under the sink"/><p className="card-text">Garbage disposal replacement</p></span>
       </div>
     </div>
     <div id="gallery-description" >

@@ -24,6 +24,7 @@ const Footer = () => {
   const numberLink = `tel:${phoneNumber}`
   const emailLink = `mailto:${email}`
   const addressLink = addressDirection
+  const currentYear = new Date().getFullYear();
 
   return <div id="footer">
     <div id="footer-first-section">
@@ -72,7 +73,7 @@ const Footer = () => {
       </div>
     </div>
     <div id="footer-bottom-line">
-      <p>© 2020-2024 All rights reserved</p>
+      <p>© 2020-{currentYear} All rights reserved</p>
     </div>
   </div>;
 };

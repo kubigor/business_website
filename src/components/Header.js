@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
   <div id="menu">
-    <Link to ="/" id="link-logo"><img loading="lazy" src={logo} alt="logo" className="logo-link" /></Link>
+    <Link to ="/" id="link-logo"><img loading="lazy" src={logo} alt="Company logo" className="logo-link" /></Link>
     <div id="menu-buttons">
       <Link to ="/">Home</Link>
       <Link to ="/about">About</Link>

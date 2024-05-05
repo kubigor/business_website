@@ -1,9 +1,13 @@
 // This is Contact component, it will contain contact form.
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./ServiceArea.css"
 
 const ServiceArea = () => {
   return <div className="cities-image">
+    <Helmet>
+      <link rel="preload" href="../Images/Appliance-repair-work-car.webp" as="image" />
+    </Helmet>
     <div className="cities-box">
       <h2 className="city-table-header">We serve Bellevue and nearby cities</h2>
       <div className="cities-table">

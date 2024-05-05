@@ -21,7 +21,7 @@
   padding: 0.4rem;
   object-fit: contain;
   cursor:pointer;
-  max-height: 10vh;
+  height: 10vh;
 }
 
 #menu-buttons {

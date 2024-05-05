@@ -2,12 +2,23 @@ import React from 'react'
 import cooktop1 from '../../Images/appliances/thor-cooktop.webp'
 import cooktop2 from '../../Images/appliances/whirlpool-cooktop.webp'
 import Charges from '../../Sections/Charges';
-import './Appliance.css'
 import ServiceArea from '../../Sections/ServiceArea';
+import { Helmet } from 'react-helmet';
+import { cooktopLD } from '../JSON-LD';
+import './Appliance.css'
 
 const CooktopRepair = () => {
   
+  
   return <div className="page-container">
+    <Helmet>
+        <script type="application/ld+json">{`${cooktopLD}`}</script>
+        <title>Cooktop Repair</title>
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <link rel="canonical" href="https://majorappliancerepair.info/services/cooktop/"></link>
+        <link rel="preload" href={cooktop1} as="image" />
+        <link rel="preload" href={cooktop2} as="image" />
+      </Helmet>
   <div className="appliance-container" >
   <div className="photos-container">
     <img loading="lazy" src={cooktop1} alt="Gas cooktop"/>

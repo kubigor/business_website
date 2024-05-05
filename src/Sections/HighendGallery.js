@@ -3,6 +3,7 @@ import subzero from "../Images/appliances/subzero-fridge.webp";
 import viking from "../Images/appliances/viking-fridge.webp";
 import monogram from "../Images/appliances/monogram-fridge.webp";
 import liebherr from "../Images/appliances/liebherr-fridge.webp";
+import { Helmet } from 'react-helmet';
 import './HighendGallery.css'
 
 const HighendGallery = () => {
@@ -79,6 +80,13 @@ const HighendGallery = () => {
   }, []);
 
   return <div id="highend-gallery-container">
+    <Helmet>
+      <link rel="preload" href="/static/media/sub-zero-kitchen.2a52ccf1b9afd08cc76f.webp" as="image" />
+      <link rel="preload" href="/static/media/sub-zero-refrigerator.de1603009b67f45f4933.webp" as="image" />
+      <link rel="preload" href="/static/media/viking-fridge.1633215e497bda78417b.webp" as="image" />
+      <link rel="preload" href="/static/media/monogram-fridge.c8151de5f61a8a9afc76.webp" as="image" />
+      <link rel="preload" href="/static/media/liebherr-fridge.16e810116a7446bcb3f6.webp" as="image" />
+    </Helmet>
       <div id="first-section-background">
           <div id="first-section-shade"/>
           <p id="first-section-text">Expert Repairs for Your Premium Home Equipment</p>
@@ -87,7 +95,7 @@ const HighendGallery = () => {
               <span className="image-btn" id="btn1"><div className="image-btn-shade">Sub Zero </div></span>
               <span className="image-btn" id="btn2"><div className="image-btn-shade">Monogram</div></span>
               <span className="image-btn" id="btn3"><div className="image-btn-shade">Liebherr</div></span>
-              <span className="image-btn" id="btn4" ><div className="image-btn-shade">Viking</div></span>
+              <span className="image-btn" id="btn4"><div className="image-btn-shade">Viking</div></span>
             </div>
           </div>
         </div>

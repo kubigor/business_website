@@ -22,7 +22,15 @@
 #desc-text {
     text-indent: 2rem;
     font-size: 1.3rem;
+}
 
+#desc-text a{
+    font-weight: bold;
+    color: black;
+}
+
+#desc-text a:hover{
+    color: rgb(17, 0, 255);
 }
 
 @media only Screen and (max-width: 48em){

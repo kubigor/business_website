@@ -1,7 +1,7 @@
 
 #back-image {
   display:flex;
-  background-image: url("../../public/bosch-kitchen-appliances.webp");
+  background-image: url("../Images/bosch-kitchen-appliances.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

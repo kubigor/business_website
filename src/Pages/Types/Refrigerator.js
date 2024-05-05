@@ -2,12 +2,22 @@ import React from 'react'
 import fridge1 from '../../Images/appliances/whirlpool-refrigerator.webp'
 import fridge2 from '../../Images/appliances/sub-zero-refrigerator.webp'
 import Charges from '../../Sections/Charges';
-import './Appliance.css'
 import ServiceArea from '../../Sections/ServiceArea';
+import { Helmet } from 'react-helmet';
+import { refrigeratorLD } from '../JSON-LD';
+import './Appliance.css'
 
 const RefrigeratorRepair = () => {
   
   return <div className="page-container">
+    <Helmet>
+        <script type="application/ld+json">{`${refrigeratorLD}`}</script>
+        <title>Refrigerator Repair</title>
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <link rel="canonical" href="https://majorappliancerepair.info/services/refrigerator/"></link>
+        <link rel="preload" href={fridge1} as="image" />
+        <link rel="preload" href={fridge2} as="image" />
+    </Helmet>
       <div className="appliance-container" >
       <div className="photos-container">
         <img loading="lazy" src={fridge1} alt="Free standing refrigerator in the kitchen"/>

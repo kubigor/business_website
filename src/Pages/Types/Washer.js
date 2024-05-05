@@ -2,12 +2,22 @@ import React from 'react'
 import washer1 from '../../Images/appliances/lg-laundry-center.webp'
 import washer2 from '../../Images/appliances/whirlpool-washer.webp'
 import Charges from '../../Sections/Charges';
-import './Appliance.css'
 import ServiceArea from '../../Sections/ServiceArea';
+import { Helmet } from 'react-helmet';
+import { washerLD } from '../JSON-LD';
+import './Appliance.css'
 
 const WasherRepair = () => {
-  
+
   return <div className="page-container">
+    <Helmet>
+        <script type="application/ld+json">{`${washerLD}`}</script>
+        <title>Washing Machine Repair</title>
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <link rel="canonical" href="https://majorappliancerepair.info/services/washer/"></link>
+        <link rel="preload" href={washer1} as="image" />
+        <link rel="preload" href={washer2} as="image" />
+    </Helmet>
   <div className="appliance-container" >
   <div className="photos-container">
     <img loading="lazy" src={washer1} alt="Dishwasher in the kitchen"/>

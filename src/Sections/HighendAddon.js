@@ -1,10 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './HighendAddon.css'
 import range1 from '../Images/appliances/thermador-range.webp'
 import cooktop from '../Images/appliances/jennair-cooktop.webp'
 import range2 from '../Images/appliances/viking-range.webp'
 import refrigerator from '../Images/appliances/true-refrigerator.webp'
+import { Helmet } from 'react-helmet';
 
+import './HighendAddon.css'
 const HighendAddon = () => {
   const [visibleItems, setVisibleItems] = useState({});
   const elementsRef = useRef([]);
@@ -32,6 +33,12 @@ const HighendAddon = () => {
   
 
   return <div id="addons">
+      <Helmet>
+        <link rel="preload" href="/static/media/thermador-range.7787d0420ece5926e52d.webp" as="image" />
+        <link rel="preload" href="/static/media/jennair-cooktop.98360dec789efc87c0ce.webp" as="image" />
+        <link rel="preload" href="/static/media/viking-range.d0612753aa09f850324a.webp" as="image" />
+        <link rel="preload" href="/static/media/true-refrigerator.688c7546e82c30e81720.webp" as="image" />
+      </Helmet>
     <div id="addon-one">
       <div className="first-half">
         <div id="item-1" ref={el => elementsRef.current[1] = el} className={visibleItems['item-1'] ? 'highend-addon-info animate-left' : 'highend-addon-info in-left'}>
