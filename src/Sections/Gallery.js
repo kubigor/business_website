@@ -48,7 +48,7 @@ const Gallery = () => {
         }
       });
 
-      const images = document.getElementsByclassNameName("gallery-image");
+      const images = document.getElementsByClassName("gallery-image");
       for (let image of images) {
         image.addEventListener("mouseover", (e) => {
           for (let image of images) {

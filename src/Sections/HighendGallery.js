@@ -50,6 +50,9 @@ const HighendGallery = () => {
           newXPos = "40%";
           newYPos = "40%";
           break;
+        // default:
+        //   newXPos = "0%";
+        //   newYPos ="0%";
         }
       text.style.transition= ".7s";
       text.style.backgroundColor= "rgba(0, 0, 0, 0.6)"
