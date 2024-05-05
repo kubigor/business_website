@@ -12,13 +12,15 @@ import './PagesStyle.css'
 
 
 const About = () => {
-  return <div id="about" > 
-    <AboutSection />
-    <Brands />
-    <ServiceArea />
-    <Charges />
-    <Reviews />
-    <Hours />
+  return <div id="about" >
+    <Layout>
+      <AboutSection />
+      <Brands />
+      <ServiceArea />
+      <Charges />
+      <Reviews />
+      <Hours />
+    </Layout>
     </div>;
 };
 
