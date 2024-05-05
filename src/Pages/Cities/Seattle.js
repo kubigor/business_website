@@ -4,10 +4,10 @@ import './City.css'
 
 const Seattle = () => {
   
-  return <div class="page-container">
-    <div class="city-photo-container">
-      <img loading="lazy" class="city-photo" src={photo} alt="Bellevue skyline"/>
-      <div className="overlay"></div>
+  return <div className="page-container">
+    <div className="city-photo-container">
+      <img loading="lazy" className="city-photo" src={photo} alt="Bellevue skyline"/>
+      <div classNameName="overlay"></div>
     </div>
   </div>
 };

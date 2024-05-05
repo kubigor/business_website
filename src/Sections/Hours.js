@@ -4,9 +4,9 @@ import "./Hours.css"
 
 const Hours = () => {
   return <div id="hours-container">
-    <div class="hours-box">
-      <h2 class="hours-table-header">Office Hours</h2>
-      <table class="hours-table">
+    <div className="hours-box">
+      <h2 className="hours-table-header">Office Hours</h2>
+      <table className="hours-table">
         <tr>
           <td>Monday</td>
           <td>9am - 5pm</td>
@@ -37,9 +37,9 @@ const Hours = () => {
         </tr>
       </table>
     </div>
-    <div class="hours-box">
-      <h2 class="hours-table-header">Technicians' hours</h2>
-      <table class="hours-table">
+    <div className="hours-box">
+      <h2 className="hours-table-header">Technicians' hours</h2>
+      <table className="hours-table">
         <tr>
           <td>Monday</td>
           <td>9am - 5pm</td>

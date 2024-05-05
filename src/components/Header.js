@@ -30,14 +30,14 @@ const Header = () => {
 
   return (
   <div id="menu">
-    <Link to ="/" id="link-logo"><img loading="lazy" src={logo} alt="logo" class="logo-link" /></Link>
+    <Link to ="/" id="link-logo"><img loading="lazy" src={logo} alt="logo" className="logo-link" /></Link>
     <div id="menu-buttons">
       <Link to ="/">Home</Link>
       <Link to ="/about">About</Link>
       <Link to ="/services">Services</Link>
       <Link to ="/high-ends">High-ends</Link>    
       <HousecallProButton />
-      <Link to ="/request" class="btn-bright">Request Service</Link>    
+      <Link to ="/request" className="btn-bright">Request Service</Link>    
     </div>
     <img loading="lazy" id="img-menu-opener" src={menu} alt="menu pic" onClick={() => handleClick()}/>
     <div id="menu-mobile" onClick={() => handleClick()}>

@@ -7,13 +7,13 @@ import ServiceArea from '../../Sections/ServiceArea';
 
 const RefrigeratorRepair = () => {
   
-  return <div class="page-container">
-      <div class="appliance-container" >
-      <div class="photos-container">
+  return <div className="page-container">
+      <div className="appliance-container" >
+      <div className="photos-container">
         <img loading="lazy" src={fridge1} alt="Free standing refrigerator in the kitchen"/>
         <img loading="lazy" src={fridge2} alt="Built-in refrigerator in the kitchen"/>
       </div>
-      <div class="text-container">
+      <div className="text-container">
         <h1>Refrigerator and Freezer repair</h1>
         <p>
         The average lifespan of a refrigerator is typically between 10 to 15 years, with high-end models potentially lasting up to 20 years with proper care. Factors such as maintenance, usage patterns, and the type of refrigerator play significant roles in determining its longevity. Regular upkeep, like cleaning condenser coils and maintaining door seals, can help extend its lifespan.
@@ -21,7 +21,7 @@ const RefrigeratorRepair = () => {
         <p>
           Whether it's routine maintenance or emergency repairs, Major Appliance Repair is here to restore your refrigerator's functionality with expertise and care. Experience the peace of mind that comes with knowing your appliance is in capable hands. Call Major Appliance Repair for the refrigerator repair.
         </p>
-        <div class="repairs">
+        <div className="repairs">
           <h2>We will help you with:</h2>
           <p>Compressor Repairs</p>
           <p>Thermostat Replacement</p>
@@ -35,9 +35,9 @@ const RefrigeratorRepair = () => {
           <p>And anything else!</p>
         </div>
       </div>
-      <div class="advice-container">
+      <div className="advice-container">
         <h2>What you can do before calling for service</h2>
-        <div class="advices">
+        <div className="advices">
           <p>Check Power Supply</p>
           <p>Inspect the Thermostat</p>
           <p>Listen for Unusual Noises</p>
@@ -50,7 +50,7 @@ const RefrigeratorRepair = () => {
           <p>Consult the User Manual</p>
         </div>
       </div>
-      <div class="photos-container-mobile">
+      <div className="photos-container-mobile">
         <img loading="lazy" src={fridge1} alt="Free standing refrigerator in the kitchen"/>
         <img loading="lazy" src={fridge2} alt="Built-in refrigerator in the kitchen"/>
       </div>

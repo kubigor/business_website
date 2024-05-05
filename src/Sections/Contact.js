@@ -29,7 +29,7 @@ const Contact = () => {
       <button>Send the request</button>
     </form>
       <HousecallProButton />
-    <div class="profiles">
+    <div className="profiles">
       <a id="yelp-profile"  href={yelpProfile}>
         <img loading="lazy" src={Yelp} alt="Yelp logo" />
       </a>

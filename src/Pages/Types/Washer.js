@@ -7,20 +7,20 @@ import ServiceArea from '../../Sections/ServiceArea';
 
 const WasherRepair = () => {
   
-  return <div class="page-container">
-  <div class="appliance-container" >
-  <div class="photos-container">
+  return <div className="page-container">
+  <div className="appliance-container" >
+  <div className="photos-container">
     <img loading="lazy" src={washer1} alt="Dishwasher in the kitchen"/>
     <img loading="lazy" src={washer2} alt="Dishwasher range in the kitchen"/>
   </div>
-  <div class="text-container">
+  <div className="text-container">
     <h1>Washer and Laundry Center repair</h1>
     <p>
     The average lifespan of a washing machine is typically around 10 to 13 years. This duration can vary depending on factors such as the brand, model, usage frequency, and maintenance practices. Regular maintenance, like cleaning filters and checking hoses, can help extend a washing machine's life. High-end models might last longer due to better build quality, while heavy usage and neglect can shorten the lifespan of any washing machine.    </p>
     <p>
     At Major Appliance Repair, we're not just fixing machines; we're restoring a crucial part of your daily life. Trust us to bring your washer back to optimal performance with professionalism and care. Call Major Appliance Repair for the washer repair and laundry center repair.
     </p>
-    <div class="repairs">
+    <div className="repairs">
       <h2>We will help you with:</h2>
       <p>Drum and Agitator Repairs</p>
       <p>Motor Repairs or Replacement</p>
@@ -35,9 +35,9 @@ const WasherRepair = () => {
       <p>And anything else!</p>
     </div>
   </div>
-  <div class="advice-container">
+  <div className="advice-container">
     <h2>What you can do before calling for service</h2>
-    <div class="advices">
+    <div className="advices">
       <p>Check Power Supply</p>
       <p>Inspect the Control Panel</p>
       <p>Verify Door or Lid Closure</p>
@@ -51,7 +51,7 @@ const WasherRepair = () => {
       <p></p>
     </div>
   </div>
-  <div class="photos-container-mobile">
+  <div className="photos-container-mobile">
     <img loading="lazy" src={washer1} alt="Dishwasher in the kitchen"/>
     <img loading="lazy" src={washer2} alt="Dishwasher range in the kitchen"/>
   </div>
