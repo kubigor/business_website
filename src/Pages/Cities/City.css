@@ -60,3 +60,58 @@
   width: 45%;
   border-radius: 1rem;
 }
+
+@media only Screen and (max-width: 48em){
+
+.city-photo-container {
+  position: relative;
+  overflow: hidden;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  margin-top: 0;
+}
+
+.city-photo {
+  position: absolute;
+  display: block;
+  width: 90%; 
+}
+
+.overlay {
+  content: "";
+  text-align: center;
+  padding-top: 12.5vh;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  color: var(--deep-blue);
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 37%, rgb(255, 255, 255, 0.8) 37%, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 0.1) 60%);
+}
+
+.city-header {
+  font-size: 3vh;
+  font-weight: 700;
+}
+
+.city-text {
+  width: 80%;
+}
+
+.city-text h2 {
+  text-align:center;
+  text-indent: 0;
+}
+
+.van-photos {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.van-photos img{
+  width: 100%;
+  border-radius: 1rem;
+}
+}

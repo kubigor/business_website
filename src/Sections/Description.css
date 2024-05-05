@@ -36,7 +36,13 @@
 @media only Screen and (max-width: 48em){
     #desc-container {
         width: 100%;
-        align-self: normal;
+        align-self: center;
+        flex-direction: column;
+    }
+
+    #desc-photo {
+        width: 80%;
+        margin-bottom: 2rem;
     }
 
     #desc-header {
