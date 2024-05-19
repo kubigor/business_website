@@ -48,7 +48,7 @@ const Header = () => {
         <Link to ="/high-ends">High-ends</Link>    
         <a href="https://book.housecallpro.com/book/Major-Appliance-Repair/ef8a37880ad64305aaaee491dd1fc976?v2=true">Book Online</a>
         <Link to ="/request">Request Service</Link>
-        <Link to ="/terms-of-service">Terms And Conditions</Link>
+        <Link to ="/terms-of-service/">Terms And Conditions</Link>
         <br/>
         <br/>
         <a href="https://www.google.com/maps/place/Major+Appliance+Repair/@47.642346,-122.2022255,10z/data=!4m6!3m5!1s0x549007315f4d880f:0x3480d761c45eca0d!8m2!3d47.642346!4d-122.2022255!16s%2Fg%2F11q95dzh93?entry=ttu">Google profile!</a>

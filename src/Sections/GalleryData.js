@@ -59,14 +59,14 @@ export const headerOptions = [
 ]
 
 export const linkOptions = [
- "https://majorappliancerepair.info/services/refrigerator",
- "https://majorappliancerepair.info/services/washer",
- "https://majorappliancerepair.info/services/dryer",
- "https://majorappliancerepair.info/services/range",
- "https://majorappliancerepair.info/services/cooktop",
- "https://majorappliancerepair.info/services/range",
- "https://majorappliancerepair.info/services/dishwasher",
- "https://majorappliancerepair.info/services/washer",
- "https://majorappliancerepair.info/request"
+ "https://majorappliancerepair.info/services/refrigerator/",
+ "https://majorappliancerepair.info/services/washer/",
+ "https://majorappliancerepair.info/services/dryer/",
+ "https://majorappliancerepair.info/services/range/",
+ "https://majorappliancerepair.info/services/cooktop/",
+ "https://majorappliancerepair.info/services/range/",
+ "https://majorappliancerepair.info/services/dishwasher/",
+ "https://majorappliancerepair.info/services/washer/",
+ "https://majorappliancerepair.info/request/"
 ]
 

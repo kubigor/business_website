@@ -81,7 +81,7 @@ const HighendGallery = () => {
 
   return <div id="highend-gallery-container">
     <Helmet>
-      <link rel="preload" href="/static/media/sub-zero-kitchen.2a52ccf1b9afd08cc76f.webp" as="image" />
+      <link rel="preload" href="/static/media/sub-zero-kitchen.cee707edfd0322883024.webp" as="image" />
       <link rel="preload" href="/static/media/sub-zero-refrigerator.de1603009b67f45f4933.webp" as="image" />
       <link rel="preload" href="/static/media/viking-fridge.1633215e497bda78417b.webp" as="image" />
       <link rel="preload" href="/static/media/monogram-fridge.c8151de5f61a8a9afc76.webp" as="image" />

@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutSection.css"
-import { Link } from 'react-router-dom';
 
 const AboutSection = () => {
   return <div id="about-container">
@@ -55,7 +54,7 @@ const AboutSection = () => {
                 <li>And much more!</li>
             </ul>
         </div>
-        <Link id="last-item" to ="/high-ends">We service high ends as well!</Link>
+        <a id="last-item" href="https://majorappliancerepair.info/high-ends">We service high ends as well!</a>
     </div>
 };
 

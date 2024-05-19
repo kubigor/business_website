@@ -13,6 +13,7 @@ import './City.css'
 const CityPage = () => {
 
   let { cityName } = useParams();
+  cityName = cityName.replace(/-/g, '_')
   if (city_data[cityName] === undefined) {
     return <NotFound />
   }
@@ -23,7 +24,7 @@ const CityPage = () => {
         <script type="application/ld+json">{`${cityLD}`}</script>
         <title>Appliance Repair in {name} </title>
         <meta name="description" content={`Professional appliance repair services in ${name} for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more.`} />
-        <link rel="canonical" href={`https://majorappliancerepair.info/service-area/${cityName}`}></link>
+        <link rel="canonical" href={`https://majorappliancerepair.info/service-area/${cityName}/`}></link>
         <link rel="preload" href={`/places/${cityName}.webp`} as="image" />
         <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped.04108009164f017a114b.webp" as="image" />
         <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped-2.1776c80c3568a2b719c1.webp" as="image" />

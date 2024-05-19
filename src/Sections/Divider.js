@@ -10,12 +10,12 @@ const Divider = () => {
  
   return <div id="divider-container">
     <div id="divider">
-      <h1>CALL US FOR FREE ESTIMATE</h1>
+      <h2>CALL US FOR FREE ESTIMATE</h2>
       <div>
         <img loading="lazy" src={phone} alt="phone" />
       </div>
       <div>
-        <a id="phone-number" href={numberLink}>{phoneNumber}</a>
+        <a id="phone-number" href={numberLink}><b>{phoneNumber}</b></a>
       </div>
     </div>
   </div>;

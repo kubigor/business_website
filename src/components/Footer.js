@@ -39,7 +39,7 @@ const Footer = () => {
         <img loading="lazy" src={mail} alt="mail" />
         <div className="section-text">
           <p>WRITE AT ANY TIME</p>
-          <a id="email-address" href={emailLink}>{email}</a>
+          <a id="email-address" href="mailto:&#109;&#097;&#106;&#111;&#114;&#046;&#114;&#101;&#112;&#097;&#105;&#114;&#105;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">{email}</a>
         </div>
       </div>
       <div className="section-card">
@@ -57,16 +57,16 @@ const Footer = () => {
           <a href="https://www.yelp.com/biz/major-appliance-repair-bellevue-4"><img loading="lazy" className="icon" src={yelp} alt="terms and condtions icon"/></a>
           <a href="https://www.google.com/maps/place/Major+Appliance+Repair/@47.642346,-122.2022255,10z/data=!4m6!3m5!1s0x549007315f4d880f:0x3480d761c45eca0d!8m2!3d47.642346!4d-122.2022255!16s%2Fg%2F11q95dzh93?entry=ttu"><img loading="lazy" className="icon" src={google} alt="terms and condtions icon"/></a>
           <a href="https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604560224&LIC=MAJORAR785C2&SAW="><img loading="lazy" className="icon" src={lni} alt="labor and industries logo"/></a>
-          <a href="https://majorappliancerepair.info/terms-of-service"><img loading="lazy" className="icon" src={tnc} alt="terms and condtions icon" /></a> 
+          <a href="https://majorappliancerepair.info/terms-of-service/"><img loading="lazy" className="icon" src={tnc} alt="terms and condtions icon" /></a> 
         </div>
       </div>
       <div className="footer-column" id="footer-services">
-        <a href="https://majorappliancerepair.info/services/refrigerator">Refrigerator repair</a>
-        <a href="https://majorappliancerepair.info/services/range">Range/Oven repair</a>
-        <a href="https://majorappliancerepair.info/services/cooktop">Cooktop repair</a>
-        <a href="https://majorappliancerepair.info/services/washer">Washer repair</a>
-        <a href="https://majorappliancerepair.info/services/dryer">Dryer repair</a>
-        <a href="https://majorappliancerepair.info/services/dishwasher">Dishwasher Repair</a>
+        <a href="https://majorappliancerepair.info/services/refrigerator/">Refrigerator repair</a>
+        <a href="https://majorappliancerepair.info/services/range/">Range/Oven repair</a>
+        <a href="https://majorappliancerepair.info/services/cooktop/">Cooktop repair</a>
+        <a href="https://majorappliancerepair.info/services/washer/">Washer repair</a>
+        <a href="https://majorappliancerepair.info/services/dryer/">Dryer repair</a>
+        <a href="https://majorappliancerepair.info/services/dishwasher/">Dishwasher Repair</a>
       </div>
       <div className="footer-column">
         <iframe title = "location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d282517.40931547293!2d-122.36461102497174!3d47.66482695510196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549007315f4d880f%3A0x3480d761c45eca0d!2sMajor%20Appliance%20Repair!5e0!3m2!1sen!2sus!4v1698993141190!5m2!1sen!2sus" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>

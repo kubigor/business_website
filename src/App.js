@@ -42,19 +42,18 @@ function App() {
       <Header />
       <Routes >
         <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/request" element={<Request />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/services/refrigerator" element={<RefrigeratorRepair />} />
-        <Route path="/services/range" element={<RangeRepair />} />
-        <Route path="/services/cooktop" element={<CooktopRepair />} />
-        <Route path="/services/washer" element={<WasherRepair />} />
-        <Route path="/services/dryer" element={<DryerRepair />} />
-        <Route path="/services/dishwasher" element={<DishwasherRepair />} />
-        <Route path="/high-ends" element={<HighEnds />} />
-        <Route path="/terms-of-service" element={<TermsOfService />} />
-        <Route path="/service-area/:cityName" element={<City />} />
-        <Route path="*" element={<NotFound />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/request" element={<Request />} />
+        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/services/refrigerator" element={<RefrigeratorRepair />} />
+        <Route exact path="/services/range" element={<RangeRepair />} />
+        <Route exact path="/services/cooktop" element={<CooktopRepair />} />
+        <Route exact path="/services/washer" element={<WasherRepair />} />
+        <Route exact path="/services/dryer" element={<DryerRepair />} />
+        <Route exact path="/services/dishwasher" element={<DishwasherRepair />} />
+        <Route exact path="/high-ends" element={<HighEnds />} />
+        <Route exact path="/terms-of-service" element={<TermsOfService />} />
+        <Route exact path="/service-area/:cityName" element={<City />} />
       </Routes>
       <Footer />
       <ScrollToTop />
