@@ -11,9 +11,8 @@ import './City.css'
 
 
 const CityPage = () => {
-
+  const jsonLdString = JSON.stringify(cityLD)
   let { cityName } = useParams();
-  cityName = cityName.replace(/-/g, '_')
   if (city_data[cityName] === undefined) {
     return <NotFound />
   }
@@ -21,9 +20,10 @@ const CityPage = () => {
   const name_upper = name.toUpperCase();
   return <div className="city-page-container">
       <Helmet>
-        <script type="application/ld+json">{`${cityLD}`}</script>
+        <script type="application/ld+json">{jsonLdString}</script>
         <title>Appliance Repair in {name} </title>
         <meta name="description" content={`Professional appliance repair services in ${name} for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more.`} />
+        <meta property="og:url" content={`https://majorappliancerepair.info/service-area/${cityName}/`}></meta>
         <link rel="canonical" href={`https://majorappliancerepair.info/service-area/${cityName}/`}></link>
         <link rel="preload" href={`/places/${cityName}.webp`} as="image" />
         <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped.04108009164f017a114b.webp" as="image" />

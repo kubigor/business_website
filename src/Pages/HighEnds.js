@@ -10,7 +10,7 @@ const HighEnds = () => {
     "@type": "LocalBusiness",
     "image": "https://majorappliancerepair.info/static/media/Major-appliance-repair-logo.98af444363f3cf073d0c.webp",
     "@id": "https://majorappliancerepair.info/",
-    "url": "https://majorappliancerepair.info/"
+    "url": "https://majorappliancerepair.info/",
     "telephone": "+14253646644",
     "name": "Major Appliance Repair",
     "description": "Expert repair services for major appliances including refrigerators, washing machines, dryers, dishwashers, and more.",
@@ -124,7 +124,7 @@ const HighEnds = () => {
       <Helmet>
         <script type="application/ld+json">{jsonLD}</script>
         <title>High End Appliance Repair</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
         <link rel="canonical" href="https://majorappliancerepair.info/high-ends/"></link>
       </Helmet>
       <HighendGallery id="first-section"/>

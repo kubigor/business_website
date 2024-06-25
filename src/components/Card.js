@@ -13,11 +13,12 @@ const Card = ({ index }) => {
   } else if (cardData.source === "Google") {
     logoSource = Google
   }
+  let photo = `https://majorappliancerepair.info${cardData.avatar}`
 
   return <div id="card-container">
       <a id="card-link" href={data[index].link} target="_blank"><div id="card-header">
         <img loading="lazy" id="source-logo" src={logoSource} alt="Source of review (Yelp or Google)"/>
-        <img loading="lazy" id="card-avatar" src={data[index].avatar} alt="Customer avatar"/>
+        <img loading="lazy" id="card-avatar" src={photo} alt="Customer avatar"/>
         <h2 id="card-name">{data[index].name}</h2>
         <img loading="lazy" id="five-star" src={stars} alt="Five stars"/>
       </div>

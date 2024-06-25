@@ -1,105 +1,105 @@
 const city_data = {
-  seattle : {
+  "seattle" : {
     name: "Seattle",
     photo: "/places/seattle.webp",
     message: ""
     },
-  mercer_island : {
+  "mercer-island" : {
     name: "Mercer Island",
     photo: "/places/mercer-island.webp",
     message: ""
     },
-  shoreline : {
+  "shoreline" : {
     name: "Shoreline",
     photo: "/places/shoreline.webp",
     message: ""
   },
-  bellevue : {
+  "bellevue" : {
     name: "Bellevue",
     photo: "/places/bellevue.webp",
     message: ""
   },
-  kenmore : {
+  "kenmore" : {
     name: "Kenmore",
     photo: "/places/kenmore.webp",
     message: ""
   },
-  mountlake_terrace : {
+  "mountlake-terrace" : {
     name: "Mountlake Terrace",
     photo: "/places/mountlake-terrace.webp",
     message: ""
   },
-  maltby : {
+  "maltby" : {
     name: "Maltby",
     photo: "/places/maltby.webp",
     message: ""
   },
-  redmond : {
+  "redmond" : {
     name: "Redmond",
     photo: "/places/redmond.webp",
     message: ""
   },
-  kirkland : {
+  "kirkland" : {
     name: "Kirkland",
     photo: "/places/kirkland.webp",
     message: ""
   },
-  woodinville : {
+  "woodinville" : {
     name: "Woodinville",
     photo: "/places/woodinville.webp",
     message: ""
   },
-  issaquah : {
+  "issaquah" : {
     name: "Issaquah",
     photo: "/places/issaquah.webp",
     message: ""
   },  
-  sammamish : {
+  "sammamish" : {
     name: "Sammamish",
     photo: "/places/sammamish.webp",
     message: ""
   },  
-  renton : {
+  "renton" : {
     name: "Renton",
     photo: "/places/renton.webp",
     message: ""
   },  
-  newcastle : {
+  "newcastle" : {
     name: "Newcastle",
     photo: "/places/newcastle.webp",
     message: ""
   },  
-  everett : {
+  "everett" : {
     name: "Everett",
     photo: "/places/everett.webp",
     message: ""
   },  
-  bothell : {
+  "bothell" : {
     name: "Bothell",
     photo: "/places/bothell.webp",
     message: ""
   },  
-  mukilteo : {
+  "mukilteo" : {
     name: "Mukilteo",
     photo: "/places/mukilteo.webp",
     message: ""
   },  
-  mill_creek : {
+  "mill-creek" : {
     name: "Mill Creek",
     photo: "/places/mill-creek.webp",
     message: ""
   },  
-  lynnwood : {
+  "lynnwood" : {
     name: "Lynnwood",
     photo: "/places/lynnwood.webp",
     message: ""
   },  
-  alderwood_manor : {
+  "alderwood-manor" : {
     name: "Alderwood Manor",
     photo: "/places/alderwood-manor.webp",
     message: ""
   },  
-  edmonds : {
+  "edmonds" : {
     name: "Edmonds",
     photo: "/places/edmonds.webp",
     message: ""

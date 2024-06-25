@@ -25,7 +25,7 @@ const NotFound = () => {
       <Helmet>
         <script type="application/ld+json">{jsonLD}</script>
         <title>Not Found</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
         <link rel="canonical" href="https://majorappliancerepair.info/"></link>
       </Helmet>
       <img loading="lazy" id="image-not-found" src={error} alt="error404" />

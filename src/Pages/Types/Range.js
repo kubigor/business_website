@@ -8,12 +8,13 @@ import { rangeLD } from '../JSON-LD';
 import './Appliance.css'
 
 const RangeRepair = () => {
-  
+  const jsonLdString = JSON.stringify(rangeLD)
+
   return <div className="page-container">
     <Helmet>
-        <script type="application/ld+json">{`${rangeLD}`}</script>
+        <script type="application/ld+json">{jsonLdString}</script>
         <title>Range Repair and Oven Repair</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
         <link rel="canonical" href="https://majorappliancerepair.info/services/range/"></link>
         <link rel="preload" href={range1} as="image" />
         <link rel="preload" href={range2} as="image" />    

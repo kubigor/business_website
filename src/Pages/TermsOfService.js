@@ -17,17 +17,15 @@ const TermsOfService = () => {
     "priceRange": "$200-$500",
     "openingHours": "Mo-Fr 09:00-17:00",
     "telephone": "+14253646644",
-    "priceRange": "$200-$500",
-    "openingHours": "Mo-Fr 09:00-17:00",
     "image": "/static/media/Major-appliance-repair-logo.98af444363f3cf073d0c.webp",
-    "url": "https://majorappliancerepair.info/"
+    "url": "https://majorappliancerepair.info/terms-of-service/"
   }`
   return <div id="terms-of-service" >
       <Helmet>
         <script type="application/ld+json">{jsonLD}</script>
         <title>Terms Of Service</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
-        <link rel="canonical" href="https://majorappliancerepair.info/"></link>
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
+        <link rel="canonical" href="https://majorappliancerepair.info/terms-of-service/"></link>
       </Helmet>
       <Terms />
     </div>

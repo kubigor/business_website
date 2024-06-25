@@ -8,13 +8,13 @@ import { cooktopLD } from '../JSON-LD';
 import './Appliance.css'
 
 const CooktopRepair = () => {
-  
-  
+  const jsonLdString = JSON.stringify(cooktopLD)
+
   return <div className="page-container">
     <Helmet>
-        <script type="application/ld+json">{`${cooktopLD}`}</script>
+        <script type="application/ld+json">{jsonLdString}</script>
         <title>Cooktop Repair</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
         <link rel="canonical" href="https://majorappliancerepair.info/services/cooktop/"></link>
         <link rel="preload" href={cooktop1} as="image" />
         <link rel="preload" href={cooktop2} as="image" />

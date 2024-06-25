@@ -21,8 +21,6 @@ const About = () => {
     "priceRange": "$200-$500",
     "openingHours": "Mo-Fr 09:00-17:00",
     "telephone": "+14253646644",
-    "priceRange": "$200-$500",
-    "openingHours": "Mo-Fr 09:00-17:00",
     "image": "/static/media/Major-appliance-repair-logo.98af444363f3cf073d0c.webp",
     "url": "https://majorappliancerepair.info/"
   }`
@@ -30,7 +28,7 @@ const About = () => {
       <Helmet>
         <script type="application/ld+json">{jsonLD}</script>
         <title>About Major Appliance Repair</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
         <link rel="canonical" href="https://majorappliancerepair.info/about/"></link>
         <link rel="preload" href="/static/media/bosch-kitchen-appliances.efccf23dffcb896d5784.webp" as="image" />
       </Helmet>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.91b491e7.css",
-    "main.js": "/static/js/main.438d6ff7.js",
+    "main.js": "/static/js/main.836a90b4.js",
     "static/media/Appliance-repair-work-van-cropped-2.webp": "/static/media/Appliance-repair-work-van-cropped-2.1776c80c3568a2b719c1.webp",
     "static/media/Appliance-repair-work-van-cropped.webp": "/static/media/Appliance-repair-work-van-cropped.04108009164f017a114b.webp",
     "static/media/sub-zero-kitchen.webp": "/static/media/sub-zero-kitchen.cee707edfd0322883024.webp",
@@ -85,10 +85,10 @@
     "static/media/map-pointer.svg": "/static/media/map-pointer.36e152ef3d7c7bd8e11435a31446c826.svg",
     "static/media/envelope-icon.svg": "/static/media/envelope-icon.3aa9336f9fabcd73fc8af39c9b399433.svg",
     "main.91b491e7.css.map": "/static/css/main.91b491e7.css.map",
-    "main.438d6ff7.js.map": "/static/js/main.438d6ff7.js.map"
+    "main.836a90b4.js.map": "/static/js/main.836a90b4.js.map"
   },
   "entrypoints": [
     "static/css/main.91b491e7.css",
-    "static/js/main.438d6ff7.js"
+    "static/js/main.836a90b4.js"
   ]
 }

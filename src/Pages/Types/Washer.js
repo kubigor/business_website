@@ -8,12 +8,13 @@ import { washerLD } from '../JSON-LD';
 import './Appliance.css'
 
 const WasherRepair = () => {
+  const jsonLdString = JSON.stringify(washerLD)
 
   return <div className="page-container">
     <Helmet>
-        <script type="application/ld+json">{`${washerLD}`}</script>
+        <script type="application/ld+json">{jsonLdString}</script>
         <title>Washing Machine Repair</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
         <link rel="canonical" href="https://majorappliancerepair.info/services/washer/"></link>
         <link rel="preload" href={washer1} as="image" />
         <link rel="preload" href={washer2} as="image" />

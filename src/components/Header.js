@@ -33,11 +33,11 @@ const Header = () => {
     <Link to ="/" id="link-logo"><img loading="lazy" src={logo} alt="Company logo" className="logo-link" /></Link>
     <div id="menu-buttons">
       <Link to ="/">Home</Link>
-      <Link to ="/about">About</Link>
-      <Link to ="/services">Services</Link>
-      <Link to ="/high-ends">High-ends</Link>    
+      <a href="https://majorappliancerepair.info/about/">About</a>
+      <a href="https://majorappliancerepair.info/services/">Services</a>
+      <a href="https://majorappliancerepair.info/high-ends/">High-ends</a>    
       <HousecallProButton />
-      <Link to ="/request" className="btn-bright">Request Service</Link>    
+      <a href="https://majorappliancerepair.info/request/" className="btn-bright">Request Service</a>    
     </div>
     <img loading="lazy" id="img-menu-opener" src={menu} alt="menu pic" onClick={() => handleClick()}/>
     <div id="menu-mobile" onClick={() => handleClick()}>

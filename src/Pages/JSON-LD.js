@@ -1,188 +1,171 @@
 export const cityLD = {
-    "@context": "http://schema.org",
-    "@type": "Service",
-    "name": "Major Appliance Repair",
-    "headline": "Appliance Repair Near Me",
-    "description": "Expert repair services for major appliances including refrigerators, washing machines, dryers, dishwashers, and more.",
-    "datePublished": "2021-04-07",
-    "dateModified": "2024-04-25",
-    "priceRange": "$200-$500",
-    "openingHours": "Mo-Fr 09:00-17:00",
-    "image": "/static/media/Major-appliance-repair-logo.98af444363f3cf073d0c.webp",
-    "url": "https://majorappliancerepair.info/",
-    "mainEntityOfPage": "https://majorappliancerepair.info/",
-    "serviceType": [
-        "Appliance Repair in Seattle",
-        "Appliance Repair in Mercer Island",
-        "Appliance Repair in Shoreline",
-        "Appliance Repair in Bellevue",
-        "Appliance Repair in Kenmore",
-        "Appliance Repair in Mountlake Terrace",
-        "Appliance Repair in Maltby",
-        "Appliance Repair in Redmond",
-        "Appliance Repair in Kirkland" ,
-        "Appliance Repair in Woodinville" ,
-        "Appliance Repair in Issaquah",
-        "Appliance Repair in Sammamish" ,
-        "Appliance Repair in Renton" ,
-        "Appliance Repair in Newcastle" ,
-        "Appliance Repair in Everett" ,
-        "Appliance Repair in Bothell" ,
-        "Appliance Repair in Mukilteo" ,
-        "Appliance Repair in Mill Creek" ,
-        "Appliance Repair in Lynnwood" ,
-        "Appliance Repair in Alderwood Manor" ,
-        "Appliance Repair in Edmonds",
-          ],
-          "hasOfferCatalog": {
-           
-            "@type": "OfferCatalog",
-            "name": "Kitchen refrigerator Repair services", 
-             "itemListElement": [
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Major Appliance Repair",
+  "headline": "Appliance Repair Near Me",
+  "description": "Expert repair services for major appliances including refrigerators, washing machines, dryers, dishwashers, and more.",
+  "datePublished": "2021-04-07",
+  "dateModified": "2024-04-25",
+  "priceRange": "$200-$500",
+  "openingHours": "Mo-Fr 09:00-17:00",
+  "image": "https://yourwebsite.com/static/media/Major-appliance-repair-logo.98af444363f3cf073d0c.webp",
+  "url": "https://majorappliancerepair.info/",
+  "mainEntityOfPage": "https://majorappliancerepair.info/",
+  "serviceType": [
+    "Appliance Repair in Seattle",
+    "Appliance Repair in Mercer Island",
+    "Appliance Repair in Shoreline",
+    "Appliance Repair in Bellevue",
+    "Appliance Repair in Kenmore",
+    "Appliance Repair in Mountlake Terrace",
+    "Appliance Repair in Maltby",
+    "Appliance Repair in Redmond",
+    "Appliance Repair in Kirkland",
+    "Appliance Repair in Woodinville",
+    "Appliance Repair in Issaquah",
+    "Appliance Repair in Sammamish",
+    "Appliance Repair in Renton",
+    "Appliance Repair in Newcastle",
+    "Appliance Repair in Everett",
+    "Appliance Repair in Bothell",
+    "Appliance Repair in Mukilteo",
+    "Appliance Repair in Mill Creek",
+    "Appliance Repair in Lynnwood",
+    "Appliance Repair in Alderwood Manor",
+    "Appliance Repair in Edmonds"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Kitchen refrigerator Repair services",
+    "itemListElement": [
       {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gas Cooktop repair"
-            }
-          },
-         
-         {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gas Cooktop maintenance"
-            }
-          },
-          
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gas Cooktop service"
-            }
-          },
-        
-           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Electric Cooktop repair"
-            }
-          },
-         
-         {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Electric Cooktop maintenance"
-            }
-          },
-          
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Electric Cooktop service"
-             }
-          },
-          
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gas stove repair"
-            }
-          },
-         
-         {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gas stove maintenance"
-            }
-          },
-          
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gas stove service"
-            }
-          },
-        
-           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Electric stove repair"
-            }
-          },
-         
-         {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Electric stove maintenance"
-            }
-          },
-          
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Electric stove service"
-            }
-          },
-{
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gas range repair"
-            }
-          },
-         
-         {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gas range maintenance"
-            }
-          },
-          
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Gas range service"
-            }
-          },
-        
-           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Electric range repair"
-            }
-          },
-         
-         {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Electric range maintenance"
-            }
-          },
-          
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Electric range service"
-            }
-          }
-        ]
-              }
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gas Cooktop repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gas Cooktop maintenance"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gas Cooktop service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Electric Cooktop repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Electric Cooktop maintenance"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Electric Cooktop service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gas stove repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gas stove maintenance"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gas stove service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Electric stove repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Electric stove maintenance"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Electric stove service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gas range repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gas range maintenance"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gas range service"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Electric range repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Electric range maintenance"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Electric range service"
+        }
+      }
+    ]
+  }
 }
 
 export const cooktopLD = {
@@ -891,7 +874,7 @@ export const refrigeratorLD = {
               }
 }
 
-export const washerLD = {
+export const washerLD = `{
     "@context": "http://schema.org",
     "@type": "Service",
     "@id": "Major Appliance Repair",
@@ -941,24 +924,4 @@ export const washerLD = {
                   }
                 ]
               }
-}
-
-export const aboutLD = {
-    
-}
-
-export const highendsLD = {
-    
-}
-
-export const homeLD = {
-    
-}
-
-export const requestLD = {
-    
-}
-
-export const servicesLD = {
-    
-}
+}`
