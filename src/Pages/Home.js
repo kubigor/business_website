@@ -11,7 +11,7 @@ import './PagesStyle.css'
 
 
 const Home = () => {
-  const jsonLD = `{
+  const jsonLD = {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
     "image": "https://majorappliancerepair.info/static/media/Major-appliance-repair-logo.98af444363f3cf073d0c.webp",
@@ -23,7 +23,7 @@ const Home = () => {
     "datePublished": "2021-04-07",
     "dateModified": "2024-04-25",
     "address": {
-      "streetAddress": "10961 NE 2ND PL"
+      "streetAddress": "10961 NE 2ND PL",
       "@type": "PostalAddress",
       "addressLocality": "Bellevue",
       "addressRegion": "WA",
@@ -125,10 +125,12 @@ const Home = () => {
         "name": "Major Appliance Repair"
       }
     }
-  }`
+  }
+  const jsonLdString = JSON.stringify(jsonLD);
+
   return <div id="home" >
       <Helmet>
-        <script type="application/ld+json">{jsonLD}</script>
+        <script type="application/ld+json">{jsonLdString}</script>
         <title>Major Appliance Repair in the Greater Seattle Area</title>
         <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
         <link rel="canonical" href="https://majorappliancerepair.info/"></link>

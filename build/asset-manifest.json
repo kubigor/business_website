@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.91b491e7.css",
-    "main.js": "/static/js/main.836a90b4.js",
+    "main.css": "/static/css/main.5257c72c.css",
+    "main.js": "/static/js/main.24854b53.js",
     "static/media/Appliance-repair-work-van-cropped-2.webp": "/static/media/Appliance-repair-work-van-cropped-2.1776c80c3568a2b719c1.webp",
     "static/media/Appliance-repair-work-van-cropped.webp": "/static/media/Appliance-repair-work-van-cropped.04108009164f017a114b.webp",
     "static/media/sub-zero-kitchen.webp": "/static/media/sub-zero-kitchen.cee707edfd0322883024.webp",
@@ -79,16 +79,16 @@
     "static/media/menu-img.webp": "/static/media/menu-img.24456b6459ef3369e0e0.webp",
     "static/media/phone-icon.svg": "/static/media/phone-icon.7720b2eeba0152a8488dea19c3627860.svg",
     "static/media/viking-logo.webp": "/static/media/viking-logo.1200741b10a7a3372057.webp",
+    "index.html": "/index.html",
     "static/media/labor-and-industries-icon.webp": "/static/media/labor-and-industries-icon.0de8df25375f01346a16.webp",
     "static/media/black-up-arrow.webp": "/static/media/black-up-arrow.4b172024820defe8910c.webp",
-    "index.html": "/index.html",
     "static/media/map-pointer.svg": "/static/media/map-pointer.36e152ef3d7c7bd8e11435a31446c826.svg",
     "static/media/envelope-icon.svg": "/static/media/envelope-icon.3aa9336f9fabcd73fc8af39c9b399433.svg",
-    "main.91b491e7.css.map": "/static/css/main.91b491e7.css.map",
-    "main.836a90b4.js.map": "/static/js/main.836a90b4.js.map"
+    "main.5257c72c.css.map": "/static/css/main.5257c72c.css.map",
+    "main.24854b53.js.map": "/static/js/main.24854b53.js.map"
   },
   "entrypoints": [
-    "static/css/main.91b491e7.css",
-    "static/js/main.836a90b4.js"
+    "static/css/main.5257c72c.css",
+    "static/js/main.24854b53.js"
   ]
 }

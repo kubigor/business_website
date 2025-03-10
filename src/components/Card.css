@@ -1,10 +1,10 @@
 #card-container {
     display: flex;
     flex-direction: column;
-    background-color: #fffbef;
+    background-color: #ffffff;
     border: 3px solid var(--orange);
-    box-shadow: 2px 2px 12px rgb(110, 110, 110);
-    border-radius: 2rem;
+    box-shadow: 2px 2px 6px rgb(110, 110, 110);
+    border-radius: 12px;
     padding: 2rem;
     width: 35%;
 }

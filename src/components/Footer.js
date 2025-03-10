@@ -27,6 +27,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return <div id="footer">
+    
     <div id="footer-first-section">
       <div className="section-card">
         <img loading="lazy" src={phone} alt="phone" />

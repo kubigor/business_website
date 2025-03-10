@@ -9,7 +9,7 @@ const ServiceArea = () => {
       <link rel="preload" href="/static/media/Appliance-repair-work-car.3b661c32d47293ca13cd.webp" as="image" />
     </Helmet>
     <div className="cities-box">
-      <h2 className="city-table-header">We serve Bellevue and nearby cities</h2>
+      <h2 className="city-table-header">We service Bellevue and nearby cities</h2>
       <div className="cities-table">
         <div className="cities-column">
             <a href="https://majorappliancerepair.info/service-area/seattle/">Seattle</a>

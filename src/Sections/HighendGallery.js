@@ -24,31 +24,31 @@ const HighendGallery = () => {
     types.addEventListener('click', (e) => {
       let newBackground = "../../Images/appliances/sub-zero-kitchen.webp";
       let newText = "Expert Care for Your High-End Appliances"
-      let newXPos = '';
+      let newXPos = '35%';
       let newYPos ='';
       switch (e.target.innerText) {
         case 'Sub Zero': 
           newBackground = subzero;
           newText= "Specialized Care for High-End Appliances";
-          newXPos = "25%";
+          // newXPos = "25%";
           newYPos ="70%";
           break;
         case 'Monogram': 
           newBackground = monogram;
           newText= "Attention to Detail, Perfection in Every Repair";
-          newXPos = "30%";
+          // newXPos = "30%";
           newYPos ="60%";
           break;
         case 'Liebherr': 
           newBackground = liebherr;
           newText= "Bringing Elite Appliances Back to Life";
-          newXPos = "35%";
+          // newXPos = "35%";
           newYPos = "50%";
           break;
         case 'Viking': 
           newBackground = viking;
           newText= "Where Every Detail Counts";
-          newXPos = "40%";
+          // newXPos = "40%";
           newYPos = "40%";
           break;
         default:
@@ -56,8 +56,8 @@ const HighendGallery = () => {
           newYPos = "0%";
         }
       text.style.transition= ".7s";
-      text.style.backgroundColor= "rgba(0, 0, 0, 0.6)"
-      text.style.boxShadow= "0 0 4px 1.4rem rgba(0, 0, 0, 0.6)"
+      // text.style.backgroundColor= "rgba(0, 0, 0, 0.6)"
+      // text.style.boxShadow= "0 0 2px 1.4rem rgba(0, 0, 0, 0.6)"
       text.style.opacity = "0"
       shade.style.opacity= "1";
       shade.style.transition= ".7s";
@@ -74,7 +74,7 @@ const HighendGallery = () => {
         text.style.transition= "all .7s ease";
         text.innerText = newText;
         text.style.opacity= "1";
-        shade.style.opacity = "0";
+        shade.style.opacity = "0.45";
       }, 700);
     })
   }, []);

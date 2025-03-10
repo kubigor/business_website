@@ -6,7 +6,7 @@ import './PagesStyle.css'
 
 
 const TermsOfService = () => {
-  const jsonLD = `{
+  const jsonLD = {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
     "name": "Major Appliance Repair",
@@ -19,10 +19,12 @@ const TermsOfService = () => {
     "telephone": "+14253646644",
     "image": "/static/media/Major-appliance-repair-logo.98af444363f3cf073d0c.webp",
     "url": "https://majorappliancerepair.info/terms-of-service/"
-  }`
+  }
+  const jsonLdString = JSON.stringify(jsonLD);
+  
   return <div id="terms-of-service" >
       <Helmet>
-        <script type="application/ld+json">{jsonLD}</script>
+        <script type="application/ld+json">{jsonLdString}</script>
         <title>Terms Of Service</title>
         <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
         <link rel="canonical" href="https://majorappliancerepair.info/terms-of-service/"></link>

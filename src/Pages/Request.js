@@ -6,8 +6,8 @@ import './PagesStyle.css'
 
 
 const Request = () => {
-  const jsonLD = `{
-    "@context": "http://schema.org",
+  const jsonLD = {
+    "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "image": "https://majorappliancerepair.info/static/media/Major-appliance-repair-logo.98af444363f3cf073d0c.webp",
     "@id": "https://majorappliancerepair.info/",
@@ -18,8 +18,8 @@ const Request = () => {
     "datePublished": "2021-04-07",
     "dateModified": "2024-04-25",
     "address": {
-      "streetAddress": "10961 NE 2ND PL"
       "@type": "PostalAddress",
+      "streetAddress": "10961 NE 2ND PL",
       "addressLocality": "Bellevue",
       "addressRegion": "WA",
       "postalCode": "98004",
@@ -31,21 +31,21 @@ const Request = () => {
       "longitude": -122.19465064165706
     },
     "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday"
-        ],
-        "opens": "09:00",
-        "closes": "17:00"
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
     },
     "sameAs": [
       "https://www.facebook.com/major.repairing",
       "https://www.linkedin.com/in/major.repairing/",
-      "https://www.yelp.com/biz/major-appliance-repair-bellevue-4",
+      "https://www.yelp.com/biz/major-appliance-repair-bellevue-4"
     ],
     "priceRange": "$200-$500",
     "department": [
@@ -53,19 +53,23 @@ const Request = () => {
         "@type": "LocalBusiness",
         "name": "Refrigerator Repair",
         "url": "https://majorappliancerepair.info/services/refrigerator/"
-      },      {
+      },
+      {
         "@type": "LocalBusiness",
-        "name": "Range and Oven repair",
+        "name": "Range and Oven Repair",
         "url": "https://majorappliancerepair.info/services/range/"
-      },      {
+      },
+      {
         "@type": "LocalBusiness",
         "name": "Cooktop Repair",
         "url": "https://majorappliancerepair.info/services/cooktop/"
-      },      {
+      },
+      {
         "@type": "LocalBusiness",
         "name": "Washer Repair",
         "url": "https://majorappliancerepair.info/services/washer/"
-      },      {
+      },
+      {
         "@type": "LocalBusiness",
         "name": "Dryer Repair",
         "url": "https://majorappliancerepair.info/services/dryer/"
@@ -76,7 +80,6 @@ const Request = () => {
         "url": "https://majorappliancerepair.info/services/dishwasher/"
       }
     ],
-
     "areaServed": {
       "@type": "State",
       "name": "Washington"
@@ -120,11 +123,14 @@ const Request = () => {
         "name": "Major Appliance Repair"
       }
     }
-  }`
+  }
+  
+  const jsonLdString = JSON.stringify(jsonLD);
+
   return <div id="request" >
       <Helmet>
-        <script type="application/ld+json">{jsonLD}</script>
-        <title>Request Repair</title>
+        <script type="application/ld+json">{jsonLdString}</script>
+        <title>Request Appliance Repair</title>
         <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
         <link rel="canonical" href="https://majorappliancerepair.info/request/"></link>
       </Helmet>

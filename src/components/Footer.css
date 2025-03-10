@@ -22,7 +22,7 @@
   align-items: center;
   background-color: var(--light-grey);
   column-gap: 1rem;
-  border-radius: 2rem;
+  border-radius: 4px;
 }
 
 #footer-first-section img {

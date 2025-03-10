@@ -59,8 +59,8 @@
   background-color: var(--orange);
   padding: 0.3rem 1rem;
   font-size: calc(1.5vh + 0.8rem);
-  border-radius: 20px;
-  border: 2px solid black;
+  border-radius: 12px;
+  border: 1px solid black;
   color: white;
   text-shadow: 0 0 2px black, 0 0 2px black;
   font-weight: 600;
@@ -69,7 +69,7 @@
 }
 
 .btn-bright:hover{
-  transform: scale(0.95);
+  transform: scale(0.98);
   transition: all 0.2s;
 }
 

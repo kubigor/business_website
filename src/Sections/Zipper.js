@@ -11,7 +11,7 @@ const Steps = () => {
         answer.innerText = "Yes, we can help you!"
         answer.style.color = "green"
       } else {
-        answer.innerText = "We don't service that area."
+        answer.innerText = "You're a little too far - contact us to verify!"
         answer.style.color = "rgb(140, 0, 0)"
       }
     } else {

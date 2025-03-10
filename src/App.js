@@ -7,7 +7,8 @@ import About from "./Pages/About"
 import Request from "./Pages/Request"
 import Services from "./Pages/Services"
 import ScrollToTop from "./components/ScrollToTop"
-import NotFound from './Pages/NotFound';
+import Blog from './Pages/Blog/Blog';
+import Brand from './Pages/Brands/Brand';
 import HighEnds from './Pages/HighEnds';
 import TermsOfService from "./Pages/TermsOfService"
 import RefrigeratorRepair from "./Pages/Types/Refrigerator"
@@ -26,16 +27,16 @@ background-color: var(--peach);
 `
 
 function App() {
-  function loadGTM() {
-    const script = document.createElement('script');
-    script.src = 'https://www.googletagmanager.com/gtm.js?id=' + AnalyticsTracking;
-    script.async = true;
-    document.head.appendChild(script);
-  }
+  // function loadGTM() {
+  //   const script = document.createElement('script');
+  //   script.src = 'https://www.googletagmanager.com/gtm.js?id=' + AnalyticsTracking;
+  //   script.async = true;
+  //   document.head.appendChild(script);
+  // }
   
-  useEffect(() => {
-    loadGTM();
-  }, []);
+  // useEffect(() => {
+  //   loadGTM();
+  // }, []);
 
   return (
     <PageHolder>
@@ -45,15 +46,17 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/request" element={<Request />} />
         <Route exact path="/services" element={<Services />} />
-        <Route exact path="/services/refrigerator" element={<RefrigeratorRepair />} />
-        <Route exact path="/services/range" element={<RangeRepair />} />
-        <Route exact path="/services/cooktop" element={<CooktopRepair />} />
-        <Route exact path="/services/washer" element={<WasherRepair />} />
-        <Route exact path="/services/dryer" element={<DryerRepair />} />
-        <Route exact path="/services/dishwasher" element={<DishwasherRepair />} />
-        <Route exact path="/high-ends" element={<HighEnds />} />
+        <Route exact path="/services/refrigerator-repair" element={<RefrigeratorRepair />} />
+        <Route exact path="/services/range-repair" element={<RangeRepair />} />
+        <Route exact path="/services/cooktop-repair" element={<CooktopRepair />} />
+        <Route exact path="/services/washer-repair" element={<WasherRepair />} />
+        <Route exact path="/services/dryer-repair" element={<DryerRepair />} />
+        <Route exact path="/services/dishwasher-repair" element={<DishwasherRepair />} />
+        <Route exact path="/luxury-kitchen-appliance-repair" element={<HighEnds />} />
         <Route exact path="/terms-of-service" element={<TermsOfService />} />
         <Route exact path="/service-area/:cityName" element={<City />} />
+        <Route exact path="/blog/:blogName" element={<Blog />} />
+        <Route exact path="/:brand" element={<Brand />} />
       </Routes>
       <Footer />
       <ScrollToTop />
