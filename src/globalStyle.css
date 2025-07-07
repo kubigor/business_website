@@ -22,4 +22,12 @@ body {
     overflow-x: hidden;}
 a {
     text-decoration: none;
+    font-weight: 600;
+    color: var(--deep-blue);
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--light-blue);
 }

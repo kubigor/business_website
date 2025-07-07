@@ -1,0 +1,88 @@
+/* General Styles */
+.tab-section {
+  /* background: #f8f9fa; */
+  padding: 50px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.main-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.heading-wrapper-3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading-5 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Tabs Menu */
+.tabs-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-link {
+  background: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+  transition: all 0.3s ease-in-out;
+}
+
+.tab-link:hover {
+  background: #0073e6;
+  color: #ffffff;
+  border-color: #0073e6;
+}
+
+.tab-link.active {
+  background: #0073e6;
+  color: white;
+  border-color: #005bb5;
+  box-shadow: 0px 4px 8px rgba(0, 115, 230, 0.2);
+}
+
+/* Tabs Content */
+.tabs-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  min-height: 150px;
+}
+
+.tab-pane h3 {
+  font-size: 22px;
+  color: #333;
+}
+
+.tab-pane p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tabs-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tab-link {
+    width: 100%;
+    text-align: center;
+  }
+}

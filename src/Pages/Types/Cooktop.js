@@ -14,7 +14,7 @@ const CooktopRepair = () => {
     <Helmet>
         <script type="application/ld+json">{jsonLdString}</script>
         <title>Cooktop Repair in Seattle</title>
-        <meta name="description" content="Is your cooktop malfunctioning? Learn how to troubleshoot and fix common issues like burner not lighting, uneven heating, and cracked glass. Contact our professional cooktop repair services for quick and reliable solutions." />
+        <meta name="description" content="Is your cooktop malfunctioning? Learn how to troubleshoot and fix common issues like burner not lighting, uneven heating, and cracked glass. Contact our professional cooktop repair services." />
         <link rel="canonical" href="https://majorappliancerepair.info/services/cooktop-repair/"></link>
         <link rel="preload" href={cooktop1} as="image" />
         <link rel="preload" href={cooktop2} as="image" />

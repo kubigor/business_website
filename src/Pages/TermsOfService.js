@@ -26,7 +26,7 @@ const TermsOfService = () => {
       <Helmet>
         <script type="application/ld+json">{jsonLdString}</script>
         <title>Terms Of Service</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
+        <meta name="description" content="Fast and reliable appliance repair for refrigerators, dishwashers, washers, dryers, and more. Trusted professionals ready to help!" />
         <link rel="canonical" href="https://majorappliancerepair.info/terms-of-service/"></link>
       </Helmet>
       <Terms />

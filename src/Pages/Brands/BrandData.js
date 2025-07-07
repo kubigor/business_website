@@ -55,6 +55,10 @@ const brand_data = {
       name: "Bluestar",
       type: "high"
       },
+    "miele-repair" : {
+      name: "Miele",
+      type: "high"
+      },
     "fisher-and-paykel-repair" : {
       name: "Fisher & Paykel",
       type: "low"

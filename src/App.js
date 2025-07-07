@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import Header from "./components/Header"
 import Footer from "./components/Footer"
@@ -18,8 +18,9 @@ import DryerRepair from "./Pages/Types/Dryer"
 import DishwasherRepair from "./Pages/Types/Dishwasher"
 import CooktopRepair from "./Pages/Types/Cooktop"
 import City from "./Pages/Cities/City"
+import NotFound from './Pages/NotFound';
 import { Route, Routes } from 'react-router-dom';
-import { AnalyticsTracking } from './globalVars';
+// import { AnalyticsTracking } from './globalVars';
 import './globalStyle.css';
 
 const PageHolder = styled.div`
@@ -46,7 +47,7 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/request" element={<Request />} />
         <Route exact path="/services" element={<Services />} />
-        <Route exact path="/services/refrigerator-repair" element={<RefrigeratorRepair />} />
+        <Route exact path="/services/refrigerator-repair/" element={<RefrigeratorRepair />} />
         <Route exact path="/services/range-repair" element={<RangeRepair />} />
         <Route exact path="/services/cooktop-repair" element={<CooktopRepair />} />
         <Route exact path="/services/washer-repair" element={<WasherRepair />} />

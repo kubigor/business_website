@@ -6,7 +6,7 @@ import "./ServiceArea.css"
 const ServiceArea = () => {
   return <div className="cities-image">
     <Helmet>
-      <link rel="preload" href="/static/media/Appliance-repair-work-car.3b661c32d47293ca13cd.webp" as="image" />
+      <link rel="preload" href="/static/media/Appliance-repair-work-car.ab42dbe59310ca8bcf0a.webp" as="image" />
     </Helmet>
     <div className="cities-box">
       <h2 className="city-table-header">We service Bellevue and nearby cities</h2>
@@ -35,7 +35,7 @@ const ServiceArea = () => {
             <a href="https://majorappliancerepair.info/service-area/mukilteo/">Mukilteo</a>
             <a href="https://majorappliancerepair.info/service-area/mill-creek/">Mill Creek</a>
             <a href="https://majorappliancerepair.info/service-area/lynnwood/">Lynnwood</a>
-            <a href="https://majorappliancerepair.info/service-area/alderwood-manor/">Alderwood Manor</a>
+            <a href="https://majorappliancerepair.info/service-area/snoqualmie//">Snoqualmie</a>
             <a href="https://majorappliancerepair.info/service-area/edmonds/">Edmonds</a>
         </div>
       </div>

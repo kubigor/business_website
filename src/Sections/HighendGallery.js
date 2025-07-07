@@ -89,7 +89,7 @@ const HighendGallery = () => {
     </Helmet>
       <div id="first-section-background">
           <div id="first-section-shade"/>
-          <p id="first-section-text">Expert Repairs for Your Premium Home Equipment</p>
+          <h1 id="first-section-text">Expert Repairs for Your Premium Appliances</h1>
           <div id="types-container">
             <div id="types">
               <span className="image-btn" id="btn1"><div className="image-btn-shade">Sub Zero </div></span>

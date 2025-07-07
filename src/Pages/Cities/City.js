@@ -22,14 +22,14 @@ const CityPage = () => {
   return <div className="city-page-container">
       <Helmet>
         <script type="application/ld+json">{jsonLdString}</script>
-        <title>Appliance Repair in {name} for All Major Brands</title>
+        <title>Appliance Repair in {name}</title>
         <meta name="description" content={`For reliable appliance repair in ${name}, choose Major Appliance Repair. We fix refrigerators, ovens, and more effectively.`} />
         <meta property="og:url" content={`https://majorappliancerepair.info/service-area/${cityName}/`}></meta>
         <meta name="keywords" content={`Appliance repair in ${name}`}></meta>
         <link rel="canonical" href={`https://majorappliancerepair.info/service-area/${cityName}/`}></link>
         <link rel="preload" href={`/places/${cityName}.webp`} as="image" />
-        <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped.04108009164f017a114b.webp" as="image" />
-        <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped-2.1776c80c3568a2b719c1.webp" as="image" />
+        <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped.f1a6788ffc549148fbac.webp" as="image" />
+        <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped-2.7c48baf0a421f37a1ee8.webp" as="image" />
       </Helmet>
     <div className="city-photo-container">
       <img loading="lazy" className="city-photo" src={city_data[cityName].photo} alt={`Appliance repair in ${cityName}`}/>
@@ -65,8 +65,8 @@ const CityPage = () => {
   <section>
     <h2>Why Choose Major Appliance Repair?</h2>
     <ul>
-      <li><strong>We Are Licencensed, Bonded and Insured:</strong> Check out our license - <a href="https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604560224&LIC=MAJORAR785C2&SAW=" target="_blank">MAJORAR785C2</a> !</li>
-      <li><strong>Great Reputation:</strong> We are highly <a href="https://biz.yelp.com/biz_info/wGGpN1FF5vLLv4D6PYuj4Q" target="_blank"> recommended </a> by your neighbors!</li>
+      <li><strong>We Are Licencensed, Bonded and Insured:</strong> Check out our license - <a href="https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604560224&LIC=MAJORAR785C2&SAW=" rel="noreferrer" target="_blank">MAJORAR785C2</a> !</li>
+      <li><strong>Great Reputation:</strong> We are highly <a href="https://biz.yelp.com/biz_info/wGGpN1FF5vLLv4D6PYuj4Q" rel="noreferrer" target="_blank"> recommended </a> by your neighbors!</li>
       <li><strong>Brand Expertise:</strong> Our technicians are well-versed in servicing major appliance brands such as Samsung, LG, Whirlpool, GE, and more. Regardless of the brand, we have the expertise to deliver efficient repairs.</li>
       <li><strong>Fast and Reliable Service:</strong> We understand that a malfunctioning appliance can disrupt your daily routine. That’s why we prioritize quick response times and efficient repairs.</li>
       <li><strong>Genuine Parts:</strong> We use only genuine replacement parts from trusted manufacturers, ensuring the longevity and quality of our repairs.</li>

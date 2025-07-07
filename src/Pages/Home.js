@@ -5,6 +5,7 @@ import Description from '../Sections/Description'
 import Divider from '../Sections/Divider'
 import Charges from '../Sections/Charges'
 import ServiceArea from '../Sections/ServiceArea'
+import Slides from '../Sections/Slides'
 import React from 'react'
 import { Helmet } from 'react-helmet';
 import './PagesStyle.css'
@@ -12,19 +13,17 @@ import './PagesStyle.css'
 
 const Home = () => {
   const jsonLD = {
-    "@context": "http://schema.org",
-    "@type": "LocalBusiness",
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
     "image": "https://majorappliancerepair.info/static/media/Major-appliance-repair-logo.98af444363f3cf073d0c.webp",
     "@id": "https://majorappliancerepair.info/",
     "url": "https://majorappliancerepair.info/",
     "telephone": "+14253646644",
     "name": "Major Appliance Repair",
     "description": "Expert repair services for major appliances including refrigerators, washing machines, dryers, dishwashers, and more.",
-    "datePublished": "2021-04-07",
-    "dateModified": "2024-04-25",
     "address": {
-      "streetAddress": "10961 NE 2ND PL",
       "@type": "PostalAddress",
+      "streetAddress": "10961 NE 2ND PL",
       "addressLocality": "Bellevue",
       "addressRegion": "WA",
       "postalCode": "98004",
@@ -35,53 +34,107 @@ const Home = () => {
       "latitude": 47.61226169032108,
       "longitude": -122.19465064165706
     },
-    "openingHoursSpecification": {
+    "openingHoursSpecification": [
+      {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
           "Monday",
           "Tuesday",
           "Wednesday",
           "Thursday",
-          "Friday"
+          "Friday",
+          "Saturday",
+          "Sunday"
         ],
         "opens": "09:00",
         "closes": "17:00"
-    },
+      }
+    ],
     "sameAs": [
       "https://www.facebook.com/major.repairing",
-      "https://www.linkedin.com/in/major.repairing/",
-      "https://www.yelp.com/biz/major-appliance-repair-bellevue-4",
+      "https://www.yelp.com/biz/major-appliance-repair-bellevue-4"
     ],
     "priceRange": "$200-$500",
     "department": [
       {
-        "@type": "LocalBusiness",
+        "@type": "Service",
         "name": "Refrigerator Repair",
-        "url": "https://majorappliancerepair.info/services/refrigerator/"
-      },      {
-        "@type": "LocalBusiness",
-        "name": "Range and Oven repair",
-        "url": "https://majorappliancerepair.info/services/range/"
-      },      {
-        "@type": "LocalBusiness",
-        "name": "Cooktop Repair",
-        "url": "https://majorappliancerepair.info/services/cooktop/"
-      },      {
-        "@type": "LocalBusiness",
-        "name": "Washer Repair",
-        "url": "https://majorappliancerepair.info/services/washer/"
-      },      {
-        "@type": "LocalBusiness",
-        "name": "Dryer Repair",
-        "url": "https://majorappliancerepair.info/services/dryer/"
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "10961 NE 2ND PL",
+          "addressLocality": "Bellevue",
+          "addressRegion": "WA",
+          "postalCode": "98004",
+          "addressCountry": "US"
+        },
+        "url": "https://majorappliancerepair.info/services/refrigerator-repair/"
       },
       {
-        "@type": "LocalBusiness",
+        "@type": "Service",
+        "name": "Range and Oven Repair",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "10961 NE 2ND PL",
+          "addressLocality": "Bellevue",
+          "addressRegion": "WA",
+          "postalCode": "98004",
+          "addressCountry": "US"
+        },
+        "url": "https://majorappliancerepair.info/services/range-repair/"
+      },
+      {
+        "@type": "Service",
+        "name": "Cooktop Repair",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "10961 NE 2ND PL",
+          "addressLocality": "Bellevue",
+          "addressRegion": "WA",
+          "postalCode": "98004",
+          "addressCountry": "US"
+        },
+        "url": "https://majorappliancerepair.info/services/cooktop-repair/"
+      },
+      {
+        "@type": "Service",
+        "name": "Washer Repair",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "10961 NE 2ND PL",
+          "addressLocality": "Bellevue",
+          "addressRegion": "WA",
+          "postalCode": "98004",
+          "addressCountry": "US"
+        },
+        "url": "https://majorappliancerepair.info/services/washer-repair/"
+      },
+      {
+        "@type": "Service",
+        "name": "Dryer Repair",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "10961 NE 2ND PL",
+          "addressLocality": "Bellevue",
+          "addressRegion": "WA",
+          "postalCode": "98004",
+          "addressCountry": "US"
+        },
+        "url": "https://majorappliancerepair.info/services/dryer-repair/"
+      },
+      {
+        "@type": "Service",
         "name": "Dishwasher Repair",
-        "url": "https://majorappliancerepair.info/services/dishwasher/"
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "10961 NE 2ND PL",
+          "addressLocality": "Bellevue",
+          "addressRegion": "WA",
+          "postalCode": "98004",
+          "addressCountry": "US"
+        },
+        "url": "https://majorappliancerepair.info/services/dishwasher-repair/"
       }
     ],
-
     "areaServed": {
       "@type": "State",
       "name": "Washington"
@@ -89,14 +142,14 @@ const Home = () => {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5",
-      "reviewCount": "53"
+      "reviewCount": "89"
     },
     "review": [
       {
         "@type": "Review",
         "author": {
           "@type": "Person",
-          "name": "Jane Doe"
+          "name": "Judy Pearson"
         },
         "reviewRating": {
           "@type": "Rating",
@@ -108,7 +161,7 @@ const Home = () => {
         "@type": "Review",
         "author": {
           "@type": "Person",
-          "name": "John Smith"
+          "name": "Mike Miller"
         },
         "reviewRating": {
           "@type": "Rating",
@@ -116,15 +169,7 @@ const Home = () => {
         },
         "reviewBody": "Quick response and fair pricing."
       }
-    ],
-    "potentialAction": {
-      "@type": "Service",
-      "serviceType": "Appliance repair",
-      "provider": {
-        "@type": "LocalBusiness",
-        "name": "Major Appliance Repair"
-      }
-    }
+    ]
   }
   const jsonLdString = JSON.stringify(jsonLD);
 
@@ -132,16 +177,18 @@ const Home = () => {
       <Helmet>
         <script type="application/ld+json">{jsonLdString}</script>
         <title>Major Appliance Repair in the Greater Seattle Area</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
+        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more." />
         <link rel="canonical" href="https://majorappliancerepair.info/"></link>
         <link rel="preload" href="/static/media/bosch-kitchen-appliances.efccf23dffcb896d5784.webp" as="image" />
-        <link rel="preload" href="/static/media/Appliance-repair-work-car-cropped.7878f6e4d0ad7891586e.webp" as="image" />
+        <link rel="preload" href="/static/media/Appliance-repair-work-car-cropped.597c9f0fec60c33dc079.webp" as="image" />
+        <link rel="preload" href="/static/media/Appliance-repair-work-car.ab42dbe59310ca8bcf0a.webp" as="image" />
       </Helmet>
       <HeroSection />
       <Steps />
       <Zipper />
       <Description />
       <Divider />
+      <Slides />
       <ServiceArea />
       <Charges />
     </div>

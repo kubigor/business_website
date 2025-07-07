@@ -15,7 +15,7 @@ const WasherRepair = () => {
         <script type="application/ld+json">{jsonLdString}</script>
         <title>Washer Repair in Seattle</title>
         <meta name="description" content="Professional washer repair services. Learn how to fix a washer that won’t spin, drain, or start. Find expert washer repair near you." />
-        <link rel="canonical" href="https://majorappliancerepair.info/services/washer/"></link>
+        <link rel="canonical" href="https://majorappliancerepair.info/services/washer-repair/"></link>
         <link rel="preload" href={washer1} as="image" />
         <link rel="preload" href={washer2} as="image" />
     </Helmet>

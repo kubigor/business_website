@@ -35,7 +35,7 @@ const Header = () => {
       <Link to ="/">Home</Link>
       <a href="https://majorappliancerepair.info/about/">About</a>
       <a href="https://majorappliancerepair.info/services/">Services</a>
-      <a href="https://majorappliancerepair.info/high-ends/">High-ends</a>    
+      <a href="https://majorappliancerepair.info/luxury-kitchen-appliance-repair/">High-ends</a>    
       <HousecallProButton />
       <a href="https://majorappliancerepair.info/request/" className="btn-bright">Request Service</a>    
     </div>
@@ -43,11 +43,11 @@ const Header = () => {
     <div id="menu-mobile" onClick={() => handleClick()}>
       <div id="menu-mobile-buttons">
         <Link to ="/">Home</Link>
-        <Link to ="/about">About</Link>
-        <Link to ="/services">Services</Link>
-        <Link to ="/high-ends">High-ends</Link>    
+        <Link to ="/about/">About</Link>
+        <Link to ="/services/">Services</Link>
+        <Link to ="/luxury-kitchen-appliance-repair/">High-ends</Link>    
         <a href="https://book.housecallpro.com/book/Major-Appliance-Repair/ef8a37880ad64305aaaee491dd1fc976?v2=true">Book Online</a>
-        <Link to ="/request">Request Service</Link>
+        <Link to ="/request/">Request Service</Link>
         <Link to ="/terms-of-service/">Terms And Conditions</Link>
         <br/>
         <br/>

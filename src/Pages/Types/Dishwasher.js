@@ -15,7 +15,7 @@ const DishwasherRepair = () => {
     <Helmet>
         <script type="application/ld+json">{jsonLdString}</script>
         <title>Dishwasher Repair in Seattle</title>
-        <meta name="description" content="Discover the most common dishwasher problems and how to fix them. From draining issues to heating failures, learn simple troubleshooting steps and when to call a professional for dishwasher repair." />
+        <meta name="description" content="Discover the most common dishwasher problems and how to fix them. From draining issues to heating failures, simple troubleshooting steps and call a professional for dishwasher repair." />
         <link rel="canonical" href="https://majorappliancerepair.info/services/dishwasher-repair/"></link>
         <link rel="preload" href={dishwasher1} as="image" />
         <link rel="preload" href={dishwasher2} as="image" />

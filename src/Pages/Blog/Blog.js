@@ -8,7 +8,9 @@ import './Blog.css'
 
 
 const Blog = () => {
-  return <NotFound />
+  
+  return
+ 
   const jsonLdString = JSON.stringify(cityLD)
   let { blogName } = useParams();
   console.log(blogName)
@@ -26,8 +28,8 @@ const Blog = () => {
     <meta property="og:url" content={`https://majorappliancerepair.info/service-area/${cityName}/`}></meta>
     <link rel="canonical" href={`https://majorappliancerepair.info/service-area/${cityName}/`}></link>
     <link rel="preload" href={`/places/${cityName}.webp`} as="image" />
-    <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped.04108009164f017a114b.webp" as="image" />
-    <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped-2.1776c80c3568a2b719c1.webp" as="image" /> */}
+    <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped.webp" as="image" />
+    <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped-2.webp" as="image" /> */}
   </Helmet>
 <div className="city-photo-container">
   <div className="overlay"><h1 className="city-header">{blogTitle}</h1></div>

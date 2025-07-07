@@ -6,6 +6,14 @@
     width: auto; 
 }
 
+#addon-one h2 {
+    font-size: 2rem;
+}
+
+#addon-two h2 {
+    font-size: 2rem;
+}
+
 #addon-one {
     background-image: url("../Images/appliances/black-squares.webp");
     background-size: cover;

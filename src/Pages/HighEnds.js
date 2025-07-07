@@ -51,28 +51,28 @@ const HighEnds = () => {
       {
         "@type": "LocalBusiness",
         "name": "Refrigerator Repair",
-        "url": "https://majorappliancerepair.info/services/refrigerator/"
+        "url": "https://majorappliancerepair.info/services/refrigerator-repair/"
       },      {
         "@type": "LocalBusiness",
         "name": "Range and Oven repair",
-        "url": "https://majorappliancerepair.info/services/range/"
+        "url": "https://majorappliancerepair.info/services/range-repair/"
       },      {
         "@type": "LocalBusiness",
         "name": "Cooktop Repair",
-        "url": "https://majorappliancerepair.info/services/cooktop/"
+        "url": "https://majorappliancerepair.info/services/cooktop-repair/"
       },      {
         "@type": "LocalBusiness",
         "name": "Washer Repair",
-        "url": "https://majorappliancerepair.info/services/washer/"
+        "url": "https://majorappliancerepair.info/services/washer-repair/"
       },      {
         "@type": "LocalBusiness",
         "name": "Dryer Repair",
-        "url": "https://majorappliancerepair.info/services/dryer/"
+        "url": "https://majorappliancerepair.info/services/dryer-repair/"
       },
       {
         "@type": "LocalBusiness",
         "name": "Dishwasher Repair",
-        "url": "https://majorappliancerepair.info/services/dishwasher/"
+        "url": "https://majorappliancerepair.info/services/dishwasher-repair/"
       }
     ],
 
@@ -126,8 +126,8 @@ const HighEnds = () => {
       <Helmet>
         <script type="application/ld+json">{jsonLdString}</script>
         <title>Luxury Kitchen Appliance Repair</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
-        <link rel="canonical" href="https://majorappliancerepair.info/high-ends/"></link>
+        <meta name="description" content="Quality appliance repair for all major appliances, including refrigerators, washers, dryers, and dishwashers. Schedule your service now!" />
+        <link rel="canonical" href="https://majorappliancerepair.info/luxury-kitchen-appliance-repair/"></link>
       </Helmet>
       <HighendGallery id="first-section"/>
       <HighendAddon id="second-section"/>

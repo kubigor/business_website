@@ -25,9 +25,9 @@ const Brand = () => {
     <meta name="description" content={`Quickly resolve your appliance troubles with our ${brandName} repair services. We guarantee expert solutions for refrigerator and range problems.`} />
     <meta property="og:url" content={`https://majorappliancerepair.info/${brand_data[brand]}/`}></meta>
     <link rel="canonical" href={`https://majorappliancerepair.info/${brand}/`}></link>
-    <link rel="preload" href={`/places/${kitchen}`} as="image" />
-    <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped.04108009164f017a114b.webp" as="image" />
-    <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped-2.1776c80c3568a2b719c1.webp" as="image" />
+    <link rel="preload" href={`${kitchen}`} as="image" />
+    <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped.f1a6788ffc549148fbac.webp" as="image" />
+    <link rel="preload" href="/static/media/Appliance-repair-work-van-cropped-2.7c48baf0a421f37a1ee8.webp" as="image" />
   </Helmet>
 <div className="brand-photo-container">
   <img loading="lazy" className="brand-photo" src={kitchen} alt="Kitchen"/>

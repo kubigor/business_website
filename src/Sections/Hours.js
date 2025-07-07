@@ -29,11 +29,11 @@ const Hours = () => {
         </tr>
         <tr>
           <td>Saturday</td>
-          <td>Closed</td>
+          <td>9am - 5pm</td>
         </tr>
         <tr>
           <td>Sunday</td>
-          <td>Closed</td>
+          <td>9am - 5pm</td>
         </tr>
       </table>
     </div>

@@ -30,7 +30,7 @@ const About = () => {
       <Helmet>
         <script type="application/ld+json">{jsonLdString}</script>
         <title>About Major Appliance Repair</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
+        <meta name="description" content="Need appliance repair? We service refrigerators, washers, dryers, dishwashers, and more with expert technicians and same-day service." />
         <link rel="canonical" href="https://majorappliancerepair.info/about/"></link>
         <link rel="preload" href="/static/media/bosch-kitchen-appliances.efccf23dffcb896d5784.webp" as="image" />
       </Helmet>

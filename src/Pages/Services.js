@@ -50,28 +50,28 @@ const Services = () => {
       {
         "@type": "LocalBusiness",
         "name": "Refrigerator Repair",
-        "url": "https://majorappliancerepair.info/services/refrigerator/"
+        "url": "https://majorappliancerepair.info/services/refrigerator-repair/"
       },      {
         "@type": "LocalBusiness",
         "name": "Range and Oven repair",
-        "url": "https://majorappliancerepair.info/services/range/"
+        "url": "https://majorappliancerepair.info/services/range-repair/"
       },      {
         "@type": "LocalBusiness",
         "name": "Cooktop Repair",
-        "url": "https://majorappliancerepair.info/services/cooktop/"
+        "url": "https://majorappliancerepair.info/services/cooktop-repair/"
       },      {
         "@type": "LocalBusiness",
         "name": "Washer Repair",
-        "url": "https://majorappliancerepair.info/services/washer/"
+        "url": "https://majorappliancerepair.info/services/washer-repair/"
       },      {
         "@type": "LocalBusiness",
         "name": "Dryer Repair",
-        "url": "https://majorappliancerepair.info/services/dryer/"
+        "url": "https://majorappliancerepair.info/services/dryer-repair/"
       },
       {
         "@type": "LocalBusiness",
         "name": "Dishwasher Repair",
-        "url": "https://majorappliancerepair.info/services/dishwasher/"
+        "url": "https://majorappliancerepair.info/services/dishwasher-repair/"
       }
     ],
 
@@ -125,7 +125,7 @@ const Services = () => {
       <Helmet>
         <script type="application/ld+json">{jsonLdString}</script>
         <title>Appliance Repair Services</title>
-        <meta name="description" content="Professional appliance repair services for a wide range of major appliances, such as refrigerators, washing machines, dryers, dishwashers, and more" />
+        <meta name="description" content="Expert appliance repair services for refrigerators, washers, dryers, dishwashers, and more. Fast, reliable, and professional service!" />
         <link rel="canonical" href="https://majorappliancerepair.info/services/"></link>
       </Helmet>
       <Gallery />

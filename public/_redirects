@@ -1,15 +1,15 @@
 / /index.html   200
 /about/ /index.html   200
-/high-ends/ /index.html   200
+/luxury-kitchen-appliance-repair/ /index.html   200
 /request/ /index.html   200
 /terms-of-service/ /index.html   200
 /services/ /index.html   200
-/services/refrigerator/ /index.html   200
-/services/range/ /index.html   200
-/services/cooktop/ /index.html   200
-/services/washer/ /index.html   200
-/services/dryer/ /index.html   200
-/services/dishwasher/ /index.html   200
+/services/refrigerator-repair/ /index.html   200
+/services/range-repair/ /index.html   200
+/services/cooktop-repair/ /index.html   200
+/services/washer-repair/ /index.html   200
+/services/dryer-repair/ /index.html   200
+/services/dishwasher-repair/ /index.html   200
 /service-area/seattle/ /index.html   200
 /service-area/mercer-island/ /index.html   200
 /service-area/shoreline/ /index.html   200
@@ -49,6 +49,8 @@
 /ge-monogram-repair/ /index.html   200
 /viking-repair/ /index.html   200
 /sub-zero-wolf-repair/ /index.html   200
+/bluestar-repair/ /index.html   200
+/miele-repair/ /index.html   200
 /blog/* /index.html   200
 
 /*    /404.html  404

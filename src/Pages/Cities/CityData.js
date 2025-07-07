@@ -75,9 +75,9 @@ const city_data = {
     name: "Lynnwood",
     photo: "/places/lynnwood.webp"
   },  
-  "alderwood-manor" : {
-    name: "Alderwood Manor",
-    photo: "/places/alderwood-manor.webp"
+  "snoqualmie" : {
+    name: "Snoqualmie",
+    photo: "/places/snoqualmie.webp"
   },  
   "edmonds" : {
     name: "Edmonds",

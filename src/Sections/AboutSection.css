@@ -19,11 +19,11 @@
 
 #license-number {
     font-weight: bolder;
-    color: var(--light-blue)
+    color: var(--deep-blue)
 }
 
 #license-number:hover {
-    color: var(--deep-blue)
+    color: var(--light-blue)
 }
 
 #lists {
@@ -37,12 +37,12 @@
     margin: 2rem;
     font-size: xx-large;
     font-weight: bold;
-    color: var(--light-blue);
+    color: var(--deep-blue);
     cursor: pointer;
 }
 
 #last-item:hover {
-    color: var(--deep-blue);
+    color: var(--light-blue);
 }
 
 .list-header {
@@ -53,6 +53,10 @@
 
 .about-list {
     list-style: none;
+}
+
+.about-list a {
+    color: black;
 }
 
 @media only Screen and (max-width: 48em){
