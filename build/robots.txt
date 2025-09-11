@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.majorappliancerepair.info/sitemap.xml
+Sitemap: https://majorappliancerepair.info/sitemap.xml
